@@ -1,0 +1,95 @@
+[{
+  "heading": "Organizing Committee",
+  "people": [{
+      "id": 1,
+      "name": "Wacey Lanier",
+      "title": "Speaker Coordinator",
+      "image": "wacey.gif",
+      "twitter": "_wacey"
+    },
+    {
+      "id": 2,
+      "name": "Tyler Rosonke",
+      "title": "Badge Chair",
+      "image": "tyler.png",
+      "twitter": "zonksec"
+    },
+    {
+      "id": 3,
+      "name": "Dan Browder",
+      "title": "Village Chair, Graphics, & God of Popcorn",
+      "image": "popcorn.png",
+      "twitter": "popcornhax"
+    },
+    {
+      "id": 5,
+      "name": "Henry Karpf",
+      "title": "Volunteer Coordinator",
+      "image": "henry.png",
+      "twitter": "hk6045"
+    },
+    {
+      "id": 6,
+      "name": "Adam Schaal",
+      "title": "Competition Chair & Website Guru",
+      "image": "adam.png",
+      "twitter": "clevernyyyy"
+    },
+    {
+      "id": 7,
+      "name": "Jason Lehr",
+      "title": "Entertainment & Training Chair",
+      "image": "jason.png",
+      "twitter": "__JCL__"
+    },
+    {
+      "id": 8,
+      "name": "Tim Vidas",
+      "title": "Program Chair",
+      "image": "tim.png",
+      "twitter": "tvidas"
+    },
+    {
+      "id": 9,
+      "name": "Aaron Gunning",
+      "title": "General Chair",
+      "image": "aaron.png",
+      "twitter": "scotchsec"
+    },
+    {
+      "id": 10,
+      "name": "Trent Williams",
+      "title": "Sponsorship Chair",
+      "image": "trent.png",
+      "twitter": "trentgw"
+    },
+    {
+      "id": 11,
+      "name": "Kate Knowlton",
+      "title": "Diversity Chair",
+      "image": "kate.png",
+      "twitter": "vulnKat"
+    },
+    {
+      "id": 12,
+      "name": "Nate Wood",
+      "title": "CTF Operations",
+      "image": "nate.png",
+      "twitter": "woodnsec"
+    },
+    {
+      "id": 13,
+      "name": "Jeris Rue",
+      "title": "CTF Operations",
+      "image": "jeris.png",
+      "twitter": "elaboraterues"
+    },
+    {
+      "id": 14,
+      "name": "Heather Lawrence",
+      "title": "Logo Design",
+      "image": "heather.png",
+      "twitter": "infosecanon"
+    }
+  ]
+}]
