@@ -17,7 +17,7 @@ export default class NavBar extends Component {
 							height="25"
 							alt="kernelcon logo"
 						/>
-						<p className="nav-dates">Mar 30 - Apr 2, 2022</p>
+						<p className="nav-dates">Apr 12 - Apr 15, 2023</p>
 					</a>
 				</div>
 				<div className="toggle-group">
