@@ -65,7 +65,7 @@ class Footer extends Component {
                 </svg>
               </a>
             </div>
-            <div className='copy'>Copyright 2019-2022 Kernelcon, All Rights Reserved.</div>
+            <div className='copy'>Copyright 2019-{new Date().getFullYear()} Kernelcon, All Rights Reserved.</div>
         </div>
       </div>
     );
