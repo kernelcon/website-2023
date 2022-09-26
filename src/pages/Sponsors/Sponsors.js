@@ -94,7 +94,7 @@ export default class Sponsors extends Component {
 						</div>
 					</div>
 				</div>
-				<div className="spons-page">
+				{/* <div className="spons-page">
 					<h1 className="title">Our Sponsors</h1>
 					<div className="text-block">
 						<p>
@@ -105,7 +105,7 @@ export default class Sponsors extends Component {
 					</div>
 
 					<div className="text-block spons-groups">
-						{/*              <div className='spons-block'>
+						<div className='spons-block'>
                 <h2 className='gold spons-title'>Platinum</h2>
                 <a href="https://www.netscout.com/"
                   target="_blank"
@@ -122,7 +122,7 @@ export default class Sponsors extends Component {
                     alt="ENDGAME"/>
                 </a>
               </div>
-              */}
+            
 
               <div className='spons-block'>
                 <h2 className='gold spons-title'>Gold</h2>
@@ -438,7 +438,7 @@ export default class Sponsors extends Component {
                 </div>
               </div>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		);
 	}
