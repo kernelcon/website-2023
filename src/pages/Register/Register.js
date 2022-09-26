@@ -10,12 +10,14 @@ class Register extends Component {
 				<div className="venue-section">
 					<h3 className="title">Register</h3>
 					<p className="tab-paragraph">
-						Welcome! We are happy to have your interest. Below is
-						the registration page for Kernelcon 2022!
+						Welcome! We are happy to have your interest. We are working on a brand new registration experience for 2023. 
+						Check back soon !
+						{/* Welcome! We are happy to have your interest. Below is
+						the registration page for Kernelcon 2022! */}
 					</p>
 
 
-					<div className='order-button'>
+					{/* <div className='order-button'>
 						<a
 							class="cybr-btn btn-bottom"
 							target="_blank"
@@ -26,8 +28,7 @@ class Register extends Component {
 								Register Now
 							</span>
 						</a>
-					</div>
-          <br />
+					</div><br /> */}
 				</div>
 				<div className="venue-section">
 					<h3 className="title">Registering as a Group?</h3>
@@ -43,7 +44,7 @@ class Register extends Component {
 				</div>
 				<div className="venue-section">
 					<h3 className="title">Students</h3>
-          <h3 className='closed-text'>The Student Submission for 2022 has closed.</h3>
+          {/* <h3 className='closed-text'>The Student Submission for 2022 has closed.</h3> */}
 
 					<p className="text-highlight">
 						Are you interested in attending Kernelcon, but cannot
