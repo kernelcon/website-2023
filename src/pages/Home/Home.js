@@ -10,7 +10,8 @@ import Fun from "../../static/images/icons/fun.png";
 import kingpin from "../../static/images/trainers/kingpin.png";
 import jen from "../../static/images/trainers/jen.png";
 
-import FullKernelconLogo from "../../static/images/logos/kernelcon_white.png"
+import FullKernelconLogo from "../../static/images/logos/kernelcon_black.png"
+import FullKernelconLogoDark from "../../static/images/logos/kernelcon_white.png"
 import BackGround from '../../components/BackGround/BackGround';
 // import ChemSet from '../../components/ChemSet/ChemSet';
 import ChemSet from '../../static/images/chem-set.png';
@@ -53,7 +54,8 @@ export default class Home extends Component {
         <div className="container">
           <div className="home-page">
             <div className="centered-top">
-              <img src={FullKernelconLogo} className=""  alt="kernelcon-logo"/>
+              <img src={FullKernelconLogo} className="light-mode-logo"  alt="kernelcon-logo"/>
+              <img src={FullKernelconLogoDark} className="dark-mode-logo"  alt="kernelcon-logo"/>
               <div className="font-punk">The Science of Hacking</div>
               {/* <img src={PunkFemale} className="punk-img"  alt="punk-female"/>
               <img src={PunkMale} className="punk-img" alt="punk-male"/> */}
