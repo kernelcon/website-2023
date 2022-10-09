@@ -16,6 +16,17 @@ import BackGround from '../../components/BackGround/BackGround';
 import ChemSet from '../../static/images/chem-set.png';
 // import bkg from '../../static/images/earth-day.jpg';
 
+import Lecture from "../../static/images/icons/lecture.svg"
+import Jetpack from "../../static/images/icons/jetpack.svg"
+import Award from "../../static/images/icons/award.svg"
+import Research from "../../static/images/icons/research.svg"
+import Atom from "../../static/images/icons/atom.svg"
+import Experiment from "../../static/images/icons/experiment.svg"
+import ExperimentTable from "../../static/images/icons/experiment-table.svg"
+import LabCoat from "../../static/images/icons/lab-coat.svg"
+import BrainOutline from "../../static/images/icons/brain-outline.svg"
+import Certificate from "../../static/images/icons/certificate-2.svg"
+
 import "./Home.scss";
 
 export default class Home extends Component {
@@ -67,7 +78,7 @@ export default class Home extends Component {
                   <div className="sizzle-bullets">
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={Speaker} alt="speaker-logo"/>
+                        <img src={Lecture} alt="speaker-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>
@@ -80,7 +91,7 @@ export default class Home extends Component {
                     </div>
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={Training} alt="training-logo"/>
+                        <img src={Certificate} alt="training-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>
@@ -93,7 +104,7 @@ export default class Home extends Component {
                     </div>
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={Arm} alt="hands-on-logo"/>
+                        <img src={Research} alt="hands-on-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>
@@ -106,7 +117,7 @@ export default class Home extends Component {
                     </div>
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={Brain} alt="competitions-logo"/>
+                        <img src={BrainOutline} alt="competitions-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>
@@ -119,7 +130,7 @@ export default class Home extends Component {
                     </div>
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={Fun} alt="activities-logo"/>
+                        <img src={Experiment} alt="activities-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>
