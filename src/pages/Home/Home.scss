@@ -54,14 +54,22 @@ body.dark-mode {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+
+  /*overlay over hero*/
+  margin-top: -650px;
+  position: relative;
+  z-index: 1;
+
   div.font-punk {
-    font-size: 50px;
+    font-size: 64px;
     font-family: $font-punk;
     // color: #ff00a2;
     // text-shadow: 2px 2px #fffc76;
     text-align: center;
-    color: $azure-radiance;
-    text-shadow: 2px 2px $hollywood-cerise;
+    // color: $azure-radiance;
+    color: $madder-lake;
+    // text-shadow: 2px 2px $hollywood-cerise;
+    text-shadow: 2px 2px $turquoise-green;
     margin: 10px 20px;
   }
   img.punk-img {
@@ -74,33 +82,35 @@ body.dark-mode {
     flex-direction: column;
     min-height: 100px;
     margin: 40px;
-    border-left: 1px solid $scooter;
-    border-right: 1px solid $scooter;
-    -moz-box-shadow: 0px -15px 15px 0px cyan;
-    -webkit-box-shadow: 0px -15px 15px 0px cyan;
-    box-shadow: 0px -15px 15px 0px cyan;
+    border: 2px solid $turquoise-green;
+    // border-left: 1px solid $turquoise-green;
+    // border-right: 1px solid $turquoise-green;
+    -moz-box-shadow: 0px -15px 15px 0px $slate-gray;
+    -webkit-box-shadow: 0px -15px 15px 0px $slate-gray;
+    box-shadow: 0px -15px 15px 0px $slate-gray;
   }
   div.sizzle-image {
     margin: 2px;
   }
   div.sizzle-header {
-    background-color: rgba(0, 0, 0, 0.1);
-    height: 198px;
+    background-color: rgba($indigo-dye, 0.6);
+    // height: 198px;
   }
   div.sizzle-text-title {
     // margin: 10px 20px;
     font-size: 30px;
     text-align: center;
     font-family: $font-punk;
-    color: $dm-punk-highlight;
+    // color: $dm-punk-highlight;
+    color: $madder-lake;
   }
   div.sizzle-text-section {
     padding: 10px 20px;
     margin-top: 3px;
-    background-color: rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 15px 15px 0px cyan;
-    -webkit-box-shadow: 0px 15px 15px 0px cyan;
-    box-shadow: 0px 15px 15px 0px cyan;
+    background-color: rgba($indigo-dye, 0.5);
+    // -moz-box-shadow: 0px 15px 15px 0px cyan;
+    // -webkit-box-shadow: 0px 15px 15px 0px cyan;
+    // box-shadow: 0px 15px 15px 0px cyan;
   }
   .sizzle-bullet-item {
     display: flex;
