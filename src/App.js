@@ -55,7 +55,7 @@ function App() {
 			<NavBar />
 			<SecondaryNav />
 			<div className="page-box">
-				<div className="container">
+				{/* <div className="container"> */}
 					<Route exact path="/" component={Home} />
 					<Route exact path="/about" component={About} />
 					<Route exact path="/admin" component={Admin} />
@@ -70,7 +70,7 @@ function App() {
 					<Route exact path="/safety" component={Safety} />
 					<Route exact path="/training" component={Training} />
           <Route exact path="/agenda" component={Agenda} />
-				</div>
+				{/* </div> */}
 			</div>
 			<Footer />
 		</Router>

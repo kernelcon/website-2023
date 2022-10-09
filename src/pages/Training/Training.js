@@ -100,10 +100,14 @@ class Training extends Component {
     });
 
     return (
-      <div className='training'>
-        <h3>Training</h3>
-        <p>Once again Kernelcon will be offering several amazing options for training taking place in the days before the con.  Check back soon for more details.</p>
-        {/* {training} */}
+      <div className="container">
+        <div className='training'>
+          <div className='venue-section'>
+            <h3>Training</h3>
+            <p>Once again Kernelcon will be offering several amazing options for training taking place in the days before the con.  Check back soon for more details.</p>
+            {/* {training} */}
+          </div>
+        </div>
       </div>
     );
   }
