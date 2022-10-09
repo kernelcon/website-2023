@@ -61,6 +61,9 @@ export default class Home extends Component {
                   {/* <div className="sizzle-text">
                     Join us on a trip to the cyber playground where you can let your punk flag fly whatever it is: biopunk, cyberpunk, steampunk, etc.
                   </div> */}
+                  <div className="sizzle-text">
+                    Put your lab coat on and join us to test the hypothesis that Kernelcon is still one of the midwest's premier information security conferences.
+                  </div>
                   <div className="sizzle-bullets">
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
