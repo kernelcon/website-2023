@@ -14,7 +14,7 @@ import FullKernelconLogo from "../../static/images/logos/kernelcon_white.png"
 import BackGround from '../../components/BackGround/BackGround';
 // import ChemSet from '../../components/ChemSet/ChemSet';
 import ChemSet from '../../static/images/chem-set.png';
-import bkg from '../../static/images/earth-day.jpg';
+// import bkg from '../../static/images/earth-day.jpg';
 
 import "./Home.scss";
 
