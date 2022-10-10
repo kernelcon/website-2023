@@ -113,7 +113,7 @@ export default class Home extends Component {
                           Hands-On Villages
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          We have huge plans for our village area - including classics like Lockpicking and Hardware Labs and new offerings like a Radio/IOT Village.
+                          We have huge plans for our village area - including classics like Lockpicking, Hardware Hacking, and Radio/IOT Village.
                         </div>
                       </div>
                     </div>
@@ -126,7 +126,7 @@ export default class Home extends Component {
                           Challenging Competitions
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          Our Capture-the-Flag event is always a big hit and this year promises to be tubular! Plus, other fun competitions like the WiFi Fox and Hound event will help keep you busy all con long!
+                          Our Capture-the-Flag event is always a big hit and this year promises to be no less than 8-bits of CTF fun! Plus, other fun competitions like the WiFi Fox and Hound event will help keep you busy all con long!
                         </div>
                       </div>
                     </div>
@@ -139,7 +139,7 @@ export default class Home extends Component {
                           Fun Activities
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          Join us at out raging party / social event Kernel Panic party.  We have an hour of comedy, Whose Slide Is It Anyways, and an open bar!
+                          Join us at out raging party / social event Kernel Panic party.  Details to come but this event is always an attendee favorite!
                         </div>
                       </div>
                     </div>
