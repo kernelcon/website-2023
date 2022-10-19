@@ -12,10 +12,10 @@ export default class CFP extends Component {
 						<div className="text-area">
 							<h3 className="title">Call for Papers</h3>
 
-				<h3 className='closed-text'>The Call for Papers for 2022 has closed. See you next year!</h3>
+				{/* <h3 className='closed-text'>The Call for Papers for 2022 has closed. See you next year!</h3> */}
 
 							<p className="tab-paragraph">
-				The Kernelcon Crew is soliciting presentations for the fourth annual Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 1-2, 2022.
+				The Kernelcon Crew is soliciting presentations for the fifth annual Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 12-15, 2023.
 							</p>
 							<p className="tab-paragraph">
 				Create something fun in your homelab? Develop a new technique? Wish you could spare someone the horrors you faced? Impart your wisdom, start the difficult conversations, submit your work to our CFP!
@@ -27,15 +27,20 @@ export default class CFP extends Component {
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
-									2019 program
-								</a>{" "}
-								or the{" "}
+									2019</a>,{" "}
 								<a
 									href="https://2020.kernelcon.org/agenda#schedule"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
-									2020 program</a>{""}.
+									2020</a>,{" "}
+									or the{" "}
+								<a
+									href="http://2022.kernelcon.org/agenda"
+									className="text-highlight"
+									rel="noopener noreferrer"
+									target="_blank">
+									2022</a>{" "}programs{""}.
 							</p>
 							<div className="tab-title">Important Dates</div>
 							<p className="tab-paragraph">
@@ -47,7 +52,7 @@ export default class CFP extends Component {
 									target="_blank">
 									important dates page
 								</a>
-								, which will always have the most current information. The CFP will close Feb 4, 2022. CFP submitters will be notified Feb 14, 2022.
+								, which will always have the most current information. Make sure to pay attention to that page to ensure you don't miss the CFP closing date!
 							</p>
 
 							<div className="tab-title">About Kernelcon</div>
