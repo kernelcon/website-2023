@@ -62,7 +62,7 @@ export default class CFP extends Component {
 							<p className="tab-paragraph">For 2023, Kernelcon organizers are excited to continue the tradition into year five and hope you will join us in sharing your knowledge and love of Infosec with all our attendees.</p>
 
 							<div className="tab-title">Suggested topic areas</div>
-				<p className="tab-paragraph">The theme for Kernelcon 2023, is “Science.” Accordingly, those that wish to tailor a talk to the theme or require a broad topic to start the creative engine toward a new talk, science is your starting point. Consider innovation, iteration, and the scientific method.  Tie hacking back to any science-related discipline like biology, chemistry, or psychology. However, this is not a hard requirement.  Do not let these directions limit your interpretation or the subject of your talk.</p>
+				<p className="tab-paragraph">The theme for Kernelcon 2023, is “Science.” Accordingly, those that wish to tailor a talk to the theme or require a broad topic to start the creative engine toward a new talk, science is your starting point. Consider innovation, iteration, and the scientific method.  Tie hacking back to any science-related discipline like biology, engineering, electronics, physics, mathematics, chemistry, or psychology. However, this is not a hard requirement.  Do not let these directions limit your interpretation or the subject of your talk.</p>
 				<p className="tab-paragraph">Kernelcon submissions should focus on topics that are of interest to the security and hacking communities. The list below is meant as a guideline, not an exhaustive list.</p>
 				<p className="tab-paragraph">
 				<ul className="real-bullet-list">
