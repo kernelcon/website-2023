@@ -113,7 +113,7 @@ export default class CFP extends Component {
 				<p className="tab-paragraph">Speakers should submit directly (e.g. no PR representatives are permitted).</p>
 				<p className="tab-paragraph">Please print the{" "}
 								<a
-									href="https://kernelcon.org/cfp/CFP-2022.pdf"
+									href="/cfp/CFP-2022.pdf"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
@@ -157,7 +157,7 @@ export default class CFP extends Component {
 				<p className="tab-paragraph">Novel, new, on-topic talks receive the most preference. Submissions by first-time presenters are not discounted in any way. Conversely, first-timers are whole-heartedly encouraged to submit. Blatant vendor pitches, recycled talks, presentations on well-known topics that are *not* depicted as 101 or intro, are unlikely to be accepted. We expect presentations that are considerate, planned, thought-out, and delivered well. All talks are considered on their merits. Everyone, including sponsors, internet legends, cultural icons, and Dave Kennedy must submit just like all other speakers.</p>
 				<p className="tab-paragraph">A printable checklist for the submission can be found at {" "}
 								<a
-									href="https://kernelcon.org/cfp/CFP-2022.pdf"
+									href="/cfp/CFP-2022.pdf"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
@@ -165,35 +165,35 @@ export default class CFP extends Component {
 								</a>{""}.</p>            
 				<p className="tab-paragraph">Templates are available in {" "}
 								<a
-									href="http://kernelcon.org/cfp/CFP-template.txt"
+									href="/cfp/CFP-template.txt"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
 									plaintext
 								</a>{""}, {" "}
 								<a
-									href="http://kernelcon.org/cfp/CFP-template.md"
+									href="/cfp/CFP-template.md"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
 									markdown
 								</a>{""}, {" "}
 								<a
-									href="http://kernelcon.org/cfp/CFP-template.docx"
+									href="/cfp/CFP-template.docx"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
 									docx
 								</a>{""}, {" "}
 								<a
-									href="http://kernelcon.org/cfp/CFP-template.odt"
+									href="/cfp/CFP-template.odt"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
 									odt
 								</a>{""}, and {" "}
 								<a
-									href="http://kernelcon.org/cfp/CFP-template.tex"
+									href="/cfp/CFP-template.tex"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
@@ -201,7 +201,7 @@ export default class CFP extends Component {
 								</a>{""}.</p>
 					<p className="tab-paragraph">A sample submission can be found at {" "}
 								<a
-									href="https://kernelcon.org/cfp/CFP-example.txt"
+									href="/cfp/CFP-example.txt"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
