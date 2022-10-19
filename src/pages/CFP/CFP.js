@@ -76,6 +76,7 @@ export default class CFP extends Component {
 					<li>Security Automation</li>
 					<li>Digital Forensics</li>
 					<li>Bug Bounties</li>
+					<li>Application Security</li>
 					<li>Secure Development Practices / DevSecOps / SecDevOps</li>
 					<li>Security Aspects of Cloud Computing</li>
 					<li>Practical Security</li>
