@@ -115,7 +115,7 @@ export default class CFP extends Component {
 				<p className="tab-paragraph">Speakers should submit directly (e.g. no PR representatives are permitted).</p>
 				<p className="tab-paragraph">Please print the{" "}
 								<a
-									href="/cfp/CFP-2022.pdf"
+									href="/cfp/CFP-2023.pdf"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
