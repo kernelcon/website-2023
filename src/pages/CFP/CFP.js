@@ -160,11 +160,11 @@ export default class CFP extends Component {
 				<p className="tab-paragraph">Novel, new, on-topic talks receive the most preference. Submissions by first-time presenters are not discounted in any way. Conversely, first-timers are whole-heartedly encouraged to submit. Blatant vendor pitches, recycled talks, presentations on well-known topics that are *not* depicted as 101 or intro, are unlikely to be accepted. We expect presentations that are considerate, planned, thought-out, and delivered well. All talks are considered on their merits. Everyone, including sponsors, internet legends, cultural icons, and Dave Kennedy must submit just like all other speakers.</p>
 				<p className="tab-paragraph">A printable checklist for the submission can be found at {" "}
 								<a
-									href="/cfp/CFP-2022.pdf"
+									href="/cfp/CFP-2023.pdf"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
-									https://kernelcon.org/cfp/CFP-2022.pdf
+									https://kernelcon.org/cfp/CFP-2023.pdf
 								</a>{""}.</p>            
 				<p className="tab-paragraph">Templates are available in {" "}
 								<a
