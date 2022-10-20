@@ -11,8 +11,8 @@ class Register extends Component {
 					<div className="venue-section">
 						<h3 className="title">Register</h3>
 						<p className="tab-paragraph">
-							Welcome! We are happy to have your interest. We are working on a brand new registration experience for 2023. 
-							Check back soon !
+							Welcome! We are happy to have your interest and are working to set up this year's registration system. 
+							Check back soon!
 							{/* Welcome! We are happy to have your interest. Below is
 							the registration page for Kernelcon 2022! */}
 						</p>
