@@ -60,6 +60,15 @@ body.dark-mode {
   position: relative;
   z-index: 1;
 
+  .sub-title{
+    font-size: $heading-base-size * pow($heading-scale-ratio, 3);
+    font-family: $font-punk;
+    text-align: center;
+    color: $madder-lake;
+    text-shadow: 2px 2px $turquoise-green;
+    margin: 10px 20px;
+  }
+
   div.font-punk {
     font-size: 64px;
     font-family: $font-punk;
