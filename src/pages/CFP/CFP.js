@@ -6,11 +6,14 @@ export default class CFP extends Component {
 
 	render() {
 		return (
-			<div className="container">
-				<div className='venue-section'>
+			// Commented out becuase imbedded into OpenCalls
+			// <div className="container">
+				// <div className='venue-section'>
 					<div className="con-page">
 						<div className="text-area">
-							<h3 className="title">Call for Papers</h3>
+							
+							{/* Commented out becuase imbedded into OpenCalls */}
+							{/* <h3 className="title">Call for Papers</h3> */}
 
 				{/* <h3 className='closed-text'>The Call for Papers for 2022 has closed. See you next year!</h3> */}
 
@@ -245,8 +248,8 @@ export default class CFP extends Component {
 				
 						</div>
 					</div>
-				</div>
-			</div>
+				// </div>
+			// </div>
 		);
 	}
 }

@@ -5,6 +5,8 @@ import Villages from './Villages';
 import './OpenCalls.scss';
 import Stickers from '../../static/images/sticker-sheet-proof.png';
 
+import CFP from '../CFP/CFP';
+
 export default class OpenCalls extends Component {
   static displayName = 'OpenCalls';
 
@@ -36,17 +38,13 @@ export default class OpenCalls extends Component {
             <Tab tabFor="papers">Papers</Tab>
             <Tab tabFor="villages">Villages</Tab>
             <Tab tabFor="training">Training</Tab>
-            <Tab tabFor="competitions">Competitions</Tab>
-            <Tab tabFor="stickers">Stickers</Tab>
+            {/* <Tab tabFor="competitions">Competitions</Tab>
+            <Tab tabFor="stickers">Stickers</Tab> */}
           </TabList>
           <span>
             <TabPanel tabId="papers">
               <div className='tab-title'>Call for Papers</div>
-              <p className='tab-paragraph'>The Kernelcon Crew will be soliciting presentations for Kernelcon 2020 held at the Downtown Embassy Suites in Omaha, NE on March 27-28, 2020.</p>
-              <p className='tab-paragraph'>Conclude novel research? Create something fun in your home lab? Develop a new technique? Wish you could spare someone else the horrors you faced? Impart your wisdom, start the conversations that need to be started, submit your work to our CFP!</p>
-              <p className='tab-paragraph'>As you plan your submission, feel free to peruse last year’s <a href='http://2019.kernelcon.org/agenda' className='text-highlight' rel='noopener noreferrer' target='_blank'>program</a> and <a href='http://2019.kernelcon.org/call-for-papers' className='text-highlight' rel='noopener noreferrer' target='_blank'>call for papers.</a></p>
-              <div className='tab-title'>Important Dates</div>
-              <p className='tab-paragraph'>Important dates regarding CFP can be found on our <a href='/dates' className='text-highlight' rel='noopener noreferrer' target='_blank'>important dates page</a>, which will always have the most current information.</p>
+              <CFP />
             </TabPanel>
             <TabPanel tabId="villages">
               <div className='tab-title'>Call for Villages</div>
@@ -61,7 +59,7 @@ export default class OpenCalls extends Component {
               <p className='tab-paragraph'>All one-day training courses will be offered to attendees at $500 all two-day courses will be offered at $1000.</p>
             
               <p className='tab-heading'>Proposal Due Date</p>
-              <p className='tab-paragraph'>Training proposals are due no later than December 1st, 2019. Instructors will be notified of Acceptance/Rejections by the end of the day, December 31st, 2019. See important dates at <a href='/dates' className='text-highlight' rel='noopener noreferrer' target='_blank'>kernelcon.org/dates</a> for official and updated dates.</p>
+              <p className='tab-paragraph'>Training proposals are due no later than December 1st, 2022. Instructors will be notified of Acceptance/Rejections by the end of the day, December 31st, 2022. See important dates at <a href='/dates' className='text-highlight' rel='noopener noreferrer' target='_blank'>kernelcon.org/dates</a> for official and updated dates.</p>
             
 
               <p className='tab-heading'>What are we looking for?</p>
@@ -100,7 +98,7 @@ export default class OpenCalls extends Component {
                   <li>Provide a completed W-9 form to Kernelcon.</li>
                   <li>Notify Kernelcon ASAP if you cannot attend or anything significant changes from the accepted proposal.</li>
                   <li>Promote the course as able.</li>
-                  <li>Provide course materials to Kernelcon no later than March 1st, 2020, for the digital distribution of course workbooks and/or materials.
+                  <li>Provide course materials to Kernelcon no later than March 1st, 2023, for the digital distribution of course workbooks and/or materials.
                     <ul>
                       <li>The instructor will assume full responsibility for the costs associated with printed material.</li>
                     </ul>
@@ -121,7 +119,7 @@ export default class OpenCalls extends Component {
                   <li>Class advertisement and promotion via website, social media, and other means.</li>
                   <li>The venue, including a classroom-style room configuration, projector and screen, and internet access.</li>
                   <li>Complimentary admission to Kernelcon for the instructor.</li>
-                  <li>Kernelcon will host digital media training material in a fashion readily accessible by students if said material is in Kernelcon's possession by March 1st, 2020.</li>
+                  <li>Kernelcon will host digital media training material in a fashion readily accessible by students if said material is in Kernelcon's possession by March 1st, 2023.</li>
                   <li>Attendee registration services.</li>
                   <li>Results from attendee feedback surveys.</li>
                   <li>Snacks for instructors (and attendees).</li>
@@ -142,7 +140,7 @@ export default class OpenCalls extends Component {
               <p className='tab-paragraph'>We will communication with you throughout this process. If we think more information or clarification is needed, we will reach out to you. When a decision is made, we will promptly let you know if you are accepted or denied.</p>
               <p className='tab-paragraph'>Good luck and we cannot wait to see what you have in store for us!</p> 
             </TabPanel>
-            <TabPanel tabId="competitions">
+            {/* <TabPanel tabId="competitions">
               <div className='tab-title'>Call for Competitions</div>
               <p className='tab-paragraph'>Interested in hosting a competition? We are extremely interested in hosting competitions from the community. Some examples of competitions that were hosted last year:</p>
               <div className='tab-bullets'>
@@ -156,8 +154,8 @@ export default class OpenCalls extends Component {
               </div>  
               <p className='tab-paragraph'>Please consider submitting an idea to <a href='mailto:competitions@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>competitions@kernelcon.org</a> if you would like to host a competition for this year's Kernelcon. If your idea is not fully finessed, no worries! We can help your ideas become a reality.</p>
               <p className='tab-paragraph'>Thanks and Good Luck!</p>
-            </TabPanel>
-            <TabPanel tabId="stickers">
+            </TabPanel> */}
+            {/* <TabPanel tabId="stickers">
               <div className='tab-title'>Call for Stickers</div>
               <p className='tab-heading'>Can't get enough stickers in your life? Us either.</p>
               <p className='tab-paragraph'>Last year Kernelcon had 12 unique stickers that our most creative individuals (and sometimes their family members) spent hours designing. Attendees received a handful of the same unique stickers so they could trade with others and collect the whole set.  It was one of our most talked about swag items, and a fun way to meet new people and get your sticker on.</p>
@@ -170,7 +168,7 @@ export default class OpenCalls extends Component {
                 width="100%"
                 className='stickers'
                 alt='stickers' />
-            </TabPanel>
+            </TabPanel> */}
           </span>
         </Tabs>
       </div>
@@ -179,14 +177,18 @@ export default class OpenCalls extends Component {
 
   render() {
     return (
-      <div className='open-calls'>
-        <h3>Open Calls</h3>
-        <MediaQuery minDeviceWidth={761}>
-          {this.getTabs(true)}
-        </MediaQuery>
-        <MediaQuery maxDeviceWidth={760}>
-          {this.getTabs(false)}
-        </MediaQuery>
+      <div className="container">
+				<div className='venue-section'>
+          <div className='open-calls'>
+            <h3>Open Calls</h3>
+            <MediaQuery minDeviceWidth={761}>
+              {this.getTabs(true)}
+            </MediaQuery>
+            <MediaQuery maxDeviceWidth={760}>
+              {this.getTabs(false)}
+            </MediaQuery>
+          </div>
+        </div>
       </div>
     );
   }

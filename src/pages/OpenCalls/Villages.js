@@ -9,7 +9,7 @@ export default class Villages extends Component {
       <div>
         <p className='tab-heading'>The Call for Villages is now Open</p>
         <p className='tab-paragraph'>Last year we had a great time with 4 awesome villages!</p>
-        <p className='tab-paragraph'>If you are interested submitting to have a village present at Kernelcon 2020 Here are some things you should know up front:</p>
+        <p className='tab-paragraph'>If you are interested submitting to have a village present at Kernelcon 2023 Here are some things you should know up front:</p>
         <div className='tab-bullets'>
           <ul>
             <li>Villages are expected to be open Friday and Saturday, during conference hours.</li>
@@ -19,10 +19,10 @@ export default class Villages extends Component {
           </ul>
         </div>
         <p className='tab-heading'>Submission Requirements</p>
-        <p className='tab-paragraph'>If you are interested in running a Village, email the <a href='mailto:villages@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>villages@kernelcon.org</a> with the following form (submit one form per Village). Please be as detailed as possible so that our review board can best evaluate your submissions. All submissions are due by December 1, 2019.</p>
-        <p className='tab-paragraph'>After your submission is received, we will respond and let you know we got it. If you have not received confirmation of your submission after two business days, contact lead Aaron at <a href='mailto:villages@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>villages@kernelcon.org</a>.</p>
+        <p className='tab-paragraph'>If you are interested in running a Village, email the <a href='mailto:villages@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>villages@kernelcon.org</a> with the following form (submit one form per Village). Please be as detailed as possible so that our review board can best evaluate your submissions. All submissions are due by December 1, 2022.</p>
+        <p className='tab-paragraph'>After your submission is received, we will respond and let you know we got it. If you have not received confirmation of your submission after two business days, contact <a href='mailto:villages@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>villages@kernelcon.org</a>.</p>
         <p className='tab-paragraph'>Thank you and good luck!</p>
-        <p className='tab-heading'>Kernelcon 2020 Village Application must include:</p>
+        <p className='tab-heading'>Kernelcon 2023 Village Application must include:</p>
         <p className='tab-paragraph'>
           <ol className='tab-ordered-list'>
             <li>Village Name</li>
