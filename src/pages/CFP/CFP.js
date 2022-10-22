@@ -45,7 +45,8 @@ export default class CFP extends Component {
 									target="_blank">
 									2022</a>{" "}programs{""}.
 							</p>
-							<div className="tab-title">Important Dates</div>
+							{/* <div className="tab-title">Important Dates</div> */}
+							<p className='tab-heading'>Important Dates</p>
 							<p className="tab-paragraph">
 								Important dates regarding CFP can be found on our{" "}
 								<a
@@ -58,14 +59,16 @@ export default class CFP extends Component {
 								, which will always have the most current information. Make sure to pay attention to that page to ensure you don't miss the CFP closing date!
 							</p>
 
-							<div className="tab-title">About Kernelcon</div>
+							{/* <div className="tab-title">About Kernelcon</div> */}
+							<p className='tab-heading'>About Kernelcon</p>
 							<p className="tab-paragraph">In 2017, local collectives of information security professionals gathered together to start sharing knowledge and experiences here in Omaha. Many beers were had and slides discussed before culminating in a mission to gather knowledge seekers in the Midwest to propagate their techniques and mastery. Enter Kernelcon.</p>
 							<p className="tab-paragraph">In 2019, we exceeded our first-year targets with two speaking tracks, several conference events, and competitions for more than 350 attendees.  In 2020 we were one of the first security conferences to pivot to a pure-virtual format, populating two speaker live-streams, offering pre-conference training, and innovative virtual activities for our more than 400 paid attendees.</p>
 							<p className="tab-paragraph">With the time to consider and plan for 2021 in a virtual context, we pioneered Hack Live, an online event that saw experts in various hacking disciplines hack challenges in their domain live.  Kernelcon partnered with the Ultimate Hacking Championship and brought Hack Live to thousands of world-wide viewers.</p>
 							<p className="tab-paragraph">In 2022, we were excited to return to an in-person event.  We welcomed hackers from all around back to Omaha for sorely missed popcorn, networking, competitions, and of course world-class speakers.</p>
 							<p className="tab-paragraph">For 2023, Kernelcon organizers are excited to continue the tradition into year five and hope you will join us in sharing your knowledge and love of hacking with all our attendees.</p>
 
-							<div className="tab-title">Suggested topic areas</div>
+							{/* <div className="tab-title">Suggested topic areas</div> */}
+							<p className='tab-heading'>Suggested topic areas</p>
 				<p className="tab-paragraph">The theme for Kernelcon 2023, is “Science.” Accordingly, those that wish to tailor a talk to the theme or require a broad topic to start the creative engine toward a new talk, science is your starting point. Consider innovation, iteration, and the scientific method.  Tie hacking back to any science-related discipline like biology, engineering, electronics, physics, mathematics, chemistry, or psychology. However, this is not a hard requirement.  Do not let these directions limit your interpretation or the subject of your talk.</p>
 				<p className="tab-paragraph">Kernelcon submissions should focus on topics that are of interest to the security and hacking communities. The list below is meant as a guideline, not an exhaustive list.</p>
 				<p className="tab-paragraph">
@@ -96,10 +99,12 @@ export default class CFP extends Component {
 				</p>
 				<p className="tab-paragraph">If your talk doesn't fit precisely into one of these areas, the theme, but you still think is a good fit, please submit it for consideration! The suggested topics are meant only to provide some direction, not as a strict pedantic gate through which all submissions must pass.</p>
 
-				<div className="tab-title">Conference format</div>
+				{/* <div className="tab-title">Conference format</div> */}
+				<p className='tab-heading'>Conference format</p>
 							<p className="tab-paragraph">Kernelcon 2023 will have two, concurrent main tracks, and talks should fit into a 60 (FULL) or 20 (SHORT) minute timeslot (meaning a 50 or 15 minute presentation is expected). As one might expect, presenters will be positioned at the front of a hotel conference area, and will present using typical conference equipment.</p>
 
-				<div className="tab-title">Speaker Benefits</div>
+				{/* <div className="tab-title">Speaker Benefits</div> */}
+				<p className='tab-heading'>Speaker Benefits</p>
 							<p className="tab-paragraph">Speakers receive complimentary admission to Kernelcon and will be recognized as a speaker via a special “SPEAKER” badge. Speakers also have the option of attending an exclusive speaker party preceding the conference. Details will be sent to accepted speakers following acceptance notification.</p>
 				<p className="tab-paragraph">For each FULL talk, the speakers may additionally select one of:</p>
 				<p className="tab-paragraph">
@@ -112,10 +117,12 @@ export default class CFP extends Component {
 				</p>
 				<p className="tab-paragraph">We may also tentatively accept backup/alternate talks which will not be guaranteed a speaking slot, but will receive admission in order to be ready to present in the event they are needed.</p>
 
-				<div className="tab-title">Review process</div>
+				{/* <div className="tab-title">Review process</div> */}
+				<p className='tab-heading'>Review process</p>
 				<p className="tab-paragraph">Our review process is not as formal as some academic conferences. However, submissions are considered confidential and are not shared outside of the Technical Program Committee. Every submission is reviewed by multiple committee members and weighed for inclusion in the program. TPC Committee members are selected for the ability to provide valuable reviews, handle sensitive information, and remain fair, impartial, and consistent in the review process. Ultimately the committee informs the TPC Chair(s) who set the technical portion of the program that is married with the rest of Kernelcon agenda.</p>
 
-				<div className="tab-title">How to submit</div>
+				{/* <div className="tab-title">How to submit</div> */}
+				<p className='tab-heading'>How to submit</p>
 				<p className="tab-paragraph">Speakers should submit directly (e.g. no PR representatives are permitted).</p>
 				<p className="tab-paragraph">Please print the{" "}
 								<a
@@ -230,10 +237,12 @@ export default class CFP extends Component {
 								</a>{""}.</p>
 				<p className="tab-paragraph">Again, your core submission should be in plain text or PDF. The PDF should contain the required information as text - the content will be extracted from the PDF. Supplementary files such as draft slides, extended outlines, and whitepapers may help your submission and may also be attached to the email.</p>
 				
-				<div className="tab-title">Grant of Copyright Use</div>          
+				{/* <div className="tab-title">Grant of Copyright Use</div>   */}
+				<p className='tab-heading'>Grant of Copyright Use</p>        
 				<p className="tab-paragraph">I warrant that the above work has not been previously published elsewhere, or if it has, that I have obtained permission for its publication by Kernelcon and that I will promptly supply Kernelcon with wording for crediting the original publication and copyright owner. If I am selected for presentation, I hereby give Kernelcon permission to duplicate, record, and redistribute this presentation, which includes, but is not limited to, any conference proceedings, conference CD, video, audio, and handouts to the conference attendees for educational, on-line, and all other purposes.</p>
 
-				<div className="tab-title">Terms of Speaking Requirements</div> 
+				{/* <div className="tab-title">Terms of Speaking Requirements</div>  */}
+				<p className='tab-heading'>Terms of Speaking Requirements</p>
 				<p className="tab-paragraph">
 					<ol className="real-bullet-list">
 					<li>I will submit a completed presentation, a copy of the tool(s) and/or code(s), and a reference to all of the tool(s), law(s), web sites and/or publications referenced at the end of my talk and as described in this CFP submission for publication by Kernelcon.</li>
