@@ -169,10 +169,15 @@ export default class Venue extends Component {
 					<p className="about-sub-text">For commuters:</p>
 					<p className="about-sub-text">
 						We're happy to say that the conference parking is
-						readily available. We plan on purchasing spots down the
-						street from the con on a first-come, first-serve basis. In
-						addition, parking is available at the hotel at $14/day
-						or there is metered parking all along 10th street.
+						readily available. There is metered parking all along 10th street
+						and several lots in the vicinity with affordable daily rates.{" "}
+						<a
+							className="text-highlight"
+							href="https://www.parkomaha.com/map/"
+							rel="noopener noreferrer"
+							target="_blank">
+							Park Omaha
+						</a>{" "} is a fantastic resource.
 					</p>
 					<p className="about-sub-text">
 						<b>More information coming soon!</b>
