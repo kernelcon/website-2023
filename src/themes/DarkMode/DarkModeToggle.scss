@@ -1,3 +1,19 @@
+body.light-mode {
+    .goggles-dark-mode {
+      display: none !important;
+    }
+}
+
+body.dark-mode {
+    .goggles {
+      display: none !important;
+    }
+}
+
+.goggles, .goggles-dark-mode {
+    height: 50px;
+}
+
 .icon {
     position: absolute;
     top: 0;
@@ -9,35 +25,51 @@
     font-size: 10px;
 }
 
-.glasses {
-    width: 2em;
-    height: 2em;
-    border-top: 3px solid #333;
-    border-bottom: solid 0px transparent !important;
-    border-radius: 50% 50% 0 0;
-}
+// .lense-outline {
+//     fill: #dbdbdb;
+// }
+// .lense {
+//     fill: #b1c0c9;
+// }
+// .nose, .sides {
+//     fill: orange !important;
+// }
+// .straps {
+//     fill: #424242;
+// }
+// .reflection {
+//     fill: #f1f2f2;
+// }
 
-.glasses:before {
-    content: "";
-    position: absolute;
-    top: -0.4em;
-    left: -3.2em;
-    width: 3.5em;
-    height: 3.5em;
-    border: 3px solid #333;
-    border-radius: 50% 50% 50% 50%;
-}
+// .glasses {
+//     width: 2em;
+//     height: 2em;
+//     border-top: 3px solid #333;
+//     border-bottom: solid 0px transparent !important;
+//     border-radius: 50% 50% 0 0;
+// }
 
-.glasses:after {
-    content: "";
-    position: absolute;
-    top: -0.4em;
-    left: 1.7em;
-    width: 3.5em;
-    height: 3.5em;
-    border: 3px solid #333;
-    border-radius: 50% 50% 50% 50%;
-}
+// .glasses:before {
+//     content: "";
+//     position: absolute;
+//     top: -0.4em;
+//     left: -3.2em;
+//     width: 3.5em;
+//     height: 3.5em;
+//     border: 3px solid #333;
+//     border-radius: 50% 50% 50% 50%;
+// }
+
+// .glasses:after {
+//     content: "";
+//     position: absolute;
+//     top: -0.4em;
+//     left: 1.7em;
+//     width: 3.5em;
+//     height: 3.5em;
+//     border: 3px solid #333;
+//     border-radius: 50% 50% 50% 50%;
+// }
 
 input[type='checkbox'].icon {
     -webkit-appearance: none;

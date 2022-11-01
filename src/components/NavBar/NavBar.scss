@@ -14,6 +14,8 @@
     position: absolute;
     width: 120px;
     right: 0;
+    //fix for using goggles svg
+    margin-top: -25px;
   }
 }
 
@@ -107,6 +109,8 @@
       padding: 0px;
       margin: 0px;
       width: 30%;
+      //fix for using goggles svg
+      margin-top: -25px;
     }
   }
   .secondary-nav {
