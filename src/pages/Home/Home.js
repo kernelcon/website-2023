@@ -128,7 +128,7 @@ export default class Home extends Component {
                           Challenging Competitions
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          Our Capture-the-Flag event is always a big hit and this year promises to be no less than 8-bits of CTF fun! Plus, other fun competitions like the WiFi Fox and Hound event will help keep you busy all con long!
+                          Our Capture-the-Flag event is always a big hit and this year promises to be no less than 8-bits of CTF fun!
                         </div>
                       </div>
                     </div>
@@ -174,6 +174,23 @@ export default class Home extends Component {
 
             </div>
             <div className="col right">
+
+              {/* <center>
+                <div className='order-button'>
+                  <a
+                    className="cybr-btn btn-bottom"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://reg.kernelcon.org/">
+                    Register Now
+                    <span aria-hidden className="cybr-btn__glitch">
+                      Register Now
+                    </span>
+                  </a>
+                </div>
+              </center> */}
+
+
               <img src={ChemSet} alt="chemistry set"/>
               
               
