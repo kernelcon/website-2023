@@ -15,14 +15,15 @@ class Safety extends Component {
 
 				<div className="tab-title">Travel</div>
 							<p className="tab-paragraph">
-				Please check travel protocols and guidance before traveling. We are committed to providing you a safe and relaxing hotel stay: for information about our initiatives related to COVID, please visit {" "}
+								Please check travel protocols and guidance before traveling. For more information about the evolving local health and safety requirements, please check local governments' current guidance.
+								{/* We are committed to providing you a safe and relaxing hotel stay: for information about our initiatives related to COVID, please visit {" "}
 								<a
 									href="https://covid.hilton.com"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
 									covid.hilton.com
-								</a>{""}. For more information about the evolving local health and safety requirements, please check local governments' current guidance.
+								</a>{""}. */}
 							</p>
 				<p className="tab-paragraph">More information on {" "}
 								<a
