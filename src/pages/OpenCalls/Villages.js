@@ -19,7 +19,7 @@ export default class Villages extends Component {
           </ul>
         </div>
         <p className='tab-heading'>Submission Requirements</p>
-        <p className='tab-paragraph'>If you are interested in running a Village, email the <a href='mailto:villages@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>villages@kernelcon.org</a> with the following form (submit one form per Village). Please be as detailed as possible so that our review board can best evaluate your submissions. All submissions are due by December 1, 2022.</p>
+        <p className='tab-paragraph'>If you are interested in running a Village, email the <a href='mailto:villages@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>villages@kernelcon.org</a> with the following form (submit one form per Village). Please be as detailed as possible so that our review board can best evaluate your submissions. All submissions are due by January 13, 2023.</p>
         <p className='tab-paragraph'>After your submission is received, we will respond and let you know we got it. If you have not received confirmation of your submission after two business days, contact <a href='mailto:villages@kernelcon.org' className='text-highlight' rel='noopener noreferrer'>villages@kernelcon.org</a>.</p>
         <p className='tab-paragraph'>Thank you and good luck!</p>
         <p className='tab-heading'>Kernelcon 2023 Village Application must include:</p>
