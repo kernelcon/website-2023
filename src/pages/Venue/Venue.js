@@ -42,25 +42,25 @@ export default class Venue extends Component {
 				</TabList>
 				<TabPanel tabId="hotel">
 					<div className="text-area">
-						{/* <div className="tab-title">Book Now</div> */}
-						<div className="tab-title">Room Block</div>
+						<div className="tab-title">Book Now</div>
+						{/* <div className="tab-title">Room Block</div> */}
 						<div className="venue-hotel">
-							{/* <div className="venue-text">
+							<div className="venue-text">
 								We have a room block reserved at the conference
-								hotel from Mar 31 to Apr 3 at a rate of
-								$149/night. Book directly with the hotel{" "}
+								hotel from Apr 13 to Apr 15 at a rate of
+								$165/night. Book directly with the hotel{" "}
 								<a
 									className="text-highlight"
-									href="https://www.hilton.com/en/book/reservation/deeplink/?&ctyhocn=OMADTES&groupCode=CESKCA&arrival=20220331&departure=20220403&cid=OM,WW,HILTONLINK,en,DirectLink&fromId=HILTONLINKDIRECT&data=04|01|felicia.vann@atriumhospitality.com|5099baec00c040cba43208d8f90ab428|2a940736346f4580951607fd1e7cc52d|0|0|637533171660458186|Unknown|TWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0=|1000&sdata=A/Ebhsn2c6Wec1SF1O4WerJvbetp3b4BTl5594ykB38=&reserved=0"
+									href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=OMADTES&arrivalDate=2023-04-13&departureDate=2023-04-15&groupCode=KCA&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink"
 									rel="noopener noreferrer"
 									target="_blank">
 									HERE
 								</a>
-								.{" "}  Please book by March 4th for our group rate.
-							</div> */}
-							<div className="venue-text">
-								We will have a block of rooms available again this year for those wanting to stay on site.  Check back soon!
+								.{" "}  Please book by March 24th for our group rate.
 							</div>
+							{/* <div className="venue-text">
+								We will have a block of rooms available again this year for those wanting to stay on site.  Check back soon!
+							</div> */}
 						</div>
 					</div>
 					<div className="text-area">
@@ -179,9 +179,9 @@ export default class Venue extends Component {
 							Park Omaha
 						</a>{" "} is a fantastic resource.
 					</p>
-					<p className="about-sub-text">
+					{/* <p className="about-sub-text">
 						<b>More information coming soon!</b>
-					</p>
+					</p> */}
 				</TabPanel>
 			</Tabs>
 		);
