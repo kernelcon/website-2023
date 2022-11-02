@@ -207,6 +207,10 @@ export default class Home extends Component {
                 </div>
               </div> */}
 
+              <div>
+                <p>Kernelcon's theme this year is Science. Look at any science-related discipline and you'll find hackers learning and iterating, making discoveries and proving theories that have shaped the world we live in today. Whether you are a biology nerd or into engineering, physics, or chemistry you belong at Kernelcon.</p>
+              </div>
+
               <img src={MadScientistInLab} className="mad-scientist" alt="mad scientist in lab"/>
               
               {/* <img src={ChemSet} alt="chemistry set"/> */}
