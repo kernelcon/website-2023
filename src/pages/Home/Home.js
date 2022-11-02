@@ -178,6 +178,7 @@ export default class Home extends Component {
 
             </div>
             <div className="col right">
+              <div className='pop'>
 
               {/* <center>
                 <div className='order-button'>
@@ -207,8 +208,11 @@ export default class Home extends Component {
                 </div>
               </div> */}
 
-              <div>
-                <p>Kernelcon's theme this year is Science. Look at any science-related discipline and you'll find hackers learning and iterating, making discoveries and proving theories that have shaped the world we live in today. Whether you are a biology nerd or into engineering, physics, or chemistry you belong at Kernelcon.</p>
+              <div className='theme-description'>
+                <h3>This year's theme is <span className='underline'>Science</span>.</h3> 
+                <p>Look at any science-related discipline and you'll find hackers learning and iterating, making discoveries and proving theories that have shaped the world we live in today.</p>
+                <br />
+                <p>Whether you are into engineering, physics, biology, electronics, mathematics, or chemistry <b>you belong here at Kernelcon.</b></p>
               </div>
 
               <img src={MadScientistInLab} className="mad-scientist" alt="mad scientist in lab"/>
@@ -289,7 +293,7 @@ export default class Home extends Component {
                   The Future Is Now by Josan Gonzalez
                 </p>
               </center> */}
-
+              </div>
             </div>
 
             {/* <a className='reg-button'
