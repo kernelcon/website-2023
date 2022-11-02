@@ -29,9 +29,6 @@ import LabCoat from "../../static/images/icons/lab-coat.svg"
 import BrainOutline from "../../static/images/icons/brain-outline.svg"
 import Certificate from "../../static/images/icons/certificate-2.svg"
 
-// import MadScientistInLab from "../../static/images/mad-scientists/cyberpunk-mad-scientist-with-goggles-in-lab.png"
-import MadScientistInLab from "../../static/images/mad-scientists/cyberpunk-mad-scientist-with-goggles-in-lab-no-bg.png"
-
 import "./Home.scss";
 
 export default class Home extends Component {
@@ -43,6 +40,18 @@ export default class Home extends Component {
 		});
 	};
 
+  getRandomScientist(lengthOfArray, indexToExclude, secondLastKernelIndex) {
+    // This function just grabs a random index that wasn't one of the last two.
+    // Obviously, due to math, you need to send in at least an array of length 3.
+    let rand = null;
+
+    while (rand === null || rand === indexToExclude || rand === secondLastKernelIndex) {
+      rand = Math.round(Math.random() * (lengthOfArray - 1));
+    }
+    return rand;
+  }
+
+
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -51,7 +60,20 @@ export default class Home extends Component {
 		};
 	}
 
+  getScientist() {
+    const randScientist = this.getRandomScientist(7, 0, 0);
+
+    // If image DNE, assign the random Scientist we've generated.
+    const img = `mad-scientists/mad_scientist_${randScientist}.png`;
+    const imgSrc =  img ? require(`../../static/images/${img}`) : 'https://via.placeholder.com/150';
+    return imgSrc;
+  }
+ 
+
+
 	render() {
+    const imgSrc = this.getScientist();
+
 		return (
       <div id='main_hero' className='hero'>
         <BackGround />
@@ -215,7 +237,7 @@ export default class Home extends Component {
                 <p>Whether you are into engineering, physics, biology, electronics, mathematics, or chemistry <b>you belong here at Kernelcon.</b></p>
               </div>
 
-              <img src={MadScientistInLab} className="mad-scientist" alt="mad scientist in lab"/>
+              <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/>
               
               {/* <img src={ChemSet} alt="chemistry set"/> */}
               
