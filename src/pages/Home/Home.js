@@ -13,6 +13,7 @@ import jen from "../../static/images/trainers/jen.png";
 import FullKernelconLogo from "../../static/images/logos/kernelcon_black.png"
 import FullKernelconLogoDark from "../../static/images/logos/kernelcon_white.png"
 import BackGround from '../../components/BackGround/BackGround';
+import Button from '../../components/Button/Button';
 // import ChemSet from '../../components/ChemSet/ChemSet';
 import ChemSet from '../../static/images/chem-set.png';
 // import bkg from '../../static/images/earth-day.jpg';
@@ -27,6 +28,9 @@ import ExperimentTable from "../../static/images/icons/experiment-table.svg"
 import LabCoat from "../../static/images/icons/lab-coat.svg"
 import BrainOutline from "../../static/images/icons/brain-outline.svg"
 import Certificate from "../../static/images/icons/certificate-2.svg"
+
+// import MadScientistInLab from "../../static/images/mad-scientists/cyberpunk-mad-scientist-with-goggles-in-lab.png"
+import MadScientistInLab from "../../static/images/mad-scientists/cyberpunk-mad-scientist-with-goggles-in-lab-no-bg.png"
 
 import "./Home.scss";
 
@@ -190,8 +194,22 @@ export default class Home extends Component {
                 </div>
               </center> */}
 
+              
 
-              <img src={ChemSet} alt="chemistry set"/>
+              {/* <div className='updates'>
+                <h2>REGISTER</h2>
+                <div className='update-text'>
+                  <p>Registration is now open for tickets and all workshops!</p>
+                  <p>On-site registration will also be available, but register now to secure your portion of the limited availability of electronic badges, t-shirts, and more!</p>
+                </div>
+                <div className='sign-up-btn'>
+                  <Button href="/register" title="Register" />
+                </div>
+              </div> */}
+
+              <img src={MadScientistInLab} className="mad-scientist" alt="mad scientist in lab"/>
+              
+              {/* <img src={ChemSet} alt="chemistry set"/> */}
               
               
               {/* <div className='keynote'>
