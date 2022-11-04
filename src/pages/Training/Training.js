@@ -104,7 +104,7 @@ class Training extends Component {
         <div className='training'>
           <div className='venue-section'>
             <h3>Training</h3>
-            <p>Once again Kernelcon will be offering several amazing options for training taking place in the days before the con.  Check back soon for more details.</p>
+            <p>Once again Kernelcon will be offering several amazing options for training taking place in the days before the con.  Check back soon for more details or if you're interested in leading a training class, checkout our <a rel="noopener noreferrer" className="text-highlight" href="/open-calls">Open Calls page</a> for more details.</p>
             {/* {training} */}
           </div>
         </div>

@@ -13,6 +13,7 @@ import jen from "../../static/images/trainers/jen.png";
 import FullKernelconLogo from "../../static/images/logos/kernelcon_black.png"
 import FullKernelconLogoDark from "../../static/images/logos/kernelcon_white.png"
 import BackGround from '../../components/BackGround/BackGround';
+import Button from '../../components/Button/Button';
 // import ChemSet from '../../components/ChemSet/ChemSet';
 import ChemSet from '../../static/images/chem-set.png';
 // import bkg from '../../static/images/earth-day.jpg';
@@ -39,6 +40,18 @@ export default class Home extends Component {
 		});
 	};
 
+  getRandomScientist(lengthOfArray, indexToExclude, secondLastKernelIndex) {
+    // This function just grabs a random index that wasn't one of the last two.
+    // Obviously, due to math, you need to send in at least an array of length 3.
+    let rand = null;
+
+    while (rand === null || rand === indexToExclude || rand === secondLastKernelIndex) {
+      rand = Math.round(Math.random() * (lengthOfArray - 1));
+    }
+    return rand;
+  }
+
+
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -47,7 +60,20 @@ export default class Home extends Component {
 		};
 	}
 
+  getScientist() {
+    const randScientist = this.getRandomScientist(7, 0, 0);
+
+    // If image DNE, assign the random Scientist we've generated.
+    const img = `mad-scientists/mad_scientist_${randScientist}.png`;
+    const imgSrc =  img ? require(`../../static/images/${img}`) : 'https://via.placeholder.com/150';
+    return imgSrc;
+  }
+ 
+
+
 	render() {
+    const imgSrc = this.getScientist();
+
 		return (
       <div id='main_hero' className='hero'>
         <BackGround />
@@ -174,6 +200,7 @@ export default class Home extends Component {
 
             </div>
             <div className="col right">
+              <div className='pop'>
 
               {/* <center>
                 <div className='order-button'>
@@ -190,8 +217,29 @@ export default class Home extends Component {
                 </div>
               </center> */}
 
+              
 
-              <img src={ChemSet} alt="chemistry set"/>
+              {/* <div className='updates'>
+                <h2>REGISTER</h2>
+                <div className='update-text'>
+                  <p>Registration is now open for tickets and all workshops!</p>
+                  <p>On-site registration will also be available, but register now to secure your portion of the limited availability of electronic badges, t-shirts, and more!</p>
+                </div>
+                <div className='sign-up-btn'>
+                  <Button href="/register" title="Register" />
+                </div>
+              </div> */}
+
+              <div className='theme-description'>
+                <h3>This year's theme is <span className='underline'>Science</span>.</h3> 
+                <p>Look at any science-related discipline and you'll find hackers learning and iterating, making discoveries and proving theories that have shaped the world we live in today.</p>
+                <br />
+                <p>Whether you are into engineering, physics, biology, electronics, mathematics, or chemistry <b>you belong here at Kernelcon.</b></p>
+              </div>
+
+              <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/>
+              
+              {/* <img src={ChemSet} alt="chemistry set"/> */}
               
               
               {/* <div className='keynote'>
@@ -267,7 +315,7 @@ export default class Home extends Component {
                   The Future Is Now by Josan Gonzalez
                 </p>
               </center> */}
-
+              </div>
             </div>
 
             {/* <a className='reg-button'
