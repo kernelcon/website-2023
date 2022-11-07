@@ -12,7 +12,7 @@ class Register extends Component {
 						<h3 className="title">Register</h3>
 						<p className="tab-paragraph">
 							Welcome! We are happy to have your interest. Below is
-							the registration page for Kernelcon 2022!
+							the registration page for Kernelcon 2023!
 						</p>
 
 

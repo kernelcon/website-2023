@@ -128,7 +128,7 @@ export default class Home extends Component {
                           Professional Training
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          Some of the industry's leading trainers descend on Omaha, Nebraska to lead two days of intensive coursework for attendees.
+                          Some of the industry's leading trainers descend on Omaha, Nebraska to lead two days of intensive coursework for attendees. Interested in doing the training? Contact us through our open calls.
                         </div>
                       </div>
                     </div>
@@ -141,7 +141,7 @@ export default class Home extends Component {
                           Hands-On Villages
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          We have huge plans for our village area - including classics like Lockpicking, Hardware Hacking, and Radio/IOT Village.
+                        We have huge plans for our village area - including classics like Lockpicking and Hardware Hacking. Got an idea for a fun village? Check out our open calls.
                         </div>
                       </div>
                     </div>
@@ -154,7 +154,7 @@ export default class Home extends Component {
                           Challenging Competitions
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          Our Capture-the-Flag event is always a big hit and this year promises to be no less than 8-bits of CTF fun!
+                          Our Capture-the-Flag event is always a big hit and this year promises to be no less than 8-bits of CTF fun! Join us in a quest to win an eternal kernel aka lifetime entry to Kernelcon!
                         </div>
                       </div>
                     </div>
