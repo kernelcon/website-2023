@@ -4,6 +4,32 @@
 	font-display: swap;
 }
 
+
+$mobile: 18px;
+$tablet: 18px;
+$desktop: 26px;
+
+@media all and (min-width: 960px) {
+	.cybr-btn {
+		font-size: $desktop;
+	}
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+	.cybr-btn {
+		font-size: $tablet;
+	}
+}
+
+@media all and (max-width: 599px) {
+	.cybr-btn {
+		font-size: $mobile;
+	}
+}
+
+
+// --font-size: 26px;
+
 .cybr-btn {
 	--primary: hsl(
 		var(--primary-hue),
@@ -14,7 +40,6 @@
 	--primary-hue: 210;
 	--primary-lightness: 50;
 	--color: hsl(0, 0%, 100%);
-	--font-size: 26px;
 	--shadow-primary-hue: 180;
 	--label-size: 9px;
 	--shadow-secondary-hue: 60;
@@ -98,12 +123,12 @@
 		8% 80%,
 		0 70%
 	);
-	font-family: "Cyber","Rock Salt", cursive;
+	font-family: "Orbitron", cursive;
 	color: var(--color);
 	cursor: pointer;
 	background: transparent;
 	text-transform: uppercase;
-	font-size: var(--font-size);
+	// font-size: var(--font-size);
 	outline: transparent;
 	letter-spacing: 2px;
 	position: relative;

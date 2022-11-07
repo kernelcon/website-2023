@@ -175,31 +175,33 @@ export default class Home extends Component {
                 </div>
               </div>
 
-              {/* <center>
+
+            </div>
+            <div className="col right">
+
+            <span className='button-left-margin'>
               <div className='order-button'>
                 <a
                   className="cybr-btn btn-bottom"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://reg.kernelcon.org/">
+                  href="https://reg.kernelcon.org/web/event?eventid=2138571278">
                   Register Now
                   <span aria-hidden className="cybr-btn__glitch">
                     Register Now
                   </span>
                 </a>
               </div>
-                <img
+                {/* <<img
                   className="img-responsive"
                   alt="future-is-now"
                   src="https://cdn0.vox-cdn.com/thumbor/O8IF6wSLdIz4JoG6abHHSn2qWhg=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6274065/Apr_01__2016_09_25.0.gif"
                 />
                 <p className="photo-credit">
                   The Future Is Now by Josan Gonzalez
-                </p>
-              </center> */}
+                </p> */}
+              </span>
 
-            </div>
-            <div className="col right">
               <div className='pop'>
 
               {/* <center>
