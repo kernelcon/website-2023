@@ -11,25 +11,23 @@ class Register extends Component {
 					<div className="venue-section">
 						<h3 className="title">Register</h3>
 						<p className="tab-paragraph">
-							Welcome! We are happy to have your interest and are working to set up this year's registration system. 
-							Check back soon!
-							{/* Welcome! We are happy to have your interest. Below is
-							the registration page for Kernelcon 2022! */}
+							Welcome! We are happy to have your interest. Below is
+							the registration page for Kernelcon 2023!
 						</p>
 
 
-						{/* <div className='order-button'>
+						<div className='order-button'>
 							<a
 								class="cybr-btn btn-bottom"
 								target="_blank"
 								rel="noopener noreferrer"
-								href="https://reg.kernelcon.org/">
+								href="https://reg.kernelcon.org/web/event?eventid=2138571278">
 								Register Now
 								<span aria-hidden class="cybr-btn__glitch">
 									Register Now
 								</span>
 							</a>
-						</div><br /> */}
+						</div><br />
 					</div>
 					<div className="venue-section">
 						<h3 className="title">Registering as a Group?</h3>
