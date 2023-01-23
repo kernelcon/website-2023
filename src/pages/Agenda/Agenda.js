@@ -9,8 +9,7 @@ import Speakers from './Speakers/Speakers';
 // import Workshops from './Workshops';
 
 import CallOuts from '../../components/CallOuts/CallOuts';
-import kingpin from "../../static/images/trainers/kingpin.png";
-import jen from "../../static/images/trainers/jen.png";
+import wendy from "../../static/images/trainers/wendy.jpg";
 
 
 import villageConfig from 'villageConfig';
@@ -73,12 +72,12 @@ export default class Agenda extends Component {
         onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
         <TabList>
-          <Tab tabFor="schedule">Schedule</Tab>
+          {/* <Tab tabFor="schedule">Schedule</Tab> */}
           <Tab tabFor="keynotes">Keynotes</Tab>
-          <Tab tabFor="speakers">Speakers</Tab>
+          {/* <Tab tabFor="speakers">Speakers</Tab> */}
           <Tab tabFor="villages">Villages</Tab>
-          <Tab tabFor="competitions">Competitions</Tab>
-          <Tab tabFor="entertainment">Entertainment</Tab>
+          {/* <Tab tabFor="competitions">Competitions</Tab> */}
+          {/* <Tab tabFor="entertainment">Entertainment</Tab> */}
           {/* <Tab tabFor="careers">Careers</Tab> */}
         </TabList>
         <TabPanel tabId="schedule">
@@ -89,7 +88,7 @@ export default class Agenda extends Component {
         <TabPanel tabId="keynotes">
           <div className='text-area'>
             <h3 className='title'>Keynotes</h3>
-            <div className='keynote-section'>
+            {/* <div className='keynote-section'>
               <div className='keynote-left'>
                 <h4 className='keynote-name'>Friday: Joe Grand</h4>
                 <div className='keynote-subtitle'>
@@ -117,44 +116,40 @@ export default class Agenda extends Component {
                   manipulating electronic systems since the 1980s.</p>
                 </div>
 
-                {/* <div className='keynote-talk'>
+                <div className='keynote-talk'>
                   <div className='keynote-topic'>Now, For Something Completely Different</div>
                   <div className='keynote-abstract'>
                     <p className='tab-paragraph'>Over the past two years we have see a perceptible shift in security issues.  Traditional architectures like AD and DMZs are falling away and are being replaced with Cloud and IoT.  So, how do we approach this new world?</p>
                     <p className='tab-paragraph'>In this talk, John will cover some core tools and techniques we use at BHIS every day to attack organizations.  We will also use these tools and techniques to help frame attendees in their approach and mindset to testing these technologies.</p>
                   </div>
-                </div> */}
+                </div>
                </div>
                <div className='keynote-right'>
-                <img src={kingpin}
+                <img src={wendy}
                   alt='Joe Grand'
                   className='keynote-image'/>
                </div>
-            </div>
+            </div> */}
             <div className='keynote-section'>
               <div className='keynote-left'>
-                <h4 className='keynote-name'>Saturday: Jen Easterly</h4>
+                <h4 className='keynote-name'>Wendy Nather</h4>
                 <div className='keynote-subtitle'>
-                  <div className='keynote-company'>
-                    <a href='https://www.cisa.gov/jen-easterly' target="_blank" rel="noopener noreferrer">
-                      Director of CISA
+                  {/* <div className='keynote-company'>
+                    <a href='https://www.cisco.com/c/en/us/products/security/ciso-conversations.html' target="_blank" rel="noopener noreferrer">
+                      Head of Advisory CISOs
                     </a>
                   </div>
-                  <div className='keynote-div'>|</div>
+                  <div className='keynote-div'>|</div> */}
                   <div className='keynote-handle'>
-                    <a href='https://twitter.com/CISAJen' target="_blank" rel="noopener noreferrer">
-                      @CISAJen
+                    <a href='https://infosec.exchange/@wendynather' target="_blank" rel="noopener noreferrer">
+                      @wendynather
                     </a>
                   </div>
                 </div>
 
                 <div className='keynote-bio'>
-                  <p className='tab-paragraph'>Jen Easterly is the Director of the Cybersecurity and Infrastructure Security Agency (CISA). Ms. Easterly was nominated by President Biden in April 2021 and unanimously confirmed by the Senate on July 12, 2021. As Director, Ms. Easterly leads CISA’s efforts to understand, manage, and reduce risk to the cyber and physical infrastructure Americans rely on every day.</p>
-                  <p className='tab-paragraph'>Before serving in her current role, Ms. Easterly was the head of Firm Resilience at Morgan Stanley, responsible for ensuring preparedness and response to business-disrupting operational incidents and risks to the Firm.</p>
-                  <p className='tab-paragraph'>Ms. Easterly has a long tradition of public service, to include two tours at the White House, most recently as Special Assistant to President Obama and Senior Director for Counterterrorism. She also served as the Deputy for Counterterrorism at the National Security Agency.</p>
-                  <p className='tab-paragraph'>A two-time recipient of the Bronze Star, Ms. Easterly retired from the U.S. Army after more than twenty years of service in intelligence and cyber operations, including tours of duty in Haiti, the Balkans, Iraq, and Afghanistan. Responsible for standing up the Army’s first cyber battalion, Ms. Easterly was also instrumental in the design and creation of United States Cyber Command.</p>
-                  <p className='tab-paragraph'>A distinguished graduate of the United States Military Academy at West Point, Ms. Easterly holds a master’s degree in Philosophy, Politics, and Economics from the University of Oxford, where she studied as a Rhodes Scholar. She is the recipient of the James W. Foley Legacy Foundation American Hostage Freedom Award and the Bradley W. Snyder Changing the Narrative Award.</p>
-                  <p className='tab-paragraph'>A member of the Council on Foreign Relations and a French-American Foundation Young Leader, Ms. Easterly is the past recipient of numerous fellowships, including the Aspen Finance Leaders Fellowship, the National Security Institute Visiting Fellowship, the New America Foundation Senior International Security Fellowship, the Council on Foreign Relations International Affairs Fellowship, and the Director, National Security Agency Fellowship.</p>
+                  <p className='tab-paragraph'>Wendy Nather leads the Advisory CISO team at Cisco.  She was previously Research Director at the Retail ISAC, where she was responsible for advancing the state of resources and knowledge to help organizations defend their infrastructure from attackers. Wendy was also Research Director of the Information Security Practice at independent analyst firm 451 Research, covering the security industry in areas such as application security, threat intelligence, security services, and other emerging technologies.</p>
+                  <p className='tab-paragraph'>Wendy has served as a CISO in both the private and public sectors. She led IT security for the EMEA region of the investment banking division of Swiss Bank Corporation (now UBS), as well as for the Texas Education Agency. Wendy is co-author of <i>The Cloud Security Rules</i>, and was listed as one of SC Magazine's Women in IT Security "Power Players" in 2014, as well as an “Influencer” in the Reboot Leadership Awards in 2018; she was inducted into the Infosecurity Europe Hall of Fame in 2021. She is an advisory board member for the RSA Conference, and serves on the advisory board for Sightline Security, an organization that helps provide free security assessment services to nonprofit groups. Wendy is a Senior Fellow at the Atlantic Council's Cyber Statecraft Initiative, as well as a Senior Cybersecurity Fellow at the Robert Strauss Center for International Security and Law at the University of Texas at Austin. She is based in Fort Collins, Colorado.</p>
                 </div>
 
                 {/* <div className='keynote-talk'>
@@ -170,8 +165,8 @@ export default class Agenda extends Component {
 
               </div>
               <div className='keynote-right'>
-                <img src={jen}
-                  alt="Jen Easterly"
+                <img src={wendy}
+                  alt="Wendy Nather"
                   className='keynote-image'/>
               </div>
             </div>
