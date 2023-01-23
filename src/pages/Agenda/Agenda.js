@@ -133,19 +133,19 @@ export default class Agenda extends Component {
             <div className='keynote-section'>
               <div className='keynote-left'>
                 <h4 className='keynote-name'>Wendy Nather</h4>
-                {/* <div className='keynote-subtitle'>
-                  <div className='keynote-company'>
-                    <a href='https://www.cisa.gov/jen-easterly' target="_blank" rel="noopener noreferrer">
+                <div className='keynote-subtitle'>
+                  {/* <div className='keynote-company'>
+                    <a href='https://www.cisco.com/c/en/us/products/security/ciso-conversations.html' target="_blank" rel="noopener noreferrer">
                       Head of Advisory CISOs
                     </a>
                   </div>
-                  <div className='keynote-div'>|</div>
+                  <div className='keynote-div'>|</div> */}
                   <div className='keynote-handle'>
-                    <a href='https://twitter.com/CISAJen' target="_blank" rel="noopener noreferrer">
-                      @CISAJen
+                    <a href='https://infosec.exchange/@wendynather' target="_blank" rel="noopener noreferrer">
+                      @wendynather
                     </a>
                   </div>
-                </div> */}
+                </div>
 
                 <div className='keynote-bio'>
                   <p className='tab-paragraph'>Wendy Nather leads the Advisory CISO team at Cisco.  She was previously Research Director at the Retail ISAC, where she was responsible for advancing the state of resources and knowledge to help organizations defend their infrastructure from attackers. Wendy was also Research Director of the Information Security Practice at independent analyst firm 451 Research, covering the security industry in areas such as application security, threat intelligence, security services, and other emerging technologies.</p>
