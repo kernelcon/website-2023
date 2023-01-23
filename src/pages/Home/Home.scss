@@ -46,9 +46,9 @@ body.dark-mode {
   }
   .keynote-speaker-name {
     font-size: 28px;
-    font-family: $font-punk;
-    color: #eaf63c !important;
-    text-shadow: 2px 2px $dm-punk-highlight !important;
+    font-family: $font-science;
+    color: $madder-lake !important;
+    text-shadow: 2px 2px $turquoise-green !important;
     font-weight: 900;
   }
 }
@@ -337,9 +337,9 @@ body.dark-mode {
       .keynote-speaker {
         .keynote-speaker-name {
           font-size: 28px;
-          font-family: $font-punk;
-          color: $dm-punk-highlight;
-          text-shadow: 2px 2px #eaf63c;
+          font-family: $font-science;
+          color: $madder-lake;
+          text-shadow: 2px 2px $turquoise-green;
           font-weight: 900;
         }
         .keynote-speaker-info {
