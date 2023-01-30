@@ -7,8 +7,7 @@ import Training from "../../static/images/icons/training.png";
 import Arm from "../../static/images/icons/arm.png";
 import Brain from "../../static/images/icons/brain.png";
 import Fun from "../../static/images/icons/fun.png";
-import kingpin from "../../static/images/trainers/kingpin.png";
-import jen from "../../static/images/trainers/jen.png";
+import wendy from "../../static/images/trainers/wendy.jpg";
 
 import FullKernelconLogo from "../../static/images/logos/kernelcon_black.png"
 import FullKernelconLogoDark from "../../static/images/logos/kernelcon_white.png"
@@ -175,6 +174,9 @@ export default class Home extends Component {
                 </div>
               </div>
 
+              <div className='pop'>
+                <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/>
+              </div>
 
             </div>
             <div className="col right">
@@ -239,36 +241,10 @@ export default class Home extends Component {
                 <p>Whether you are into engineering, physics, biology, electronics, mathematics, or chemistry <b>you belong here at Kernelcon.</b></p>
               </div>
 
-              <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/>
+              {/* <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/> */}
               
               {/* <img src={ChemSet} alt="chemistry set"/> */}
               
-              
-              {/* <div className='keynote'>
-                <div className='keynote-header'>
-                  <div className='keynote-title'>
-                    Keynote Speaker:
-                  </div>
-                  <div className='keynote-speaker'>
-                    <div className='keynote-speaker-name'>
-                      Joe Grand (aka Kingpin)
-                    </div>
-                    <div className='keynote-speaker-info'>
-                      <img src={kingpin} className='keynote-image' alt="Joe Grand"/>
-
-                      <p className='keynote-para'>We all loved watching him <a className="text-highlight" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=AQpv_6Se6VM&list=PL9RA5HoG1guy7oz3m4Y0aHqsNumai2o8v&index=6">reverse engineer hardware components in Hack Live</a>. And now he's back as our 2022 Keynote Speaker... please welcome, Joe Grand!</p>
-                      <p className='keynote-para'>Joe Grand, also known as Kingpin, is a computer engineer,
-                      hardware hacker, teacher, advisor, daddy, honorary doctor, and
-                      proprietor of Grand Idea Studio.</p>
-                      <p className='keynote-para'>He was formerly a technological juvenile delinquent, member of
-                      legendary hacker group L0pht Heavy Industries, co-host of
-                      Discovery Channel's Prototype This, and DEFCON's original
-                      electronic badge designer. He has been creating, exploring, and
-                      manipulating electronic systems since the 1980s.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div className='keynote'>
                 <div className='keynote-header'>
                   <div className='keynote-title'>
@@ -276,21 +252,18 @@ export default class Home extends Component {
                   </div>
                   <div className='keynote-speaker'>
                     <div className='keynote-speaker-name'>
-                      Jen Easterly
+                      Wendy Nather
                     </div>
                     <div className='keynote-speaker-info'>
-                      <img src={jen} className='keynote-image' alt="Joe Grand"/>
+                      <img src={wendy} className='keynote-image' alt="Wendy Nather"/>
 
-                      <p className='keynote-para'>Jen Easterly is the Director of the Cybersecurity and Infrastructure Security Agency (CISA). Ms. Easterly was nominated by President Biden in April 2021 and unanimously confirmed by the Senate on July 12, 2021. As Director, Ms. Easterly leads CISA’s efforts to understand, manage, and reduce risk to the cyber and physical infrastructure Americans rely on every day.</p>
-                      <p className='keynote-para'>Before serving in her current role, Ms. Easterly was the head of Firm Resilience at Morgan Stanley, responsible for ensuring preparedness and response to business-disrupting operational incidents and risks to the Firm.</p>
-                      <p className='keynote-para'>Ms. Easterly has a long tradition of public service, to include two tours at the White House, most recently as Special Assistant to President Obama and Senior Director for Counterterrorism. She also served as the Deputy for Counterterrorism at the National Security Agency.</p>
-                      <p className='keynote-para'>A two-time recipient of the Bronze Star, Ms. Easterly retired from the U.S. Army after more than twenty years of service in intelligence and cyber operations, including tours of duty in Haiti, the Balkans, Iraq, and Afghanistan. Responsible for standing up the Army’s first cyber battalion, Ms. Easterly was also instrumental in the design and creation of United States Cyber Command.</p>
-                      <p className='keynote-para'>A distinguished graduate of the United States Military Academy at West Point, Ms. Easterly holds a master’s degree in Philosophy, Politics, and Economics from the University of Oxford, where she studied as a Rhodes Scholar. She is the recipient of the James W. Foley Legacy Foundation American Hostage Freedom Award and the Bradley W. Snyder Changing the Narrative Award.</p>
-                      <p className='keynote-para'>A member of the Council on Foreign Relations and a French-American Foundation Young Leader, Ms. Easterly is the past recipient of numerous fellowships, including the Aspen Finance Leaders Fellowship, the National Security Institute Visiting Fellowship, the New America Foundation Senior International Security Fellowship, the Council on Foreign Relations International Affairs Fellowship, and the Director, National Security Agency Fellowship.</p>
+                      <p className='keynote-para'>Wendy Nather leads the Advisory CISO team at Cisco.  She was previously Research Director at the Retail ISAC, where she was responsible for advancing the state of resources and knowledge to help organizations defend their infrastructure from attackers. Wendy was also Research Director of the Information Security Practice at independent analyst firm 451 Research, covering the security industry in areas such as application security, threat intelligence, security services, and other emerging technologies.</p>
+                      <p className='keynote-para'>Wendy has served as a CISO in both the private and public sectors. She led IT security for the EMEA region of the investment banking division of Swiss Bank Corporation (now UBS), as well as for the Texas Education Agency. Wendy is co-author of <i>The Cloud Security Rules</i>, and was listed as one of SC Magazine's Women in IT Security "Power Players" in 2014, as well as an “Influencer” in the Reboot Leadership Awards in 2018; she was inducted into the Infosecurity Europe Hall of Fame in 2021. She is an advisory board member for the RSA Conference, and serves on the advisory board for Sightline Security, an organization that helps provide free security assessment services to nonprofit groups. Wendy is a Senior Fellow at the Atlantic Council's Cyber Statecraft Initiative, as well as a Senior Cybersecurity Fellow at the Robert Strauss Center for International Security and Law at the University of Texas at Austin. She is based in Fort Collins, Colorado.</p>
+
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
 
 
 
