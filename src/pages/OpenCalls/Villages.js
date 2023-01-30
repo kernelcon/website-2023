@@ -8,6 +8,7 @@ export default class Villages extends Component {
     return (
       <div>
         <p className='tab-heading'>The Call for Villages is now Open</p>
+        <h4 className='closed-text'>The 2023 Call for Villages has closed. See you next year!</h4>
         <p className='tab-paragraph'>Last year we had a great time with 4 awesome villages!</p>
         <p className='tab-paragraph'>If you are interested submitting to have a village present at Kernelcon 2023 Here are some things you should know up front:</p>
         <div className='tab-bullets'>
