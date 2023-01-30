@@ -96,7 +96,7 @@ export default class Sponsors extends Component {
                 </div>
               </div>
             </div>
-            {/* <div className="spons-page">
+            <div className="spons-page">
               <h1 className="title">Our Sponsors</h1>
               <div className="text-block">
                 <p>
@@ -107,7 +107,7 @@ export default class Sponsors extends Component {
               </div>
 
               <div className="text-block spons-groups">
-                <div className='spons-block'>
+                {/* <div className='spons-block'>
                     <h2 className='gold spons-title'>Platinum</h2>
                     <a href="https://www.netscout.com/"
                       target="_blank"
@@ -123,10 +123,10 @@ export default class Sponsors extends Component {
                         className='spons-img plat-spons'
                         alt="ENDGAME"/>
                     </a>
-                  </div>
+                  </div> */}
                 
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h2 className='gold spons-title'>Gold</h2>
                     <a href="https://aws.amazon.com/"
                       target="_blank"
@@ -160,9 +160,9 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Conagra"/>
                     </a>
-                  </div>
+                  </div> */}
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h3 className='silver spons-title'>Silver</h3>
                     <a href="https://www.contrastsecurity.com/"
                       target="_blank"
@@ -194,9 +194,9 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Red Canary"/>
                     </a>
-                  </div>
+                  </div> */}
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h4 className='bronze spons-title'>Bronze</h4>
                     <a href="https://www.appgate.com/"
                           target="_blank"
@@ -214,9 +214,9 @@ export default class Sponsors extends Component {
                             className='spons-img other-spons'
                             alt="AppGate"/>
                         </a>
-                  </div>
+                  </div> */}
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h5 className='tin spons-title'>Tin</h5>
                     <a href="https://www.bairdholm.com/"
                           target="_blank"
@@ -226,11 +226,11 @@ export default class Sponsors extends Component {
                             className='spons-img other-spons'
                             alt="Biard Holm"/>
                         </a>
-                  </div>
+                  </div> */}
 
 
                 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h4 className='ctf-spons spons-title'>Party Sponsors</h4>
                     <div className='gp-logo'>
                     <a href="https://www.guidepointsecurity.com/"
@@ -322,13 +322,13 @@ export default class Sponsors extends Component {
                     </a>
     </span>
                     </div>
-                  </div>
+                  </div> */}
 
 
                   
 
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h4 className='ctf-spons spons-title'>CTF Sponsors</h4>
                     <a href="https://www.checkpoint.com/"
                       target="_blank"
@@ -351,7 +351,7 @@ export default class Sponsors extends Component {
                         className='light-mode-logo spons-img other-spons'
                         alt="Protiviti"/>
                     </a>
-                  </div>
+                  </div> */}
 
                   <div className='spons-block'>
                     <h4 className='gold spons-title'>Other Sponsors</h4>
@@ -382,7 +382,7 @@ export default class Sponsors extends Component {
                   </div>
 
 
-                <div className='spons-block'>
+                {/* <div className='spons-block'>
                     <div className='foodbev-spons'>
                     
                       <div className='single-foodbev-spons'>
@@ -438,9 +438,9 @@ export default class Sponsors extends Component {
                       </div>
 
                     </div>
-                  </div>
+                  </div> */}
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
