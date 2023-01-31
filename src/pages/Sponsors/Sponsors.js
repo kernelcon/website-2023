@@ -3,7 +3,7 @@ import ContrastDarkMode from "../../static/images/sponsors/contrast-light-logo.p
 import ContrastLightMode from "../../static/images/sponsors/contrast-dark-logo.png";
 import NoStarchPress from "../../static/images/sponsors/no-starch-logo.png";
 import ToooLDarkMode from "../../static/images/sponsors/toool-light-logo.png";
-import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.svg";
+import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.png";
 import Fnbo from "../../static/images/sponsors/fnbo.png";
 import CheckPoint from "../../static/images/sponsors/checkpoint-dark-logo.png";
 import AppGateDark from "../../static/images/sponsors/appgate-dark-logo.png";
@@ -357,7 +357,7 @@ export default class Sponsors extends Component {
                     <h4 className='gold spons-title'>Other Sponsors</h4>
                     <a href="https://toool.us/"
                       target="_blank"
-                      className='dark-mode-logo toool-logo'
+                      className='dark-mode-logo'
                       rel='noopener noreferrer'>
                       <img src={ToooLDarkMode}
                         className='spons-img other-spons'
@@ -365,7 +365,7 @@ export default class Sponsors extends Component {
                     </a>
                     <a href="https://toool.us/"
                       target="_blank"
-                      className='light-mode-logo toool-logo'
+                      className='light-mode-logo'
                       rel='noopener noreferrer'>
                       <img src={TooolLightMode}
                         className='spons-img other-spons'

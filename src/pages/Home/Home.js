@@ -79,8 +79,8 @@ export default class Home extends Component {
         <div className="container">
           <div className="home-page">
             <div className="centered-top">
-              <img src={FullKernelconLogo} className="light-mode-logo"  alt="kernelcon-logo"/>
-              <img src={FullKernelconLogoDark} className="dark-mode-logo"  alt="kernelcon-logo"/>
+              <img src={FullKernelconLogo} className="light-mode-logo light-mode-kernel-logo"  alt="kernelcon-logo"/>
+              <img src={FullKernelconLogoDark} className="dark-mode-logo dark-mode-kernel-logo"  alt="kernelcon-logo"/>
               <h2 className="sub-title">The Science of Hacking</h2>
               {/* <div className="font-punk">The Science of Hacking</div> */}
               
