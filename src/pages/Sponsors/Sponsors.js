@@ -162,9 +162,9 @@ export default class Sponsors extends Component {
                     </a>
                   </div> */}
 
-                  {/* <div className='spons-block'>
+                  <div className='spons-block'>
                     <h3 className='silver spons-title'>Silver</h3>
-                    <a href="https://www.contrastsecurity.com/"
+                    {/* <a href="https://www.contrastsecurity.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -179,7 +179,7 @@ export default class Sponsors extends Component {
                       <img src={ContrastDarkMode}
                         className='spons-img other-spons'
                         alt="Contrast Security"/>
-                    </a>
+                    </a> */}
                     <a href="https://fnbo.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
@@ -187,14 +187,14 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="First National Bank of Omaha"/>
                     </a>
-                    <a href="https://redcanary.com/"
+                    {/* <a href="https://redcanary.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={RedCanary}
                         className='spons-img other-spons'
                         alt="Red Canary"/>
-                    </a>
-                  </div> */}
+                    </a> */}
+                  </div>
 
                   {/* <div className='spons-block'>
                     <h4 className='bronze spons-title'>Bronze</h4>
