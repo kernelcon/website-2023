@@ -10,9 +10,9 @@ class Training extends Component {
   render() {
     // constants, can change from year to year.  Along with config update, should generate new training content.
     const baseUrl = 'training';
-    const dayOneTraining = 'Wednesday, March 30';
-    const dayTwoTraining = 'Thursday, March 31';
-    const trainingYear = '2022';
+    const dayOneTraining = 'Wednesday, April 12';
+    const dayTwoTraining = 'Thursday, April 13';
+    const trainingYear = '2023';
 
     // course descriptions may require their own html (i.e. when instructors put bullets or multiple paragraphs)
     function createMarkup(ele) {
@@ -104,8 +104,8 @@ class Training extends Component {
         <div className='training'>
           <div className='venue-section'>
             <h3>Training</h3>
-            <p>Once again Kernelcon will be offering several amazing options for training taking place in the days before the con.  Check back soon for more details or if you're interested in leading a training class, checkout our <a rel="noopener noreferrer" className="text-highlight" href="/open-calls">Open Calls page</a> for more details.</p>
-            {/* {training} */}
+            {/* <p>Once again Kernelcon will be offering several amazing options for training taking place in the days before the con.  Check back soon for more details or if you're interested in leading a training class, checkout our <a rel="noopener noreferrer" className="text-highlight" href="/open-calls">Open Calls page</a> for more details.</p> */}
+            {training}
           </div>
         </div>
       </div>

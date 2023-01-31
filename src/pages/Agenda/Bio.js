@@ -49,17 +49,19 @@ export default class Bio extends Component {
     }
     
     return (
-      <div className='bio-section'>
-      	<h1>{this.state.name}</h1>
-      	<h4>
-      		<a target="_blank"
-      			className='text-highlight'
-	      		rel="noopener noreferrer" 
-	      		href={`https://twitter.com/${twitter_mobile}`}>
-	      		{this.state.twitter}
-      		</a>
-      	</h4>
-        <div className='training-text' dangerouslySetInnerHTML={createMarkup(this.state.bio)} />
+      <div className="container">
+        <div className='bio-section'>
+          <h1>{this.state.name}</h1>
+          <h4>
+            <a target="_blank"
+              className='text-highlight'
+              rel="noopener noreferrer" 
+              href={`https://twitter.com/${twitter_mobile}`}>
+              {this.state.twitter}
+            </a>
+          </h4>
+          <div className='training-text' dangerouslySetInnerHTML={createMarkup(this.state.bio)} />
+        </div>
       </div>
   	);
   }

@@ -28,7 +28,7 @@
   },
   {
     "id": "codereview",
-    "hide": false,
+    "hide": true,
     "instructors": [{
       "name": "Seth Law",
       "title": "",
@@ -63,19 +63,47 @@
     }
   },
   {
-    "id": "webhacking",
-    "hide": true,
+    "id": "defense_in_depth",
+    "hide": false,
     "instructors": [{
-      "name": "Matt South",
-      "title": "",
-      "twitter_handle": "@themattymcfatty",
-      "github_handle": "",
-      "workplace": "Trust Foundry",
+      "name": "John Poulin",
+      "title": "Staff manager of Product Security Engineering",
+      "twitter_handle": "@forced_request",
+      "github_handle": "forced-request",
+      "workplace": "GitHub",
       "image_name": "",
-      "bio": "<p>Matt is a penetration tester from Kansas City, Missouri. He specializes in web and mobile application testing, but loves all things security. He has been an amateur security enthusiast since childhood and was a regular 2600 attendee. After graduating The University of Kansas with a B.S. in Computer Science, Matt spent 6 years as an IT Consultant to local businesses in Kansas City.</p><p>In 2013, he combined his knowledge of business systems and love for security to become a penetration tester for TrustFoundry. Since then, he has hacked on hundreds of systems. He's given talks at security events such as SecKC and TriKC. He also had the privilege to present a tool of his own design at BlackHat USA 2015 and another at BlackHat USA 2017. He achieved the Offensive Security Certified Professional (OSCP) certification in 2018. CREST Practitioner Security Analyst (CPSA) in 2020. When he's not hacking, you can find Matt fishing with family, traveling with his wife, or killing plants in his garden.</p><p>Matt's favorite types of exploits to find are business logic flaws that an automated scanner would miss. He enjoys asking and answering security-related questions to share knowledge and improve the security community overall. Matt takes the most pride in his reporting because he has the chance to clearly explain the issues to help customers improve their security posture.</p>"
+      "bio": "<p>John Poulin is an experienced Application Security Practitioner with over 10 years of experience in software development and security. Over his tenure, John has worked with many Fortune 500 companies and startups alike to perform secure code review, architecture, and design discussions, as well as threat modeling.</p><p>Currently, as a Staff manager of Product Security Engineering at GitHub, John and his team focus on performing secure code review of features and services, performing threat modeling, and overall helping to ensure that our software ecosystem is moving towards security maturity.</p><p>John has given talks or training at many industry conferences, such as DEF CON, LASCON, DevSecCon, CactusCon, Source, as well as various Ruby and OWASP events about practical Application Security. </p>"
     }],
     "course": {
-      "title": "Introduction to Web Application Penetration Testing",
+      "title": "Defense In Depth Engineering",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>The 2021 OWASP Top Ten introduced a category 'Insecure Design' to focus on risks related to design flaws. In this training, we will focus on building defense-in-depth software. What can we do to proactively architect software to be more resilient to attacks? What type of findings may not be discovered via automated static analysis? How can we design our software to be more friendly during incident response scenarios?</p><p>This two-day training is perfect for engineers as well as security practitioners that have some familiarity with the OWASP top 10. During this training, we will focus on identifying often-overlooked architectural anti-patterns and vulnerabilities to be on the lookout for. We will utilize source code review to analyze patterns for improvement in both real-world applications as well as intentionally vulnerable applications. Every interactive exercise will involve discovering concerns and writing code to engineer solutions. The course will wrap up with real-world vulnerability analysis of open-source software with an effort to help provide more secure architectural recommendations for these projects.</p><p>Engineers will leave this training with a solid understanding of defense-in-depth software architecture and design. Security engineers or consultants can expect to leave with an increased understanding of insecure design patterns and vulnerabilities.</p>",
+        "short_form": "<p>The 2021 OWASP Top Ten introduced a category 'Insecure Design' to focus on risks related to design flaws. In this training, we will focus on building defense-in-depth software. What can we do to proactively architect software to be more resilient to attacks? What type of findings may not be discovered via automated static analysis? How can we design our software to be more friendly during incident response scenarios?</p><p>This two-day training is perfect for engineers as well as security practitioners that have some familiarity with the OWASP top 10. During this training, we will focus on identifying often-overlooked architectural anti-patterns and vulnerabilities to be on the lookout for. We will utilize source code review to analyze patterns for improvement in both real-world applications as well as intentionally vulnerable applications. Every interactive exercise will involve discovering concerns and writing code to engineer solutions. The course will wrap up with real-world vulnerability analysis of open-source software with an effort to help provide more secure architectural recommendations for these projects.</p><p>Engineers will leave this training with a solid understanding of defense-in-depth software architecture and design. Security engineers or consultants can expect to leave with an increased understanding of insecure design patterns and vulnerabilities.</p>"
+      },
+      "prerequisites": "",
+      "equipment": "Attendees will need to come prepared with a laptop, with Docker installed."
+    }
+  },
+  {
+    "id": "",
+    "hide": true,
+    "instructors": [{
+      "name": "",
+      "title": "",
+      "twitter_handle": "",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": ""
+    }],
+    "course": {
+      "title": "",
       "days": 1,
       "scheduled": {
         "day_one": true,
@@ -83,139 +111,11 @@
       },
       "time": "8:00 AM - 5:00 PM, with one hour lunch break",
       "description": {
-        "long_form": "<ul><li>HTTP Basics, Burp Intro and Setup</li><li>Proxy Tab</li><li>Target Tab</li><li>Repeater Tab</li><li>Authentication</li><li>Decoder Tab</li><li>Comparer Tab</li><li>Intruder Tab</li><li>Fuzzing directories</li><li>Null Byte Injection</li><li>Burp Crawler (Spider)</li><li>Authorization</li><li>API Testing</li><li>Cross-Site Scripting (XSS)</li><li>Burp Scanner - Active & Passive</li><li>Additional topics based on audience request</li></ul>",
-        "short_form": "<p>Learn the tools and techniques for conducting a web application penetration test. Get your hands dirty with HTTP and Burp Suite. This workshop will provide a solid introduction to web application penetration testing. This class is designed for those with little to no web application penetration testing experience, although it will move quickly. This class will include hands on challenges where attendees use skills acquired during the class to exploit web applications. Attendees will walk away with a basic understanding of the tools and processes for conducting a web application penetration test.</p><div><div className='training-heading'>Objectives:</div><div className='training-text'><ul><li>Ability to perform basic manual and automated testing with Burp Suite.</li><li>Knowledge of common Burp Suite functionality</li><li>High-level ability to identify common web application vulnerabilities</li><li>High-level familiarization with application security concepts, methodologies, and common vulnerabilities</li></ul></div></div>"
-      },
-      "prerequisites": "<ul><li>Optional: Download Burp Suite (Free or Professional)</li><li>No technical knowledge or experience is required.</li><li>Potential attendees are welcome to reach out if they have questions about whether this class would be good for them.</li></ul>",
-      "equipment": "Attendees should bring a laptop with any operating system."
-    }
-  },
-  {
-    "id": "linux4n6",
-    "hide": true,
-    "instructors": [{
-      "name": "Hal Pomeranz",
-      "title": "",
-      "twitter_handle": "@hal_pomeranz",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "hal-headshot.jpg",
-      "bio": "Hal Pomeranz is an independent digital forensic investigator who has consulted on cases ranging from intellectual property theft, to employee sabotage, to organized cybercrime and malicious software infrastructures.  He has spent more than thirty years providing pragmatic Information Technology and Security solutions for some of the world's largest commercial, government, and academic institutions."
-    }],
-    "course": {
-      "title": "Introduction to Linux Forensics",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "<p>Linux is everywhere-- running in the cloud, on cell phones, and in embedded devices that make up the \"Internet of Things\". Often neglected by their owners, vulnerable Linux systems are low-hanging fruit for attackers wishing to create powerful botnets or mine cryptocurrencies. Ransomware type attacks may target Linux-based database systems and other important infrastructure.</p><p>As attacks against Linux become more and more common, there is an increasing demand for skilled Linux investigators. But even experienced forensics professionals may lack sufficient background to properly conduct Linux investigations. Linux is its own particular religion and requires dedicated study and practice to become comfortable.</p><p>This two-day, hands-on course is a quick start into the world of Linux forensics. Learn how to use memory forensics to rapidly triage systems and spot attacker malware and rootkits. Learn where the most critical on-disk artifacts live and how they can help further an investigation. Rapidly process Linux logs and build a clearer picture of what happened on the system.</p>",
-        "short_form": "<p>Linux is everywhere-- running in the cloud, on cell phones, and in embedded devices that make up the \"Internet of Things\". Often neglected by their owners, vulnerable Linux systems are low-hanging fruit for attackers wishing to create powerful botnets or mine cryptocurrencies. Ransomware type attacks may target Linux-based database systems and other important infrastructure.</p><p>As attacks against Linux become more and more common, there is an increasing demand for skilled Linux investigators. But even experienced forensics professionals may lack sufficient background to properly conduct Linux investigations. Linux is its own particular religion and requires dedicated study and practice to become comfortable.</p><p>This two-day, hands-on course is a quick start into the world of Linux forensics. Learn how to use memory forensics to rapidly triage systems and spot attacker malware and rootkits. Learn where the most critical on-disk artifacts live and how they can help further an investigation. Rapidly process Linux logs and build a clearer picture of what happened on the system.</p>"
-      },
-      "prerequisites": "<p>This course is an introduction to Linux forensics, but not an introduction to forensics. The course assumes at least some knowledge of digital forensic methods, such as evidence acquisition. This course is heavily command-line driven, so basic familiarity with the Linux command-line is helpful.</p>",
-      "equipment": "<ul><li>A computer with at least 150GB of free space and capable of running a 64-bit VMware virtual machine using 4GB of RAM</li><li>A BitTorrent client for downloading course materials (e.g., Transmission https://transmissionbt.com/download/)</li></ul>"
-    }
-  },
-  {
-    "id": "appliedintel",
-    "hide": false,
-    "instructors": [{
-      "name": "Joe Gray",
-      "title": "",
-      "twitter_handle": "@C_3PJoe",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "joegray-headshot.jpg",
-      "bio": "Joe Gray, a veteran of the U.S. Navy Submarine Force, is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge. Joe is the Founder and Principal Instructor at The OSINTion in addition to the Founder and Lead Investigator at Transparent Intelligence Services. As a member of the Password Inspection Agency, Joe has consistently performed well in Capture the Flag events, specifically those involving OSINT. Examples include 2nd Place in the HackFest Quebec Missing Persons CTF and Winning the TraceLabs OSINT Search Party during DEFCON 28 (as a member of The Password Inspection Agency) and DEFCON 29 (as a member of The Federal Bureau of OH-SHINT). Independently, Joe placed 4th in the DerbyCon OSINT CTF and 3rd in the National Child Protection Task Force Missing Persons CTF. Joe has contributed material for a variety of platforms such as Forbes and Dark Reading in addition to his own platforms. Joe authored the OSINT tools DECEPTICON Bot and WikiLeaker in addition to the forthcoming book, Practical Social Engineering, due in Early 2022 via NoStarch Press."
-    }],
-    "course": {
-      "title": "Applied Intelligence, Zero to Hero",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "<p>Motives for performing an Open Source Intelligence (OSINT) investigation vary from one party to another. Although you may be familiar with a specific offensive or defensive use case for OSINT, you may not consider the opposite use case. Additionally, there is an entire world of investigations outside of Information Security, of which many are not aware. This course leverages both offensive and defensive applications of OSINT, in addition to pure investigative techniques, to equip students with an analytic toolkit for investigating businesses. The goal is to apply the “red yarn” to connect the proverbial red dots of seemingly unrelated and disparate abstract data in any OSINT investigation.</p><p>This course will start you at ground zero and equip you with an understanding of the bigger picture of intelligence operations. This is to get you into the mindset of an investigator to be more meticulous and patient in your collection and analysis. From here, we will springboard into applied search engines for OSINT to help you find the data you seek to find, which is often the case of not in what you “ask” the search engine, but how you ask it.</p><p>After search engines, you will be immersed in Open Source Image Intelligence (IMINT) and you work through learning about the types of image metadata, reverse image searching, and Optical Character Recognition (OCR). You will conclude this module with a discussion of online video extraction for analysis in terms of tools and techniques to extract the video in addition to how you may find value in analyzing the video.</p><p>On day 2, you will learn about investigating businesses through their DNS records, social media, and public filings. You may already be familiar with some of the concepts in this module, but this module will help you develop analytic processes to more efficiently connect the proverbial dots. You will complete the day and the course with a capstone CTF event.</p>",
-        "short_form": "<p>This course will leverage the disciplines of OSINT, SOCMINT, IMINT, and Search Engine Intelligence, sometimes also known as Online Open Source Investigations (OOSI), Open Source Investigations (OSI), Publicly Accessible Information (PAI), Digital Investigations, or Social Media investigations in a manner that equips students with realistic techniques and scenarios to investigate businesses. This course could be applied to Red Team operators or penetration testers as well as Cyber Threat Intelligence, DFIR, or all-source Intelligence analysts. If you’re looking for a course on how to use several OSINT tools, this is not the course. This course will introduce you to sites and some tools but places more emphasis on the analysis methods and techniques – arming you with the ability to continue to operate independently of any tools or sites, so no worries if your favorite tool goes away or moves to a prohibitively expensive paid-only usage model. This course will satisfy 3 of the 6 courses required to attain a Black Badge from The OSINTion (https://www.theosintion.com/courses/black-badge/).</p>"
-      },
-      "prerequisites": "<p>Some exposure to OSINT, IMINT, or Intelligence in general is helpful but not required. The OSINTion will provide students with materials containing industry reports, literature, and frameworks in addition to the slides and handouts. This training is original.</p>",
-      "equipment": "<p>The main requirement is (mostly) unfiltered internet access. The entire class can be performed using only a browser, although the instructor will do command line demonstrations using the Trace Labs Kali flavor of Linux. Students wishing to follow along should have a Linux system, whether a virtual machine or bare metal. Trace Labs Kali will be discussed and can be downloaded from: https://www.tracelabs.org/initiatives/osint-vm </p>"
-    }
-  },
-  {
-    "id": "appliedpurpleteam",
-    "hide": true,
-    "instructors": [{
-      "name": "Kent Ickler",
-      "title": "",
-      "twitter_handle": "@krelkci",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "",
-      "bio": "Kent Ickler started his Information Technology career working for an Internet Service Provider supporting the MidWest’s broadband initiatives of the early 2000s. His interest in technology and business operations drove his career to working for multiple Fortune 500 companies and equipping their organizational leadership with business analytical data that would support their technology initiatives. With his continued interest in Business Operations, Kent completed his postgraduate education in Business Management. With an understanding of Information Technology, System Administration, Accounting, and Business Law, Kent has helped businesses leverage technology for competitive advantage while balancing the risks associated with today’s dynamic network environments.  Kent has been with Black Hills Information Security for three years in security and administration roles."
-    }, {
-      "name": "Jordan Drysdale",
-      "title": "",
-      "twitter_handle": "@rev10d",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "",
-      "bio": "Jordan was around for the inception of Napster and the explosion of P2P networks. This drove his fascination with network systems and led him toward a career in IT. Jordan’s first gig in the industry included supporting Latin American networking customers for Hewlett Packard’s network support division. After five years of support, engineering, training, and stress, Jordan became a wireless escalations team lead and multi-vendor certified problem solver. With kids in tow, Jordan headed back toward the Dakotas to be nearer extended family and friends where he learned Citrix, VMware, VDI, supported Cisco gear, implemented profile management solutions, deployed remote networks at scale, and ensured performance across infrastructure. Before becoming a penetration tester, Jordan supported multiple (50+) domains as part of an MSSP’s rock star team. Solutions included HP Networking, FortiGate/FortiManager/FortiWeb/FortiAnalyzer et al., Cisco ASA, HP DL/GL/ML, Dell, VMware, NetApp, and the list goes on. Since 2015, Jordan has been a penetration tester with the Black Hills InfoSec team."
-    }],
-    "course": {
-      "title": "Applied Purple Teaming",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "<p>You've heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks: “Where did we go wrong?” SysAdmin replies “our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.”</p><p>In a significant change from the original course, students will be introduced to Microsoft Azure and Sentinel. Each student will be responsible for deploying a cloud lab that includes an Active Directory domain, a C2 server, and integration with AZ Sentinel's detection platform. All of this will be taught through a proven framework for purple team operations that results in better business outcomes.</p><p>Each student will build a fictitious Active Directory domain that will be both target of hackery havoc and the facilitation of hunting for compromise. Labs will instruct students through various types of attacks, defensive, and operational hunting techniques.</p>",
-        "short_form": "<p>You've heard this story before. Bad actor walks into a network and pillages the place in swift action. CIO asks: “Where did we go wrong?” SysAdmin replies “our password, remote access, workstation restriction, and lack of application whitelisting policies. Oh, and our SIEM didn’t notify us. We just weren’t ready for that attack.”</p><p>In a significant change from the original course, students will be introduced to Microsoft Azure and Sentinel. Each student will be responsible for deploying a cloud lab that includes an Active Directory domain, a C2 server, and integration with AZ Sentinel's detection platform. All of this will be taught through a proven framework for purple team operations that results in better business outcomes.</p><p>Each student will build a fictitious Active Directory domain that will be both target of hackery havoc and the facilitation of hunting for compromise. Labs will instruct students through various types of attacks, defensive, and operational hunting techniques.</p>"
-      },
-      "prerequisites": "<ul><li>Exposure to Active Directory</li><li>Access to an Azure Subscription for this lab environment.<ul><li>Signing up is free and includes a $200 credit for 30 days, however requires a credit card to activate.</li><li>https://azure.microsoft.com/en-us/free/</li><li>The class lab environment costs approximately $10/day to operate.</li></ul></li><li>Computer capable of RDP & SSH</li></ul>",
-      "equipment": "<ul><li>Laptop</li><li>Azure Portal Account with Deployed Lab Environment (Details will be emailed to students prior to class).</li><li>Access to GitHub.com (Details will be emailed to students prior to class).</li><li>Remote Desktop Protocol (RDP Client)</li></ul>"
-    }
-  },
-  {
-    "id": "k8sec",
-    "hide": false,
-    "instructors": [{
-      "name": "Andrew Martin",
-      "title": "",
-      "twitter_handle": "@sublimino",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "",
-      "bio": "Andrew has an incisive security engineering ethos gained building and destroying high-traffic web applications. Proficient in systems development, testing, and operations, he is comfortable profiling and securing every tier of a bare metal or cloud native system, and has battle-hardened experience delivering containerised solutions to enterprise and government. He is a co-founder at https://control-plane.io Andrew has presented at international conferences including KubeCon, Velocity, SANS, OWASP, DevOpsDays, Container Camp, IPExpo, and numerous other local events and meetups."
-    }, {
-      "name": "Lewis Denham",
-      "title": "",
-      "twitter_handle": "@denhamparry",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "",
-      "bio": "<p>Lewis works at Control Plane as the Head of Training, orchestrating the ocean of containers with Kubernetes whilst defending them from piratical attacks (which is usually from himself).</p><p>He co-founded Cloud Native Wales, an initiative to help people learn Cloud Native technologies and establish a community to support each other. When he's not playing with tech, he's busy trying to be an adult or actively seeking a comfy chair to read a book or trying to find some snow to ski on.</p><p>Follow Lewis at, @denhamparry, @controlplaneio, and @cloudnativewal."
-    }],
-    "course": {
-      "title": "Kubernetes Security: Learn By Hacking",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
         "long_form": "",
-        "short_form": "<div><p>Understand why many cloud native services have evolved quickly, and often miss vital security considerations, with Hacking Kubernetes, GKE CIS Benchmark, and SANS authors:</p><ul><li>Secure containerized applications and defend orchestration workloads.</li><li>Use real-world exploits to target key application deployment components.</li><li>Understand the risks involved in running cloud native infrastructure.</li><li>Explore vulnerabilities to cloud native deployments through authentication, pipeline, and supply chain exploits.</li><li>Exploit and then secure application deployments via Docker and Kubernetes.</li><li>Determine how vulnerabilities are exploited and how defences are designed.</li></ul></div>"
+        "short_form": ""
       },
-      "prerequisites": "<ul><li>Linux command line experience.</li><li>A basic understanding of the difference between userspace and kernel space.</li><li>Willingness to learn about Linux, container, and Kubernetes security.</li></ul>",
-      "equipment": "<ul><li>A laptop with internet access and a browser.</li><li>Advanced users may wish to use their own SSH client or network tools.</li></ul>"
+      "prerequisites": "",
+      "equipment": ""
     }
   }
 ]
