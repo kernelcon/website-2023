@@ -4,8 +4,11 @@
     "id": "hhv",
     "hidden": false,
     "logo": {
+      "dark_mode_support": false,
       "image_name": "hhv.png",
-      "image_class": "logo-reverse"
+      "image_class": "logo-reverse",
+      "dark_mode_image_name": "",
+      "dark_mode_image_class": ""
     },
     "dates": [{
         "day": "Friday, April 14th"
@@ -22,8 +25,11 @@
     "id": "tooolvillage",
     "hidden": false,
     "logo": {
+      "dark_mode_support": false,
       "image_name": "toool.png",
-      "image_class": ""
+      "image_class": "",
+      "dark_mode_image_name": "",
+      "dark_mode_image_class": ""
     },
     "dates": [{
         "day": "Friday, April 14th"
@@ -40,8 +46,11 @@
     "id": "mhhvillage",
     "hidden": false,
     "logo": {
-      "image_name": "MHH-white.png",
-      "image_class": ""
+      "dark_mode_support": true,
+      "image_name": "MHH.png",
+      "image_class": "light-mode-logo",
+      "dark_mode_image_name": "MHH-white.png",
+      "dark_mode_image_class": "dark-mode-logo"
     },
     "dates": [{
         "day": "Friday, April 14th"

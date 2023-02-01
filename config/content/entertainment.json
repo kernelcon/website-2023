@@ -4,8 +4,11 @@
     "id": "whos-slide",
     "hidden": false,
     "logo": {
+      "dark_mode_support": false,
       "image_name": "whose.png",
-      "image_class": ""
+      "image_class": "",
+      "dark_mode_image_name": "",
+      "dark_mode_image_class": ""
     },
     "dates": [{
       "day": "Friday, April 1st"
@@ -17,8 +20,11 @@
     "id": "antoinette",
     "hidden": false,
     "logo": {
+      "dark_mode_support": false,
       "image_name": "antoinette.jpeg",
-      "image_class": ""
+      "image_class": "",
+      "dark_mode_image_name": "",
+      "dark_mode_image_class": ""
     },
     "dates": [{
       "day": "Friday, April 1st"
@@ -31,8 +37,11 @@
     "id": "dante",
     "hidden": false,
     "logo": {
+      "dark_mode_support": false,
       "image_name": "dante.webp",
-      "image_class": ""
+      "image_class": "",
+      "dark_mode_image_name": "",
+      "dark_mode_image_class": ""
     },
     "dates": [{
       "day": "Friday, April 1st"
