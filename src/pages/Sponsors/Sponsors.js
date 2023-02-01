@@ -23,6 +23,8 @@ import Wiz from "../../static/images/sponsors/wiz.png";
 import Code42 from "../../static/images/sponsors/code42.png";
 import FarmCreditDark from "../../static/images/sponsors/farm-credit-dark-mode.png";
 import FarmCreditLight from "../../static/images/sponsors/farm-credit-light-mode.png";
+import MentalHealthHackersDark from "../../static/images/logos/MHH-white.png"
+import MentalHealthHackersLight from "../../static/images/logos/MHH.png"
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -379,6 +381,22 @@ export default class Sponsors extends Component {
                       <img src={NoStarchPress}
                         className='spons-img other-spons'
                         alt="NoStarchPress"/>
+                    </a>
+                    <a href="https://www.mentalhealthhackers.org/"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={MentalHealthHackersDark}
+                        className='spons-img other-spons'
+                        alt="Mental Health Hackers"/>
+                    </a>
+                    <a href="https://www.mentalhealthhackers.org/"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={MentalHealthHackersLight}
+                        className='spons-img other-spons'
+                        alt="Mental Health Hackers"/>
                     </a>
                     <br />
                   </div>

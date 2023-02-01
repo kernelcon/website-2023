@@ -33,5 +33,23 @@
       }
     ],
     "description": "Tired of staring at a monitor trying to hack your way through a computer...come try your hand [literally] at hacking hardware! The Open Organisation Of Lockpickers [TOOOL] is set up and ready to give you a new kind of challenge. Gaining access has a different meaning here. TOOOL uses their knowledge to guide you through different types of locks, their vulnerabilities, and how to exploit them. Scrape pin tumblers instead of data!"
+  },
+  {
+    "title": "Mental Health and Wellness Village",
+    "author": "Mental Health Hackers",
+    "id": "mhhvillage",
+    "hidden": false,
+    "logo": {
+      "image_name": "MHH-white.png",
+      "image_class": ""
+    },
+    "dates": [{
+        "day": "Friday, April 14th"
+      },
+      {
+        "day": "Saturday, April 15th"
+      }
+    ],
+    "description": "The Mental Health and Wellness Village offers a common place to allow like-minded individuals to share and grow as a community, to better our mental health and the health of those around us. Check out the village for fidget tables, crafts, adult coloring books, and more! Visit https://www.mentalhealthhackers.org/ for more information."
   }
 ]
