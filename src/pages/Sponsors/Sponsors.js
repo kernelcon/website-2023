@@ -21,6 +21,8 @@ import Tanium from "../../static/images/sponsors/Tanium.png";
 import Axonius from "../../static/images/sponsors/Axonius.png";
 import Wiz from "../../static/images/sponsors/wiz.png";
 import Code42 from "../../static/images/sponsors/code42.png";
+import FarmCreditDark from "../../static/images/sponsors/farm-credit-dark-mode.png";
+import FarmCreditLight from "../../static/images/sponsors/farm-credit-light-mode.png";
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -126,25 +128,25 @@ export default class Sponsors extends Component {
                   </div> */}
                 
 
-                  {/* <div className='spons-block'>
+                  <div className='spons-block'>
                     <h2 className='gold spons-title'>Gold</h2>
-                    <a href="https://aws.amazon.com/"
+                    <a href="https://farmcredit.com/"
                       target="_blank"
                       className='light-mode-logo'
                       rel='noopener noreferrer'>
-                      <img src={AWSLight}
+                      <img src={FarmCreditLight}
                         className='spons-img other-spons'
-                        alt="AWS"/>
+                        alt="Farm Credit"/>
                     </a>
-                    <a href="https://aws.amazon.com/"
+                    <a href="https://farmcredit.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
-                      <img src={AWSDark}
+                      <img src={FarmCreditDark}
                         className='spons-img other-spons'
-                        alt="AWS"/>
+                        alt="Farm Credit"/>
                     </a>
-                    <a href="https://www.conagrabrands.com/"
+                    {/* <a href="https://www.conagrabrands.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -159,8 +161,8 @@ export default class Sponsors extends Component {
                       <img src={ConAgraLight}
                         className='spons-img other-spons'
                         alt="Conagra"/>
-                    </a>
-                  </div> */}
+                    </a> */}
+                  </div>
 
                   <div className='spons-block'>
                     <h3 className='silver spons-title'>Silver</h3>
