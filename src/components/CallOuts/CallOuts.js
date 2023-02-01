@@ -25,42 +25,27 @@ class CallOuts extends Component {
     const callOutsAlphabetized = this.props.config.sort((a,b) => a.title.localeCompare(b.title));
     const callOuts = callOutsAlphabetized.map((ele, idx) => {
       const image = this.getImage(ele.logo.image_name);
+      let darkModeImage = false;
       if ( ele.logo.dark_mode_support ) {
-        const darkModeImage = this.getImage(ele.logo.dark_mode_image_name);
-
-        return (
-          <div className='callout-area'
-            key={ele.id}>
-                <div className='callout-title'>{ele.title}</div>
-            <div className='callout-section'>
-              <div className='callout-name-logo'>
-                {ele.author && <div className='callout-author'>{`From ${ele.author}`}</div>}
-                <div className='callout-logo'>
-                  <img className={`callout-img ${ele.logo.image_class}`} src={image} alt={ele.title} />
-                  <img className={`callout-img ${ele.logo.dark_mode_image_class}`} src={darkModeImage} alt={ele.title} />
-                </div>
-              </div>
-              <div className='callout-description' dangerouslySetInnerHTML={this.createMarkup(ele.description)}></div>
-            </div>
-          </div>
-        );
-      } else {
-        return (
-          <div className='callout-area'
-            key={ele.id}>
-                <div className='callout-title'>{ele.title}</div>
-            <div className='callout-section'>
-              <div className='callout-name-logo'>
-                {ele.author && <div className='callout-author'>{`From ${ele.author}`}</div>}
-                <div className='callout-logo'>
-                  <img className={`callout-img ${ele.logo.image_class}`} src={image} alt={ele.title} />
-                </div>
-              </div>
-              <div className='callout-description' dangerouslySetInnerHTML={this.createMarkup(ele.description)}></div>
-            </div>
-          </div>
-        );
+        darkModeImage = this.getImage(ele.logo.dark_mode_image_name);
       }
+
+      return (
+        <div className='callout-area'
+          key={ele.id}>
+              <div className='callout-title'>{ele.title}</div>
+          <div className='callout-section'>
+            <div className='callout-name-logo'>
+              {ele.author && <div className='callout-author'>{`From ${ele.author}`}</div>}
+              <div className='callout-logo'>
+                <img className={`callout-img ${ele.logo.image_class}`} src={image} alt={ele.title} />
+                {darkModeImage && <img className={`callout-img ${ele.logo.dark_mode_image_class}`} src={darkModeImage} alt={ele.title} />}
+              </div>
+            </div>
+            <div className='callout-description' dangerouslySetInnerHTML={this.createMarkup(ele.description)}></div>
+          </div>
+        </div>
+      );
     });
 
     return (
