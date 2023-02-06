@@ -80,7 +80,7 @@
     {
       "id": 13,
       "name": "Jeris Rue",
-      "title": "Web",
+      "title": "Not Spiderman",
       "image": "jeris.png",
       "twitter": "elaboraterues"
     },
@@ -90,6 +90,13 @@
       "title": "Diversity & Inclusion Chair",
       "image": "ryen.png",
       "twitter": "Ryen_Mac"
+    },
+    {
+      "id": 15,
+      "name": "Dylan Hildenbrand",
+      "title": "Party Rocking Chair",
+      "image": "dylan.png",
+      "twitter": "closingtags@mastodon.social"
     }
   ]
 }]
