@@ -97,6 +97,13 @@
       "title": "Party Rocking Chair",
       "image": "dylan.png",
       "twitter": "closingtags@mastodon.social"
+    },
+    {
+      "id": 16,
+      "name": "Mickey Hefley",
+      "title": "CTF Operations",
+      "image": "mickey.png",
+      "twitter": "boujeebit"
     }
   ]
 }]
