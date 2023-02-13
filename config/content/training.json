@@ -181,5 +181,33 @@
       "prerequisites": "",
       "equipment": ""
     }
+  },
+  {
+    "id": "securing_cloud",
+    "hide": false,
+    "instructors": [{
+      "name": "Andrew Krug",
+      "title": "Security Engineer",
+      "twitter_handle": "@andrewkrug",
+      "github_handle": "andrewkrug",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Andrew Krug is a Security Engineer specializing in Cloud Security and Identity and Access Management. Krug also works as a Cloud Security consultant and started the ThreatResponse project a toolkit for Amazon Web Services first responders. Krug has been a speaker at Black Hat USA, DerbyCon, and BSides PDX."
+    }],
+    "course": {
+      "title": "Securing the Cloud Foundations",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "In this course, we'll explore Amazon Web Services (AWS) as a platform. We will take the perspective of a new startup company spinning up infrastructure in AWS for the very first time. We'll use a scenario-based approach, where you'll don the persona of a security engineer on your first day at a new startup. This course will demonstrate ideas like secure-by-default and will examine services and patterns for locking down defaults using a combination of open source and platform-native tooling. Finally, attendees will walk away with a practical understanding of various controls, detections, and guardrails. Additional information available at: https://www.antisyphontraining.com/securing-the-cloud-foundations-w-andrew-krug/",
+        "short_form": "In this course, we'll explore Amazon Web Services (AWS) as a platform. We will take the perspective of a new startup company spinning up infrastructure in AWS for the very first time. We'll use a scenario-based approach, where you'll don the persona of a security engineer on your first day at a new startup. This course will demonstrate ideas like secure-by-default and will examine services and patterns for locking down defaults using a combination of open source and platform-native tooling. Finally, attendees will walk away with a practical understanding of various controls, detections, and guardrails. Additional information available at: https://www.antisyphontraining.com/securing-the-cloud-foundations-w-andrew-krug/"
+      },
+      "prerequisites": "Students should have basic knowledge of using the command line on a linux system and must bring an AWS Account that they control fully (non-production) to the first day of training.  Getting started pre-setup instructions are available here: https://github.com/andrewkrug/securing-the-cloud-supplemental/blob/main/getting-started-guide/getting-started.md",
+      "equipment": "All students MUST bring their own laptop.  Said laptop should be capable of running virtual machines on an x86/x64 platform.  At this time M1 Macs are not recommended for the course but student's have taken the class with M1s."
+    }
   }
 ]
