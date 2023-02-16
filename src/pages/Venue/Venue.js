@@ -47,7 +47,7 @@ export default class Venue extends Component {
 						<div className="venue-hotel">
 							<div className="venue-text">
 								We have a room block reserved at the conference
-								hotel from Apr 13 to Apr 15 at a rate of
+								hotel from Apr 11 to Apr 15 at a rate of
 								$165/night. Book directly with the hotel{" "}
 								<a
 									className="text-highlight"
