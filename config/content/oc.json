@@ -133,6 +133,15 @@
       "twitter": "boujeebit",
       "mastodon": "",
       "mastodon_url": ""
+    },
+    {
+      "id": 17,
+      "name": "Kevin Neubauer",
+      "title": "Maker of Badges",
+      "image": "kevin.png",
+      "twitter": "",
+      "mastodon": "bl4cksmith@infosec.exchange",
+      "mastodon_url": "https://infosec.exchange/@bl4cksmith"
     }
   ]
 }]
