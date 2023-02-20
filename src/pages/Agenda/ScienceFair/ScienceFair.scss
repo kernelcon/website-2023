@@ -1,0 +1,25 @@
+.example-projects {
+    margin-inline-start: 2em;
+}
+
+.cybr-science {
+	--primary: hsl(
+		var(--primary-hue),
+		45%,
+		calc(var(--primary-lightness, 50) * 1%)
+	);
+	--shadow-primary: hsl(var(--shadow-primary-hue), 90%, 50%);
+	--primary-hue: 250;
+	--primary-lightness: 50;
+	--color: hsl(0, 0%, 100%);
+	--shadow-primary-hue: 180;
+	--label-size: 9px;
+	--shadow-secondary-hue: 60;
+	--shadow-secondary: hsl(var(--shadow-secondary-hue), 90%, 60%);
+	--border: 4px;
+	--shimmy-distance: 5;
+    width: 100%;
+    display: block;
+    height: auto;
+    text-align: center;
+}

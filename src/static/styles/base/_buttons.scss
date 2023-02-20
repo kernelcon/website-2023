@@ -13,17 +13,26 @@ $desktop: 26px;
 	.cybr-btn {
 		font-size: $desktop;
 	}
+	.cybr-science {
+		font-size: $tablet !important;
+	}
 }
 
 @media all and (max-width: 959px) and (min-width: 600px) {
 	.cybr-btn {
 		font-size: $tablet;
 	}
+	.cybr-science {
+		font-size: $mobile !important;
+	}
 }
 
 @media all and (max-width: 599px) {
 	.cybr-btn {
 		font-size: $mobile;
+	}
+	.cybr-science {
+		font-size: 14px !important;
 	}
 }
 
@@ -145,6 +154,10 @@ $desktop: 26px;
 	border-radius: 3px;
     text-decoration: none;
     z-index: 1;
+    width: 100%;
+    display: block;
+    height: auto;
+    text-align: center;
 }
 
 .cybr-btn:hover {

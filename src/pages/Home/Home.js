@@ -194,6 +194,16 @@ export default class Home extends Component {
                   </span>
                 </a>
               </div>
+              <div className='order-button'>
+                <a
+                  className="cybr-btn cybr-science btn-bottom"
+                  href="/agenda#sciencefair">
+                  Checkout our<br />Science Fair!
+                  <span aria-hidden className="cybr-btn__glitch">
+                    Checkout our<br />Science Fair!
+                  </span>
+                </a>
+              </div>
                 {/* <<img
                   className="img-responsive"
                   alt="future-is-now"

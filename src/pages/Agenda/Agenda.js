@@ -4,6 +4,7 @@ import MediaQuery from 'react-responsive';
 
 import TalksSchedule from './TalksSchedule/TalksSchedule';
 import Speakers from './Speakers/Speakers';
+import ScienceFair from './ScienceFair/ScienceFair';
 // import ConSchedule from './ConSchedule';
 // import TrainingSubmissions from './TrainingSubmission';
 // import Workshops from './Workshops';
@@ -24,46 +25,31 @@ export default class Agenda extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      defaultTab: '',
-      goToClass: ''
+      defaultTab: 'keynotes'
     }
   }
 
   componentWillMount() {
-    //const trainingClasses = ['aai', 'atomicpurple', 'bhgo', 'csanalysis', 'elk', 'webhacking', 'ghidra', 'k8s', 'linfn6', 'netanalysis', 'binaryninja'];
-    //const workshops = ['iotlights', 'iotplugs', 'lightexfil', 'rtlsdr', 'sensing'];
-    let defaultTab = window.location.href.split('#')[1];
-    // const goToClass = defaultTab;
-    let className = '';
-
-    // if (trainingClasses.includes(goToClass)) {
-    //   defaultTab = 'training';
-    //   className = goToClass;
-    // } else if (workshops.includes(goToClass)) {
-    //   defaultTab = 'workshops';
-    //   className = goToClass;
-    // }
-
+    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'keynotes';
     this.setState({
-      defaultTab: defaultTab,
-      goToClass: className
+      defaultTab: defaultTab
     });
   }
 
-  componentDidMount() {
-    this.setState({...this.state});
-    // const goToClass = this.state.goToClass;
+  // componentDidMount() {
+  //   this.setState({...this.state});
+  //   // const goToClass = this.state.goToClass;
 
-    // if (goToClass !== '') {
-    //   const yOffset = -100;
-    //   const element = document.getElementsByName(goToClass)[0];
-    //   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-    //   window.scrollTo({top: y, behavior: 'smooth'});
-    // }
-  }
+  //   // if (goToClass !== '') {
+  //   //   const yOffset = -100;
+  //   //   const element = document.getElementsByName(goToClass)[0];
+  //   //   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  //   //   window.scrollTo({top: y, behavior: 'smooth'});
+  //   // }
+  // }
 
   changeTab(tabId) {
-    // window.history.pushState(this.props.location.pathname, '', `#${tabId}`);
+    window.history.pushState(this.props.location.pathname, '', `#${tabId}`);
   }
 
   getTabs(vert) {
@@ -79,6 +65,7 @@ export default class Agenda extends Component {
           <Tab tabFor="competitions">Competitions</Tab>
           {/* <Tab tabFor="entertainment">Entertainment</Tab> */}
           {/* <Tab tabFor="careers">Careers</Tab> */}
+          <Tab tabFor="sciencefair">Science Fair</Tab>
         </TabList>
         <TabPanel tabId="schedule">
           <div className='text-area'>
@@ -205,6 +192,13 @@ export default class Agenda extends Component {
           </div>
         </TabPanel>
 
+        <TabPanel tabId="sciencefair">
+          <div className='text-area'>
+            <h3 className='title'>Science Fair</h3>
+            <ScienceFair />
+          </div>
+        </TabPanel>
+
 
         {/* <TabPanel tabId="careers">
           <div className='text-area'>
@@ -247,7 +241,7 @@ export default class Agenda extends Component {
     return (
       <div className='container'>
 			<div className="con-page">
-				<div className="text-area">
+				<div className="venue-section">
           <h3 className='title'>Agenda</h3>
             <MediaQuery minDeviceWidth={1000}>
               {this.getTabs(true)}
