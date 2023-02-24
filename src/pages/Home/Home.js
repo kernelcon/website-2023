@@ -8,6 +8,7 @@ import Arm from "../../static/images/icons/arm.png";
 import Brain from "../../static/images/icons/brain.png";
 import Fun from "../../static/images/icons/fun.png";
 import wendy from "../../static/images/trainers/wendy.jpg";
+import Potter from "../../static/images/trainers/potter-headshot.jpeg";
 
 import FullKernelconLogo from "../../static/images/logos/kernelcon_black.png"
 import FullKernelconLogoDark from "../../static/images/logos/kernelcon_white.png"
@@ -270,6 +271,24 @@ export default class Home extends Component {
                       <p className='keynote-para'>Wendy Nather leads the Advisory CISO team at Cisco.  She was previously Research Director at the Retail ISAC, where she was responsible for advancing the state of resources and knowledge to help organizations defend their infrastructure from attackers. Wendy was also Research Director of the Information Security Practice at independent analyst firm 451 Research, covering the security industry in areas such as application security, threat intelligence, security services, and other emerging technologies.</p>
                       <p className='keynote-para'>Wendy has served as a CISO in both the private and public sectors. She led IT security for the EMEA region of the investment banking division of Swiss Bank Corporation (now UBS), as well as for the Texas Education Agency. Wendy is co-author of <i>The Cloud Security Rules</i>, and was listed as one of SC Magazine's Women in IT Security "Power Players" in 2014, as well as an “Influencer” in the Reboot Leadership Awards in 2018; she was inducted into the Infosecurity Europe Hall of Fame in 2021. She is an advisory board member for the RSA Conference, and serves on the advisory board for Sightline Security, an organization that helps provide free security assessment services to nonprofit groups. Wendy is a Senior Fellow at the Atlantic Council's Cyber Statecraft Initiative, as well as a Senior Cybersecurity Fellow at the Robert Strauss Center for International Security and Law at the University of Texas at Austin. She is based in Fort Collins, Colorado.</p>
 
+                    </div>
+                  </div>
+                </div>
+                <div className='keynote'>
+                  <div className='keynote-header'>
+                    <div className='keynote-title'>
+                      Keynote Speaker:
+                    </div>
+                    <div className='keynote-speaker'>
+                      <div className='keynote-speaker-name'>
+                        Bruce Potter
+                      </div>
+                      <div className='keynote-speaker-info'>
+                        <img src={Potter} className='keynote-image' alt="Bruce Potter"/>
+
+                        <p className='keynote-para'>Bruce Potter is a cybersecurity professional and practitioner with over 25 years experience serving both the public and private sectors. Currently, Bruce is the Chief Information Security Officer for a financial services startup in New York City. Prior to that, Bruce served as the Chief Information Security Officer for Expel, a Managed Detection and Response provider. Before his time at Expel, Bruce spent 15 years focused on cybersecurity research and engineering for the intelligence community and DoD. His company, Ponte Technologies, performed cutting edge offensive and defensive cyber research for DARPA, IARPA, and numerous intelligence and defense agencies. During this time, Bruce worked with NIST during the creation of both the Cyber Security Framework and Privacy Frameworks. In 2016, Bruce also served as the Senior Technical Advisor to President Obama's Commission on Enhancing National Cybersecurity. Bruce has written several books, numerous articles, and presented at industry conferences such as Black Hat and DEF CON. Bruce and his wife Heidi run ShmooCon, a popular DC-based cybersecurity conference that has sold out for every year for its 16 year existence.</p> 
+
+                      </div>
                     </div>
                   </div>
                 </div>

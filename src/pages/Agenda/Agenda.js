@@ -11,6 +11,7 @@ import ScienceFair from './ScienceFair/ScienceFair';
 
 import CallOuts from '../../components/CallOuts/CallOuts';
 import wendy from "../../static/images/trainers/wendy.jpg";
+import Potter from "../../static/images/trainers/potter-headshot.jpeg";
 
 
 import villageConfig from 'villageConfig';
@@ -157,6 +158,47 @@ export default class Agenda extends Component {
                   className='keynote-image'/>
               </div>
             </div>
+
+            <div className='keynote-section'>
+              <div className='keynote-left'>
+                <h4 className='keynote-name'>Bruce Potter</h4>
+                <div className='keynote-subtitle'>
+                  {/* <div className='keynote-company'>
+                    <a href='https://www.cisco.com/c/en/us/products/security/ciso-conversations.html' target="_blank" rel="noopener noreferrer">
+                      Head of Advisory CISOs
+                    </a>
+                  </div>
+                  <div className='keynote-div'>|</div> */}
+                  <div className='keynote-handle'>
+                    <a href='https://twitter.com/gdead' target="_blank" rel="noopener noreferrer">
+                      @gdead
+                    </a>
+                  </div>
+                </div>
+
+                <div className='keynote-bio'>
+                  <p className='tab-paragraph'>Bruce Potter is a cybersecurity professional and practitioner with over 25 years experience serving both the public and private sectors. Currently, Bruce is the Chief Information Security Officer for a financial services startup in New York City. Prior to that, Bruce served as the Chief Information Security Officer for Expel, a Managed Detection and Response provider. Before his time at Expel, Bruce spent 15 years focused on cybersecurity research and engineering for the intelligence community and DoD. His company, Ponte Technologies, performed cutting edge offensive and defensive cyber research for DARPA, IARPA, and numerous intelligence and defense agencies. During this time, Bruce worked with NIST during the creation of both the Cyber Security Framework and Privacy Frameworks. In 2016, Bruce also served as the Senior Technical Advisor to President Obama's Commission on Enhancing National Cybersecurity. Bruce has written several books, numerous articles, and presented at industry conferences such as Black Hat and DEF CON. Bruce and his wife Heidi run ShmooCon, a popular DC-based cybersecurity conference that has sold out for every year for its 16 year existence.</p>
+                </div>
+
+                {/* <div className='keynote-talk'>
+                  <div className='keynote-topic'>In Search of Lost Bytes: Hardware Implants and the Trouble with Supply Chains</div>
+                  <div className='keynote-abstract'>
+                    <p className='tab-paragraph'>Digital markets have quickly grown to international proportions, complexities in materials, development, and distribution have developed accordingly, resulting in market efficiency and, often overlooked, incalculable risks.</p>
+                    <p className='tab-paragraph'>There is a fine line between acceptable and irreconcilable risk, while some risks are mitigatable, others are not, and ignoring the facts has disproportionate consequences. This presentation will explore modern supply chain security risks through a technical deep dive of 5G infrastructure and the political battles surrounding it.</p>
+                    <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
+                    <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
+                  </div>
+                </div> */}
+
+
+              </div>
+              <div className='keynote-right'>
+                <img src={Potter}
+                  alt="Bruce Potter"
+                  className='keynote-image'/>
+              </div>
+            </div>
+
           </div>
         </TabPanel>
         <TabPanel tabId="speakers" className="speakers">
