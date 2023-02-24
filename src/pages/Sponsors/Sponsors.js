@@ -25,6 +25,8 @@ import FarmCreditDark from "../../static/images/sponsors/farm-credit-dark-mode.p
 import FarmCreditLight from "../../static/images/sponsors/farm-credit-light-mode.png";
 import MentalHealthHackersDark from "../../static/images/logos/MHH-white.png"
 import MentalHealthHackersLight from "../../static/images/logos/MHH.png"
+import Bugcrowd from "../../static/images/sponsors/bugcrowd.png"
+import SecurePointSolutions from "../../static/images/sponsors/secure-point-solutions.png"
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -402,63 +404,33 @@ export default class Sponsors extends Component {
                   </div>
 
 
-                {/* <div className='spons-block'>
+                <div className='spons-block'>
                     <div className='foodbev-spons'>
                     
                       <div className='single-foodbev-spons'>
                         <h6 className='text-highlight spons-title'>Coffee</h6>
-                        <a href="https://www.appgate.com/"
-                          target="_blank"
-                          rel='noopener noreferrer'
-                          className='light-mode-logo'>
-                          <img src={AppGateDark}
-                            className='spons-img fdbev-spons'
-                            alt="AppGate"/>
-                        </a>
-                        <a href="https://www.appgate.com/"
-                          target="_blank"
-                          rel='noopener noreferrer'
-                          className='dark-mode-logo'>
-                          <img src={AppGateLight}
-                            className='spons-img fdbev-spons'
-                            alt="AppGate"/>
-                        </a>
-                        <a href="https://www.zscaler.com/"
+                        <a href="https://www.bugcrowd.com/"
                           target="_blank"
                           rel='noopener noreferrer'>
-                          <img src={ZScaler}
+                          <img src={Bugcrowd}
                             className='spons-img fdbev-spons'
-                            alt="zscaler"/>
+                            alt="Bugcrowd"/>
                         </a>
                       </div>
 
                       <div className='single-foodbev-spons'>
                         <h6 className='text-highlight spons-title'>Popcorn</h6>
-                        <a href="https://www.checkpoint.com/"
+                        <a href="https://www.secureps.net/"
                           target="_blank"
                           rel='noopener noreferrer'>
-                          <img src={CheckPoint}
+                          <img src={SecurePointSolutions}
                             className='spons-img fdbev-spons'
-                            alt="Check Point"/>
-                        </a>
-                        <a href="https://redcanary.com/"
-                          target="_blank"
-                          rel='noopener noreferrer'>
-                          <img src={RedCanary}
-                            className='spons-img fdbev-spons'
-                            alt="Red Canary"/>
-                        </a>
-                        <a href="https://www.netsecuris.com/"
-                          target="_blank"
-                          rel='noopener noreferrer'>
-                          <img src={Netsecuris}
-                            className='spons-img fdbev-spons'
-                            alt="Netsecuris"/>
+                            alt="Secure Point Solutions"/>
                         </a>
                       </div>
 
                     </div>
-                  </div> */}
+                  </div>
               </div>
             </div>
           </div>
