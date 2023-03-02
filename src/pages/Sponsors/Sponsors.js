@@ -150,7 +150,7 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Farm Credit"/>
                     </a>
-                    {/* <a href="https://www.conagrabrands.com/"
+                    <a href="https://www.conagrabrands.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -165,7 +165,23 @@ export default class Sponsors extends Component {
                       <img src={ConAgraLight}
                         className='spons-img other-spons'
                         alt="Conagra"/>
-                    </a> */}
+                    </a>
+                    <a href="https://aws.amazon.com/"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={AWSLight}
+                        className='spons-img other-spons'
+                        alt="Amazon Web Services"/>
+                    </a>
+                    <a href="https://aws.amazon.com/"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={AWSDark}
+                        className='spons-img other-spons'
+                        alt="Amazon Web Services"/>
+                    </a>
                   </div>
 
                   <div className='spons-block'>
