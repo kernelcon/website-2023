@@ -1,14 +1,6 @@
 [{
   "heading": "Organizing Committee",
-  "people": [{
-      "id": 1,
-      "name": "Wacey Lanier",
-      "title": "Social Marketing & Speaker Coordinator",
-      "image": "wacey.gif",
-      "twitter": "_wacey",
-      "mastodon": "",
-      "mastodon_url": ""
-    },
+  "people": [
     {
       "id": 2,
       "name": "Tyler Rosonke",
