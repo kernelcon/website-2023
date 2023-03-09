@@ -29,6 +29,8 @@ import Bugcrowd from "../../static/images/sponsors/bugcrowd.png"
 import SecurePointSolutions from "../../static/images/sponsors/secure-point-solutions.png"
 import CloudSecurityPartnersLight from "../../static/images/sponsors/cloud-security-partners-light-mode.png"
 import CloudSecurityPartnersDark from "../../static/images/sponsors/cloud-security-partners-dark-mode.png"
+import CarrierAccessIT from "../../static/images/sponsors/cait.png"
+
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -183,6 +185,13 @@ export default class Sponsors extends Component {
                       <img src={AWSDark}
                         className='spons-img other-spons'
                         alt="Amazon Web Services"/>
+                    </a>
+                    <a href="http://www.carrieraccessit.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={CarrierAccessIT}
+                        className='spons-img other-spons'
+                        alt="Carrier Access IT"/>
                     </a>
                   </div>
 
