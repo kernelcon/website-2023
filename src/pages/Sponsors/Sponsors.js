@@ -27,6 +27,8 @@ import MentalHealthHackersDark from "../../static/images/logos/MHH-white.png"
 import MentalHealthHackersLight from "../../static/images/logos/MHH.png"
 import Bugcrowd from "../../static/images/sponsors/bugcrowd.png"
 import SecurePointSolutions from "../../static/images/sponsors/secure-point-solutions.png"
+import CloudSecurityPartnersLight from "../../static/images/sponsors/cloud-security-partners-light-mode.png"
+import CloudSecurityPartnersDark from "../../static/images/sponsors/cloud-security-partners-dark-mode.png"
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -431,6 +433,22 @@ export default class Sponsors extends Component {
                           <img src={Bugcrowd}
                             className='spons-img fdbev-spons'
                             alt="Bugcrowd"/>
+                        </a>
+                        <a href="https://cloudsecuritypartners.com/"
+                          target="_blank"
+                          className='dark-mode-logo'
+                          rel='noopener noreferrer'>
+                          <img src={CloudSecurityPartnersDark}
+                            className='spons-img other-spons'
+                            alt="Mental Health Hackers"/>
+                        </a>
+                        <a href="https://cloudsecuritypartners.com/"
+                          target="_blank"
+                          className='light-mode-logo'
+                          rel='noopener noreferrer'>
+                          <img src={CloudSecurityPartnersLight}
+                            className='spons-img other-spons'
+                            alt="Mental Health Hackers"/>
                         </a>
                       </div>
 
