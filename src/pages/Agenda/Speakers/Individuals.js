@@ -56,6 +56,9 @@ class Individuals extends Component {
             {this.props.company && <span>{this.props.company}</span>}
             {this.props.twitter && <span>{this.props.twitter}</span>}
           </span>}
+          {(this.props.mastodon ) && <span className='speaker-titles'>
+            {this.props.mastodon && <span>{this.props.mastodon}</span>}
+          </span>}
           <img src={imgSrc}
             alt={this.props.speaker}
             className='bio-image'

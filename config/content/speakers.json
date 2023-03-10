@@ -1,528 +1,533 @@
 [
    {
-      "title": "xIoT Hacking Demonstrations & Strategies to Disappoint Bad Actors",
-      "speaker": [
+      "talks": [
          {
-            "name": "Brian Contos",
-            "speaker_id": "BrianContos",
-            "company": "",
-            "twitter": "BrianContos",
-            "github": "",
-            "linkedin": "https://www.linkedin.com/in/briancontos/",
-            "image": "145.png",
-            "bio": "With two IPOs & eight acquisitions Brian has helped build some of the most successful security companies in the world. He has over 25 years in the security industry as security company entrepreneur, board advisor, investor, and author. After getting his start with the Defense Information Systems Agency (DISA) and later Bell Labs, Brian began the process of building security startups and taking multiple companies through successful IPOs and acquisitions including: Riptech, ArcSight, Imperva, McAfee, Solera Networks, Cylance, JASK, Verodin, and Mandiant.\n\nBrian has worked in over 50 countries across six continents. He authored the book Enemy at the Water Cooler, and he co-authored Physical & Logical Security Convergence with former NSA Deputy Director William Crowell.  He was featured in the cyberwar documentary 5 Eyes alongside General Michael Hayden, former NSA, and CIA Director. Brian has written for and been interviewed by security and business press and regularly presents at conferences worldwide like Black Hat, RSA, GITEX Global & BSides.\n"
-         }
-      ],
-      "talk_id": "xIoTHackingDemonstrationsStrategiestoDisappointBadActors",
-      "pdf": "",
-      "video": "",
-      "length": "a/withdraw",
-      "technical": "4",
-      "abstract": "We\u2019ve unleashed our dark allies from the nightmare dimension on an unholy crusade to demonstrate cyberattacks for your enlightenment. If you love seeing devices compromised as much as we do, join us for some hacking demonstrations, detailed security research findings, and threat mitigation techniques that will disappoint bad actors. Share your new knowledge around the water cooler, apply these preventative security strategies within your own organization, and become the cool person at the office party everyone wants to hang out with regardless of that cat sweater you insist on wearing.\r\nWe\u2019ll demonstrate several hacks against xIoT, or Extended Internet of Things, devices. For those who would say, \u201cBut they\u2019re just security cameras monitoring the parking garage, wireless access points in the cafeteria, or PLCs controlling robotic welding arms; what harm can they cause?\u201d - this will illuminate that harm.\r\nWe\u2019ll share stories from the trenches involving cybercriminals, nation-state actors, and defenders. Our presentation will detail findings from over six years of xIoT threat research spanning millions of production devices in enterprises and government agencies around the world. We\u2019ll identify various steps organizations can take to mitigate risk while embracing a Things-connected world.\r\nxIoT encompasses three disparate but interrelated device groups that operate with purpose-built\r\nhardware and firmware, are typically network-connected, and disallow the installation of traditional\r\nendpoint security controls. The first group contains enterprise IoT devices such as VoIP phones,\r\nsecurity cameras, and printers. The second group includes operational technology such as PLCs,\r\nbuilding automation systems, and industrial control systems. The third group consists of network gear such as switches, load balancers, and wireless access points.\r\nThere are over 50 billion xIoT devices in operation worldwide. Most of these devices run well-known operating systems like Linux, Android, BSD, and various real-time operating systems like VxWorks. Additionally, many xIoT devices have open ports, protocols, storage, memory, and processing capabilities similar to your laptop. But there is a major difference. Even though most enterprises and government agencies have tens to hundreds of thousands of these devices in production, they go largely unmanaged and unmonitored.\r\nThese xIoT devices typically operate with weak credentials, old, vulnerable firmware, extraneous\r\nservices, and problematic certificates. This massive, vulnerable xIoT attack surface is being successfully  exploited by bad actors engaging in cyber espionage, data exfiltration, sabotage, and extortion, impacting xIoT, IT, and cloud assets.\r\nNation-states and cybercriminals have shifted their focus to xIoT attacks. Why? Because they work. Military-grade xIoT hacking tools are in use, cybercrime for hire that\u2019s predicated on compromised xIoT devices has been monetized, and organizations worldwide are already compromised without even knowing it.\r\nBad actors are counting on you being passive by not mitigating xIoT security risks. They want you to fail so they can continue to evade detection and maintain persistence on your xIoT devices. Disappoint them! Take your xIoT devices back by understanding how to hack them, recognizing where they\u2019re most vulnerable, and employing strategies to successfully protect them at scale."
-   },
-   {
-      "title": "Old Services, New Tricks: Cloud Metadata Abuse by Threat Actors",
-      "speaker": [
+            "title": "xIoT Hacking Demonstrations & Strategies to Disappoint Bad Actors",
+            "authors": [
+               {
+                  "name": "Brian Contos",
+                  "speakerId": "BrianContos",
+                  "company": "",
+                  "twitter": "BrianContos",
+                  "github": "",
+                  "linkedIn": "https://www.linkedin.com/in/briancontos/",
+                  "image": "145.png",
+                  "bio": "With two IPOs & eight acquisitions Brian has helped build some of the most successful security companies in the world. He has over 25 years in the security industry as security company entrepreneur, board advisor, investor, and author. After getting his start with the Defense Information Systems Agency (DISA) and later Bell Labs, Brian began the process of building security startups and taking multiple companies through successful IPOs and acquisitions including: Riptech, ArcSight, Imperva, McAfee, Solera Networks, Cylance, JASK, Verodin, and Mandiant.\n\nBrian has worked in over 50 countries across six continents. He authored the book Enemy at the Water Cooler, and he co-authored Physical & Logical Security Convergence with former NSA Deputy Director William Crowell.  He was featured in the cyberwar documentary 5 Eyes alongside General Michael Hayden, former NSA, and CIA Director. Brian has written for and been interviewed by security and business press and regularly presents at conferences worldwide like Black Hat, RSA, GITEX Global & BSides.\n"
+               }
+            ],
+            "talk_id": "xIoTHackingDemonstrationsStrategiestoDisappointBadActors",
+            "pdf": "",
+            "video": "",
+            "length": "a/withdraw",
+            "technical": "4",
+            "abstract": "We\u2019ve unleashed our dark allies from the nightmare dimension on an unholy crusade to demonstrate cyberattacks for your enlightenment. If you love seeing devices compromised as much as we do, join us for some hacking demonstrations, detailed security research findings, and threat mitigation techniques that will disappoint bad actors. Share your new knowledge around the water cooler, apply these preventative security strategies within your own organization, and become the cool person at the office party everyone wants to hang out with regardless of that cat sweater you insist on wearing.\r\nWe\u2019ll demonstrate several hacks against xIoT, or Extended Internet of Things, devices. For those who would say, \u201cBut they\u2019re just security cameras monitoring the parking garage, wireless access points in the cafeteria, or PLCs controlling robotic welding arms; what harm can they cause?\u201d - this will illuminate that harm.\r\nWe\u2019ll share stories from the trenches involving cybercriminals, nation-state actors, and defenders. Our presentation will detail findings from over six years of xIoT threat research spanning millions of production devices in enterprises and government agencies around the world. We\u2019ll identify various steps organizations can take to mitigate risk while embracing a Things-connected world.\r\nxIoT encompasses three disparate but interrelated device groups that operate with purpose-built\r\nhardware and firmware, are typically network-connected, and disallow the installation of traditional\r\nendpoint security controls. The first group contains enterprise IoT devices such as VoIP phones,\r\nsecurity cameras, and printers. The second group includes operational technology such as PLCs,\r\nbuilding automation systems, and industrial control systems. The third group consists of network gear such as switches, load balancers, and wireless access points.\r\nThere are over 50 billion xIoT devices in operation worldwide. Most of these devices run well-known operating systems like Linux, Android, BSD, and various real-time operating systems like VxWorks. Additionally, many xIoT devices have open ports, protocols, storage, memory, and processing capabilities similar to your laptop. But there is a major difference. Even though most enterprises and government agencies have tens to hundreds of thousands of these devices in production, they go largely unmanaged and unmonitored.\r\nThese xIoT devices typically operate with weak credentials, old, vulnerable firmware, extraneous\r\nservices, and problematic certificates. This massive, vulnerable xIoT attack surface is being successfully  exploited by bad actors engaging in cyber espionage, data exfiltration, sabotage, and extortion, impacting xIoT, IT, and cloud assets.\r\nNation-states and cybercriminals have shifted their focus to xIoT attacks. Why? Because they work. Military-grade xIoT hacking tools are in use, cybercrime for hire that\u2019s predicated on compromised xIoT devices has been monetized, and organizations worldwide are already compromised without even knowing it.\r\nBad actors are counting on you being passive by not mitigating xIoT security risks. They want you to fail so they can continue to evade detection and maintain persistence on your xIoT devices. Disappoint them! Take your xIoT devices back by understanding how to hack them, recognizing where they\u2019re most vulnerable, and employing strategies to successfully protect them at scale."
+         },
          {
-            "name": "Nader Zaveri",
-            "speaker_id": "NaderZaveri",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Nader Zaveri has over 15 years of experience in IT security, infrastructure, and risk management. Nader has lead both investigation and remediation efforts for client\u2019s to understand the storyline of the attack for the most allusive nation-state threat actors and assist in eradicating their access.\n"
-         }
-      ],
-      "talk_id": "OldServicesNewTricksCloudMetadataAbusebyThreatActors",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "3",
-      "abstract": "This presentation covers how threat actors performed the exploitation and abuse of cloud metadata services, as well as related security hardening guidance on how to detect, remediate, and prevent this type of instance of metadata abuse in an organization\u2019s environment. As part of this presentation, we will walk through a demo of the web application that was abused and show how easy it is to obtain credentials if the organization is using the legacy version of IMDS. Then, we show how performing the remediation techniques mentioned in the presentation, the organization will be able to block such abuse techniques."
-   },
-   {
-      "title": "Down with the CISO and the abdication of security",
-      "speaker": [
+            "title": "Old Services, New Tricks: Cloud Metadata Abuse by Threat Actors",
+            "authors": [
+               {
+                  "name": "Nader Zaveri",
+                  "speakerId": "NaderZaveri",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Nader Zaveri has over 15 years of experience in IT security, infrastructure, and risk management. Nader has lead both investigation and remediation efforts for client\u2019s to understand the storyline of the attack for the most allusive nation-state threat actors and assist in eradicating their access.\n"
+               }
+            ],
+            "talk_id": "OldServicesNewTricksCloudMetadataAbusebyThreatActors",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "3",
+            "abstract": "This presentation covers how threat actors performed the exploitation and abuse of cloud metadata services, as well as related security hardening guidance on how to detect, remediate, and prevent this type of instance of metadata abuse in an organization\u2019s environment. As part of this presentation, we will walk through a demo of the web application that was abused and show how easy it is to obtain credentials if the organization is using the legacy version of IMDS. Then, we show how performing the remediation techniques mentioned in the presentation, the organization will be able to block such abuse techniques."
+         },
          {
-            "name": "Nathan Case",
-            "speaker_id": "NathanCase",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Nathan Case is a successful executive and builder, pushing for change in security and the culture surrounding it. Leading strategic initiatives and the creation of new technologies in the healthcare, information technology and cloud industries, focusing on security. A passion for Incident Response, and operational security in all forms.\n"
-         }
-      ],
-      "talk_id": "DownwiththeCISOandtheabdicationofsecurity",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "1",
-      "abstract": "An overview of why the enterprises split into operations, development, and security. Why it made sense to split technology up this way, how we were wrong to do it, and what we should do now.\u00a0\r\n\r\nThe listener will learn about some semantic issues that development, operations, and security have and how we get out of this mess. The talk is not technical, but we will cover the impact of semantics on the division of technical stacks. Next, we will look at real-world misses and why the abdication of security creates issues and see how these misses cause deeper long-term problems. Finally, the listener will learn how we get back to a place where security operations and development work together in big companies. The listener will learn to recover from this split through some tools and practices, how tools should be used across roles and silos, and why communication with a new set of semantics would be a good idea."
-   },
-   {
-      "title": "What Bad Actors Don\u2019t Want You to Know About ICS Attacks: Preventative Threat Mitigation That Actually Works",
-      "speaker": [
+            "title": "Down with the CISO and the abdication of security",
+            "authors": [
+               {
+                  "name": "Nathan Case",
+                  "speakerId": "NathanCase",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Nathan Case is a successful executive and builder, pushing for change in security and the culture surrounding it. Leading strategic initiatives and the creation of new technologies in the healthcare, information technology and cloud industries, focusing on security. A passion for Incident Response, and operational security in all forms.\n"
+               }
+            ],
+            "talk_id": "DownwiththeCISOandtheabdicationofsecurity",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "1",
+            "abstract": "An overview of why the enterprises split into operations, development, and security. Why it made sense to split technology up this way, how we were wrong to do it, and what we should do now.\u00a0\r\n\r\nThe listener will learn about some semantic issues that development, operations, and security have and how we get out of this mess. The talk is not technical, but we will cover the impact of semantics on the division of technical stacks. Next, we will look at real-world misses and why the abdication of security creates issues and see how these misses cause deeper long-term problems. Finally, the listener will learn how we get back to a place where security operations and development work together in big companies. The listener will learn to recover from this split through some tools and practices, how tools should be used across roles and silos, and why communication with a new set of semantics would be a good idea."
+         },
          {
-            "name": "Robert Esposito",
-            "speaker_id": "RobertEsposito",
-            "company": "",
-            "twitter": "https://twitter.com/robertespo787",
-            "github": "",
-            "linkedin": "https://www.linkedin.com/in/esposito/",
-            "image": "148-Robert Esposito.jpg",
-            "bio": "As Director of Security Strategy at Phosphorus, Robert helps organizations address xIoT attack surface management and preventative risk mitigation, enabling organizations to safely embrace an increasingly Thing-based world. He has been a cybersecurity professional in Silicon Valley for 20+ years, with his early career focused on environmental ICS for major semiconductor manufacturers. Since then, he has been part of several successful cybersecurity companies and system integrators in roles such as field engineer, systems engineer, &amp; solutions architect. His career highlights include a Boeing patent for botnet beacon detection, 787 Dreamliner pen testing, and work with the DoD, DHS, and DoE.\n"
-         }
-      ],
-      "talk_id": "WhatBadActorsDontWantYoutoKnowAboutICSAttacksPreventativeThreatMitigationThatActuallyWorks",
-      "pdf": "",
-      "video": "",
-      "length": "A/withdraw",
-      "technical": "3",
-      "abstract": "Critical infrastructure entities (oil & gas, power & energy, manufacturing, etc.) are increasingly under assault by opportunistic attackers, cybercriminals, and nation-states. From ransomware for disruption (DARKSIDE) to botnets for DDoS attacks (RSOCKS), and pivot attacks to target other devices (PIPEDREAM & QUIETEXIT), industrial control systems are in the sights of a growing number of nefarious actors.\r\n \r\nHackers have identified ICS systems as a primary, under-defended, attack target. Historically, these systems were thought isolated and air-gapped from external access, which is now not the case. Hackers quietly exploit these systems, establish long-term persistence, and survive remediation efforts, posing new security challenges for critical infrastructure, enterprises, and government agencies.\r\n \r\nThere was a time when little could be done about ICS security, but that is no longer true. Organizations can\u2013and should\u2013expect better outcomes. This presentation will cover ICS threats, real-life use cases, & unique research. It will explore approaches to maintaining asset availability while safely taking control of your ICS security and removing attackers' current advantage.\r\n \r\nBy attending this presentation, you will:\r\n* Explore how ICS assets are being hacked and leveraged for persistence and evasion\r\n* Learn how you can now find, fix, and monitor your ICS assets"
-   },
-   {
-      "title": "Developing Highly Effective Payloads",
-      "speaker": [
+            "title": "What Bad Actors Don\u2019t Want You to Know About ICS Attacks: Preventative Threat Mitigation That Actually Works",
+            "authors": [
+               {
+                  "name": "Robert Esposito",
+                  "speakerId": "RobertEsposito",
+                  "company": "",
+                  "twitter": "@robertespo787",
+                  "github": "",
+                  "linkedIn": "https://www.linkedin.com/in/esposito/",
+                  "image": "148-Robert Esposito.jpg",
+                  "bio": "As Director of Security Strategy at Phosphorus, Robert helps organizations address xIoT attack surface management and preventative risk mitigation, enabling organizations to safely embrace an increasingly Thing-based world. He has been a cybersecurity professional in Silicon Valley for 20+ years, with his early career focused on environmental ICS for major semiconductor manufacturers. Since then, he has been part of several successful cybersecurity companies and system integrators in roles such as field engineer, systems engineer, &amp; solutions architect. His career highlights include a Boeing patent for botnet beacon detection, 787 Dreamliner pen testing, and work with the DoD, DHS, and DoE.\n"
+               }
+            ],
+            "talk_id": "WhatBadActorsDontWantYoutoKnowAboutICSAttacksPreventativeThreatMitigationThatActuallyWorks",
+            "pdf": "",
+            "video": "",
+            "length": "A/withdraw",
+            "technical": "3",
+            "abstract": "Critical infrastructure entities (oil & gas, power & energy, manufacturing, etc.) are increasingly under assault by opportunistic attackers, cybercriminals, and nation-states. From ransomware for disruption (DARKSIDE) to botnets for DDoS attacks (RSOCKS), and pivot attacks to target other devices (PIPEDREAM & QUIETEXIT), industrial control systems are in the sights of a growing number of nefarious actors.\r\n \r\nHackers have identified ICS systems as a primary, under-defended, attack target. Historically, these systems were thought isolated and air-gapped from external access, which is now not the case. Hackers quietly exploit these systems, establish long-term persistence, and survive remediation efforts, posing new security challenges for critical infrastructure, enterprises, and government agencies.\r\n \r\nThere was a time when little could be done about ICS security, but that is no longer true. Organizations can\u2013and should\u2013expect better outcomes. This presentation will cover ICS threats, real-life use cases, & unique research. It will explore approaches to maintaining asset availability while safely taking control of your ICS security and removing attackers' current advantage.\r\n \r\nBy attending this presentation, you will:\r\n* Explore how ICS assets are being hacked and leveraged for persistence and evasion\r\n* Learn how you can now find, fix, and monitor your ICS assets"
+         },
          {
-            "name": "Kevin Umsted",
-            "speaker_id": "KevinUmsted",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Cyber security analyst in higher education with 8 years of security experience. Experience in penetration testing and adversary emulation. Massive advocate of knowledge sharing withing the information security community.\n"
-         }
-      ],
-      "talk_id": "DevelopingHighlyEffectivePayloads",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "2.5",
-      "abstract": "As adversaries become more increasingly sophisticated, it is important for security professionals to understand and stay up-to-date on the tactics and techniques used by attackers. It is crucial for organizations to recognize the threats they face and implement appropriate defenses. We must understand and emulate the tactics used by modern attackers. Understanding such targeted attacks will help to harden our defenses.\r\n\r\nThis talk will demonstrate the process of creating a payload that mimics modern spear phishing payloads, which are highly targeted and often successful in compromising organizations. The goal is to demonstrate a payload that would achieve a high execution rate in an organization. Throughout this talk, we will illustrate the methodology involved in creating and deploying a payload to target an organization. The talk will include a demo where we will explore how to create a payload that can achieve initial compromise in a modern environment with only publicly available tools and scripts."
-   },
-   {
-      "title": "How I Learned to Stop Worrying and Build a Modern Detection & Response Program",
-      "speaker": [
+            "title": "Developing Highly Effective Payloads",
+            "authors": [
+               {
+                  "name": "Kevin Umsted",
+                  "speakerId": "KevinUmsted",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Cyber security analyst in higher education with 8 years of security experience. Experience in penetration testing and adversary emulation. Massive advocate of knowledge sharing withing the information security community.\n"
+               }
+            ],
+            "talk_id": "DevelopingHighlyEffectivePayloads",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "2.5",
+            "abstract": "As adversaries become more increasingly sophisticated, it is important for security professionals to understand and stay up-to-date on the tactics and techniques used by attackers. It is crucial for organizations to recognize the threats they face and implement appropriate defenses. We must understand and emulate the tactics used by modern attackers. Understanding such targeted attacks will help to harden our defenses.\r\n\r\nThis talk will demonstrate the process of creating a payload that mimics modern spear phishing payloads, which are highly targeted and often successful in compromising organizations. The goal is to demonstrate a payload that would achieve a high execution rate in an organization. Throughout this talk, we will illustrate the methodology involved in creating and deploying a payload to target an organization. The talk will include a demo where we will explore how to create a payload that can achieve initial compromise in a modern environment with only publicly available tools and scripts."
+         },
          {
-            "name": "Allyn Stott",
-            "speaker_id": "AllynStott",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Allyn Stott is a senior staff engineer at Airbnb on the infosec technology leadership team, where he works on threat detection and incident response. Over the past decade, he has built and run detection and response programs at companies including Delta Dental of California, MZ, and Palantir. Red team tears are his testimonials.\n\n"
-         }
-      ],
-      "talk_id": "HowILearnedtoStopWorryingandBuildaModernDetectionResponseProgram",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "1",
-      "abstract": "You haven\u2019t slept in days. Pager alerts at all hours. Constant firefights. How do you get out of this mess? This talk gives away all the secrets you\u2019ll need to go from reactive chaos to building and running a finely tuned detection & response program (and finally get some sleep).\r\n\r\nGone are the days of buying the ol\u2019 EDR/IDS/NGAV combo, throwing some engineers on an on-call rotation, and calling it your incident response team. You need a robust and comprehensive detection and response program to fight the modern day attackers that threaten to disable, disrupt, degrade, destroy, and steal from the enterprise you protect. But there\u2019s a lot of challenges: alert fatigue, budgets, hiring talent, and your current team is burned out.\r\n\r\nHow do you successfully build a modern detection and response program, all while riding the rocket of never ending incidents and unforgiving on-call schedules?\r\n\r\nThis talk boils down all that I\u2019ve learned in the last decade about building detection and response programs into 49 minutes. At the end of this talk, you will walk away with a better understanding of all the capabilities a modern program should have and a framework to build or improve your own."
-   },
-   {
-      "title": "Future of Transparency is Coming: Are You Ready to Air Out Your Security's Dirty Laundry?",
-      "speaker": [
+            "title": "How I Learned to Stop Worrying and Build a Modern Detection & Response Program",
+            "authors": [
+               {
+                  "name": "Allyn Stott",
+                  "speakerId": "AllynStott",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Allyn Stott is a senior staff engineer at Airbnb on the infosec technology leadership team, where he works on threat detection and incident response. Over the past decade, he has built and run detection and response programs at companies including Delta Dental of California, MZ, and Palantir. Red team tears are his testimonials.\n\n"
+               }
+            ],
+            "talk_id": "HowILearnedtoStopWorryingandBuildaModernDetectionResponseProgram",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "1",
+            "abstract": "You haven\u2019t slept in days. Pager alerts at all hours. Constant firefights. How do you get out of this mess? This talk gives away all the secrets you\u2019ll need to go from reactive chaos to building and running a finely tuned detection & response program (and finally get some sleep).\r\n\r\nGone are the days of buying the ol\u2019 EDR/IDS/NGAV combo, throwing some engineers on an on-call rotation, and calling it your incident response team. You need a robust and comprehensive detection and response program to fight the modern day attackers that threaten to disable, disrupt, degrade, destroy, and steal from the enterprise you protect. But there\u2019s a lot of challenges: alert fatigue, budgets, hiring talent, and your current team is burned out.\r\n\r\nHow do you successfully build a modern detection and response program, all while riding the rocket of never ending incidents and unforgiving on-call schedules?\r\n\r\nThis talk boils down all that I\u2019ve learned in the last decade about building detection and response programs into 49 minutes. At the end of this talk, you will walk away with a better understanding of all the capabilities a modern program should have and a framework to build or improve your own."
+         },
          {
-            "name": "David Lindner",
-            "speaker_id": "DavidLindner",
-            "company": "",
-            "twitter": "@golfhackerdave",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "David is an experienced application security professional with over 20 years in cybersecurity. In addition to serving as the chief information security officer (CISO), David leads the Contrast Labs team that is focused on analyzing threat intelligence to help enterprise clients develop more proactive approaches to their application security programs. Throughout his career, David has worked within multiple disciplines in the security field\u2014from application development, to network architecture design and support, to IT security and consulting, to security training, to mobile and application security. He has worked with many clients across industry sectors, including financial, government, automobile, healthcare, and retail. David is an active participant in numerous bug bounty programs.\n"
-         }
-      ],
-      "talk_id": "FutureofTransparencyisComingAreYouReadytoAirOutYourSecuritysDirtyLaundry",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "3",
-      "abstract": "In 2022, we saw the government make moves to mandate transparency to stop\r\ncyberattacks through the release of new regulations. This roster of new cybersecurity\r\nregulations and enforcement includes the Office of Management and Budget\u2019s (OMB) new\r\nguidance built upon President Biden\u2019s May 2021 cybersecurity executive order with the aim of\r\nensuring that federal agencies only use secure software. This begs developers to ask themselves\r\nthe question: Am I ready to strip naked, technology-wise and air out my security\u2019s dirty laundry\r\nnow? Or am I keeping the details of my software ecosystem close to the vest, hidden from data\r\npickpockets like it\u2019s the cyber-equivalent of a tourist\u2019s tucked-away money belt?\r\n\r\nIn this session, I will do an overview of the key components you need to get your security ready to\r\nbare it all - everything from what a Software Bill of Materials (SBOM) is, inventory management of\r\nthird-party components, detection, open-source software (OSS), license compliance to automated\r\nsecurity testing. You walk away knowing what you need to do to make your security ready to go\r\npublic confidently."
-   },
-   {
-      "title": "Roll for Stealth: Intro to AV & EDR Evasion",
-      "speaker": [
+            "title": "Future of Transparency is Coming: Are You Ready to Air Out Your Security's Dirty Laundry?",
+            "authors": [
+               {
+                  "name": "David Lindner",
+                  "speakerId": "DavidLindner",
+                  "company": "",
+                  "twitter": "@golfhackerdave",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "David is an experienced application security professional with over 20 years in cybersecurity. In addition to serving as the chief information security officer (CISO), David leads the Contrast Labs team that is focused on analyzing threat intelligence to help enterprise clients develop more proactive approaches to their application security programs. Throughout his career, David has worked within multiple disciplines in the security field\u2014from application development, to network architecture design and support, to IT security and consulting, to security training, to mobile and application security. He has worked with many clients across industry sectors, including financial, government, automobile, healthcare, and retail. David is an active participant in numerous bug bounty programs.\n"
+               }
+            ],
+            "talk_id": "FutureofTransparencyisComingAreYouReadytoAirOutYourSecuritysDirtyLaundry",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "3",
+            "abstract": "In 2022, we saw the government make moves to mandate transparency to stop\r\ncyberattacks through the release of new regulations. This roster of new cybersecurity\r\nregulations and enforcement includes the Office of Management and Budget\u2019s (OMB) new\r\nguidance built upon President Biden\u2019s May 2021 cybersecurity executive order with the aim of\r\nensuring that federal agencies only use secure software. This begs developers to ask themselves\r\nthe question: Am I ready to strip naked, technology-wise and air out my security\u2019s dirty laundry\r\nnow? Or am I keeping the details of my software ecosystem close to the vest, hidden from data\r\npickpockets like it\u2019s the cyber-equivalent of a tourist\u2019s tucked-away money belt?\r\n\r\nIn this session, I will do an overview of the key components you need to get your security ready to\r\nbare it all - everything from what a Software Bill of Materials (SBOM) is, inventory management of\r\nthird-party components, detection, open-source software (OSS), license compliance to automated\r\nsecurity testing. You walk away knowing what you need to do to make your security ready to go\r\npublic confidently."
+         },
          {
-            "name": "Mike Saunders",
-            "speaker_id": "MikeSaunders",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Mike Saunders has over 25 years of experience in IT and security and has worked in the ISP, financial, insurance, and agribusiness industries. He has held a variety of roles in his career including system and network administration, development, and security architect. Mike has been performing penetration tests for a decade. Mike is an experienced speaker and has spoken at DerbyCon, Wild West Hackin\u2019 Fest, regional BSides conferences, the NDSU Cyber Security Conference, and SANS and Red Siege webcasts.\n"
-         }
-      ],
-      "talk_id": "RollforStealthIntrotoAVEDREvasion",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "2",
-      "abstract": "Evading detection by modern AV & EDR can seem daunting and near impossible to the uninitiated. If the idea of trying to get a payload past these defenses seems unattainable and too \u201cl337,\u201d then this talk is for you! I\u2019ll cover some basic concepts and tools you can use to start evading detection and get your payloads running. To the initiated, this is a 101-level talk, but stick around to learn about a new tool for hiding shellcode!"
-   },
-   {
-      "title": "Leveling Up Your Incident Response Training",
-      "speaker": [
+            "title": "Roll for Stealth: Intro to AV & EDR Evasion",
+            "authors": [
+               {
+                  "name": "Mike Saunders",
+                  "speakerId": "MikeSaunders",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Mike Saunders has over 25 years of experience in IT and security and has worked in the ISP, financial, insurance, and agribusiness industries. He has held a variety of roles in his career including system and network administration, development, and security architect. Mike has been performing penetration tests for a decade. Mike is an experienced speaker and has spoken at DerbyCon, Wild West Hackin\u2019 Fest, regional BSides conferences, the NDSU Cyber Security Conference, and SANS and Red Siege webcasts.\n"
+               }
+            ],
+            "talk_id": "RollforStealthIntrotoAVEDREvasion",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "2",
+            "abstract": "Evading detection by modern AV & EDR can seem daunting and near impossible to the uninitiated. If the idea of trying to get a payload past these defenses seems unattainable and too \u201cl337,\u201d then this talk is for you! I\u2019ll cover some basic concepts and tools you can use to start evading detection and get your payloads running. To the initiated, this is a 101-level talk, but stick around to learn about a new tool for hiding shellcode!"
+         },
          {
-            "name": "Gerard Johansen",
-            "speaker_id": "GerardJohansen",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "https://www.linkedin.com/in/gerardjohansen/",
-            "image": "",
-            "bio": "Gerard Johansen is an information security professional with over a decade of experience in Incident Response, Digital Forensics and Threat Intelligence. During his various roles over the last decade, he has been an author and trainer, developing interactive cyber range exercises for security professionals. Additionally, Gerard has been involved in assisting organizations with cyber security incidents both as a consultant and IR lead. Gerard is currently a Principal Incident Handler with Red Canary where he is currently working on the development of readiness solutions to prepare organizations for modern threats.\n"
-         }
-      ],
-      "talk_id": "LevelingUpYourIncidentResponseTraining",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "2.5",
-      "abstract": "The training and maintenance of an Incident Response (IR) team is a challenging task. Threat actors continue to update their TTPs, forcing IR teams to continually adapt their tools and processes to match the threat. Keeping up with threat actors requires training and practice that goes beyond a weekly training one every year or two. It is necessary for IR and blue teams to adopt a concurrent training model that incorporates a range of technical skills and exercises. In this talk, Gerard will walk the audience through how to build on an internal training program using realistic threat scenarios, open-source tools and exercises to ensure that they are prepped for the worst."
-   },
-   {
-      "title": "Web Hackers vs. The Auto Industry: Vulnerabilities in Ferrari, BMW, Rolls Royce, Porsche, and More",
-      "speaker": [
+            "title": "Leveling Up Your Incident Response Training",
+            "authors": [
+               {
+                  "name": "Gerard Johansen",
+                  "speakerId": "GerardJohansen",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "https://www.linkedin.com/in/gerardjohansen/",
+                  "image": "",
+                  "bio": "Gerard Johansen is an information security professional with over a decade of experience in Incident Response, Digital Forensics and Threat Intelligence. During his various roles over the last decade, he has been an author and trainer, developing interactive cyber range exercises for security professionals. Additionally, Gerard has been involved in assisting organizations with cyber security incidents both as a consultant and IR lead. Gerard is currently a Principal Incident Handler with Red Canary where he is currently working on the development of readiness solutions to prepare organizations for modern threats.\n"
+               }
+            ],
+            "talk_id": "LevelingUpYourIncidentResponseTraining",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "2.5",
+            "abstract": "The training and maintenance of an Incident Response (IR) team is a challenging task. Threat actors continue to update their TTPs, forcing IR teams to continually adapt their tools and processes to match the threat. Keeping up with threat actors requires training and practice that goes beyond a weekly training one every year or two. It is necessary for IR and blue teams to adopt a concurrent training model that incorporates a range of technical skills and exercises. In this talk, Gerard will walk the audience through how to build on an internal training program using realistic threat scenarios, open-source tools and exercises to ensure that they are prepped for the worst."
+         },
          {
-            "name": "Sam Curry",
-            "speaker_id": "SamCurry",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Sam Curry is a Staff Security Engineer at Yuga Labs and the founder of Palisade.\n"
-         }
-      ],
-      "talk_id": "WebHackersvsTheAutoIndustryVulnerabilitiesinFerrariBMWRollsRoycePorscheandMore",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "3",
-      "abstract": "In early September, we made it our goal to find as many vulnerabilities in as many car companies as possible. Over the next few months, we were able to remotely start/stop, lock/unlock, flash lights, open trunks, and honk the horns of all smart-enabled Toyota, Nissan, Infiniti, Genesis, Honda, Accura, and Lexus vehicles. We gained intimate access to the internal networks of BMW and Mercedes-Benz, being authorized as fully permissioned SSO users with access to dealer portals, Github, Slack, and hundreds of mission critical applications. We found systemic access control vulnerabilities affecting telematic and fleet-management companies, allowing us to dispatch and track police cars, ambulances, and truckers. Join us as we discuss our findings as web hackers attempting to hack the auto industry!"
-   },
-   {
-      "title": "Trending cloud security threats, and defenses",
-      "speaker": [
+            "title": "Web Hackers vs. The Auto Industry: Vulnerabilities in Ferrari, BMW, Rolls Royce, Porsche, and More",
+            "authors": [
+               {
+                  "name": "Sam Curry",
+                  "speakerId": "SamCurry",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Sam Curry is a Staff Security Engineer at Yuga Labs and the founder of Palisade.\n"
+               }
+            ],
+            "talk_id": "WebHackersvsTheAutoIndustryVulnerabilitiesinFerrariBMWRollsRoycePorscheandMore",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "3",
+            "abstract": "In early September, we made it our goal to find as many vulnerabilities in as many car companies as possible. Over the next few months, we were able to remotely start/stop, lock/unlock, flash lights, open trunks, and honk the horns of all smart-enabled Toyota, Nissan, Infiniti, Genesis, Honda, Accura, and Lexus vehicles. We gained intimate access to the internal networks of BMW and Mercedes-Benz, being authorized as fully permissioned SSO users with access to dealer portals, Github, Slack, and hundreds of mission critical applications. We found systemic access control vulnerabilities affecting telematic and fleet-management companies, allowing us to dispatch and track police cars, ambulances, and truckers. Join us as we discuss our findings as web hackers attempting to hack the auto industry!"
+         },
          {
-            "name": "Gabe Schuyler",
-            "speaker_id": "GabeSchuyler",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "twitter: @gabe_sky, mastadon: @gabe_sky@infosec.exchange",
-            "image": "",
-            "bio": "Gabe is an enterprise solutions engineer at Wiz, inc. His day-to-day stock in trade is cloud security, helping people secure what they've got in the cloud and keeping everyone on top of trends. Off the clock, he enjoys tinkering with RFID, experimenting with ambient notification, and encouraging the use of technology for social change. He is assisted by a tree that tells the weather and a completely harmless seven-inch laptop named Snuggles.\n"
-         }
-      ],
-      "talk_id": "Trendingcloudsecuritythreatsanddefenses",
-      "pdf": "",
-      "video": "",
-      "length": "either",
-      "technical": "1",
-      "abstract": "If you're responsible for defending a cloud estate -- of any size -- you know that there are myriad threats, but which do you focus on first? What threats are at the top of attackers' toolkits today? How do you prioritize maximum bang for your buck when defending? Let's take a look at the landscape and answer these questions.\r\n\r\nThis talk begins with a survey of the top threats to cloud infrastructures, such as stolen credentials, misconfiguration, multi-cloud complexity, and even attackers' use of AI and automation. As we go, we'll discuss effective defenses against these\r\n\r\nthreats, too. We'll wrap up with general tips and best practices for defense. You'll leave with an appreciation of how to improve the security of your own cloud deployments."
-   },
-   {
-      "title": "Secure Coding in Go: Avoiding Common Vulnerabilities to better Secure Your Code",
-      "speaker": [
+            "title": "Trending cloud security threats, and defenses",
+            "authors": [
+               {
+                  "name": "Gabe Schuyler",
+                  "speakerId": "GabeSchuyler",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "twitter: @gabe_sky, mastadon: @gabe_sky@infosec.exchange",
+                  "image": "",
+                  "bio": "Gabe is an enterprise solutions engineer at Wiz, inc. His day-to-day stock in trade is cloud security, helping people secure what they've got in the cloud and keeping everyone on top of trends. Off the clock, he enjoys tinkering with RFID, experimenting with ambient notification, and encouraging the use of technology for social change. He is assisted by a tree that tells the weather and a completely harmless seven-inch laptop named Snuggles.\n"
+               }
+            ],
+            "talk_id": "Trendingcloudsecuritythreatsanddefenses",
+            "pdf": "",
+            "video": "",
+            "length": "either",
+            "technical": "1",
+            "abstract": "If you're responsible for defending a cloud estate -- of any size -- you know that there are myriad threats, but which do you focus on first? What threats are at the top of attackers' toolkits today? How do you prioritize maximum bang for your buck when defending? Let's take a look at the landscape and answer these questions.\r\n\r\nThis talk begins with a survey of the top threats to cloud infrastructures, such as stolen credentials, misconfiguration, multi-cloud complexity, and even attackers' use of AI and automation. As we go, we'll discuss effective defenses against these\r\n\r\nthreats, too. We'll wrap up with general tips and best practices for defense. You'll leave with an appreciation of how to improve the security of your own cloud deployments."
+         },
          {
-            "name": "Benji Vesterby",
-            "speaker_id": "BenjiVesterby",
-            "company": "",
-            "twitter": "@benjivesterby",
-            "github": "",
-            "linkedin": "https://www.linkedin.com/in/benjaminvesterby/",
-            "image": "20220305_155825.jpg",
-            "bio": "My interest in security began early in my career when I stumbled across \u201cWriting Secure Code\u201d by Microsoft Press. It was a jarring introduction to security since it revealed how flawed most software was and how little I actually knew in securing my own work. As a software engineer, my focus was always on building software rather than breaking it. Yet, finding my first vulnerability (a query string privilege escalation) was exhilarating. But then came the hard part: how do I fix it? I believe that building good coding habits can lead to more secure code.\n\n"
-         }
-      ],
-      "talk_id": "SecureCodinginGoAvoidingCommonVulnerabilitiestobetterSecureYourCode",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "3",
-      "abstract": "This talk will walk through the most common application security pitfalls engineers encounter when building Go applications with a focus on API security. Focusing on the OWASP Top 10 as a baseline the talk will explore different methods of avoiding common injection vulnerabilities, cryptography issues, incorrect security configuration and  insecure authentication (AuthN) and authorization (AuthZ) schemes. The goal of this presentation is to give a good secure coding overview for new Go engineers to help avoid common mistakes and build good secure coding habits from the start."
-   },
-   {
-      "title": "Everything Everywhere All at Once - A Practical Guide to Alert Triage and Analysis.",
-      "speaker": [
+            "title": "Secure Coding in Go: Avoiding Common Vulnerabilities to better Secure Your Code",
+            "authors": [
+               {
+                  "name": "Benji Vesterby",
+                  "speakerId": "BenjiVesterby",
+                  "company": "",
+                  "twitter": "@benjivesterby",
+                  "github": "",
+                  "linkedIn": "https://www.linkedin.com/in/benjaminvesterby/",
+                  "image": "20220305_155825.jpg",
+                  "bio": "My interest in security began early in my career when I stumbled across \u201cWriting Secure Code\u201d by Microsoft Press. It was a jarring introduction to security since it revealed how flawed most software was and how little I actually knew in securing my own work. As a software engineer, my focus was always on building software rather than breaking it. Yet, finding my first vulnerability (a query string privilege escalation) was exhilarating. But then came the hard part: how do I fix it? I believe that building good coding habits can lead to more secure code.\n\n"
+               }
+            ],
+            "talk_id": "SecureCodinginGoAvoidingCommonVulnerabilitiestobetterSecureYourCode",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "3",
+            "abstract": "This talk will walk through the most common application security pitfalls engineers encounter when building Go applications with a focus on API security. Focusing on the OWASP Top 10 as a baseline the talk will explore different methods of avoiding common injection vulnerabilities, cryptography issues, incorrect security configuration and  insecure authentication (AuthN) and authorization (AuthZ) schemes. The goal of this presentation is to give a good secure coding overview for new Go engineers to help avoid common mistakes and build good secure coding habits from the start."
+         },
          {
-            "name": "Megan Benoit",
-            "speaker_id": "MeganBenoit",
-            "company": "",
-            "twitter": "@cybertricoteuse",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Megan Benoit has spent most of the last 20+ years building vulnerability management and incident response programs, architecting and deploying security solutions, and telling management she\u2019s a security engineer, not a miracle worker.  Megan currently works as a Senior Network Security Engineer for NFM and has worked for the DoD, as well as the healthcare and retail industries. In her spare time she teaches group exercise classes because when she tells people what to do, they don\u2019t argue back.\n\n\n"
-         }
-      ],
-      "talk_id": "EverythingEverywhereAllatOnceAPracticalGuidetoAlertTriageandAnalysis",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "1",
-      "abstract": "If you\u2019ve done any sort of work in incident response, assessing alerts and deciding where to start in collecting information can be overwhelming even in the best of times.  It\u2019s easy to overlook something important, or to blow something unimportant out of proportion.  I\u2019m going to cover some basic triage methodology and then we're going to walk through a full threat handling checklist that you can use in your day-to-day alert analysis to perform information collection, so you know you have the right data to make the right decisions - is this an emergency, or am I dealing with my hypochondriac AV again?"
-   },
-   {
-      "title": "Analyzing Malware... By Creating It",
-      "speaker": [
+            "title": "Everything Everywhere All at Once - A Practical Guide to Alert Triage and Analysis.",
+            "authors": [
+               {
+                  "name": "Megan Benoit",
+                  "speakerId": "MeganBenoit",
+                  "company": "",
+                  "twitter": "@cybertricoteuse",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Megan Benoit has spent most of the last 20+ years building vulnerability management and incident response programs, architecting and deploying security solutions, and telling management she\u2019s a security engineer, not a miracle worker.  Megan currently works as a Senior Network Security Engineer for NFM and has worked for the DoD, as well as the healthcare and retail industries. In her spare time she teaches group exercise classes because when she tells people what to do, they don\u2019t argue back.\n\n\n"
+               }
+            ],
+            "talk_id": "EverythingEverywhereAllatOnceAPracticalGuidetoAlertTriageandAnalysis",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "1",
+            "abstract": "If you\u2019ve done any sort of work in incident response, assessing alerts and deciding where to start in collecting information can be overwhelming even in the best of times.  It\u2019s easy to overlook something important, or to blow something unimportant out of proportion.  I\u2019m going to cover some basic triage methodology and then we're going to walk through a full threat handling checklist that you can use in your day-to-day alert analysis to perform information collection, so you know you have the right data to make the right decisions - is this an emergency, or am I dealing with my hypochondriac AV again?"
+         },
          {
-            "name": "Zack Fink",
-            "speaker_id": "ZackFink",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Zack is a Senior Incident Handler at Red Canary where he helps customers of all sizes respond to threats. When not in front of a keyboard, he's often found trudging through the frozen tundra of the Upper Midwest, occasionally on horseback.\n"
-         }
-      ],
-      "talk_id": "AnalyzingMalwareByCreatingIt",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "3",
-      "abstract": "Often, malware analysis is taught by wading knee deep in obfuscated code. Most beginners haven\u2019t developed the \u201cspidey-sense\u201d that allows them to separate the signal from the noise, leading to frustration and slow progress. This talk is intended as an introduction to malware analysis on Windows and will walk through patterns in script and binary based malware using small \u201ctoy\u201d examples, red team frameworks, and in-the-wild samples."
-   },
-   {
-      "title": "The Big Bang for Security Awareness",
-      "speaker": [
+            "title": "Analyzing Malware... By Creating It",
+            "authors": [
+               {
+                  "name": "Zack Fink",
+                  "speakerId": "ZackFink",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Zack is a Senior Incident Handler at Red Canary where he helps customers of all sizes respond to threats. When not in front of a keyboard, he's often found trudging through the frozen tundra of the Upper Midwest, occasionally on horseback.\n"
+               }
+            ],
+            "talk_id": "AnalyzingMalwareByCreatingIt",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "3",
+            "abstract": "Often, malware analysis is taught by wading knee deep in obfuscated code. Most beginners haven\u2019t developed the \u201cspidey-sense\u201d that allows them to separate the signal from the noise, leading to frustration and slow progress. This talk is intended as an introduction to malware analysis on Windows and will walk through patterns in script and binary based malware using small \u201ctoy\u201d examples, red team frameworks, and in-the-wild samples."
+         },
          {
-            "name": "Katie Hoff, Erin Reese, Abbie Williams",
-            "speaker_id": "KatieHoff,ErinReese,AbbieWilliams",
-            "company": "",
-            "twitter": "@CyKee17 (Twitter) @Abbie_Rae (Twitter)",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Katie, Erin, and Abbie are three cyber security professionals with 30 years of experience (combined).  In addition to their normal daily tasks, they conquer security awareness. Always taking on more than expected, fully embracing the idiom, \u201cGo big or go home\u201d.\n"
-         }
-      ],
-      "talk_id": "TheBigBangforSecurityAwareness",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "1",
-      "abstract": "The frontline employees of any organization pose the largest risk your Cyber team must manage. They must be educated, but that\u2019s not as easy as it sounds.\r\n\r\n<sarcasm> Especially because Security Awareness gets tons of resources and dollars. </sarcasm>\r\n\r\nJoin us as we go through our 6-year journey from doing the bare minimum that was hardly noticed to having literal fans of our Security Awareness program, who can\u2019t wait for more. We will share our story and provide insight to how you can get started, get traction, or make a big bang. We started out in a hot dense state and now we\u2019ve got Security Awareness."
-   },
-   {
-      "title": "Cloudless Smarthome/Smartfarm: Cheap, DIY, and Awesome. You can do this too.",
-      "speaker": [
+            "title": "The Big Bang for Security Awareness",
+            "authors": [
+               {
+                  "name": "Katie Hoff, Erin Reese, Abbie Williams",
+                  "speakerId": "KatieHoff,ErinReese,AbbieWilliams",
+                  "company": "",
+                  "twitter": "@CyKee17, @Abbie_Rae",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Katie, Erin, and Abbie are three cyber security professionals with 30 years of experience (combined).  In addition to their normal daily tasks, they conquer security awareness. Always taking on more than expected, fully embracing the idiom, \u201cGo big or go home\u201d.\n"
+               }
+            ],
+            "talk_id": "TheBigBangforSecurityAwareness",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "1",
+            "abstract": "The frontline employees of any organization pose the largest risk your Cyber team must manage. They must be educated, but that\u2019s not as easy as it sounds.\r\n\r\n<sarcasm> Especially because Security Awareness gets tons of resources and dollars. </sarcasm>\r\n\r\nJoin us as we go through our 6-year journey from doing the bare minimum that was hardly noticed to having literal fans of our Security Awareness program, who can\u2019t wait for more. We will share our story and provide insight to how you can get started, get traction, or make a big bang. We started out in a hot dense state and now we\u2019ve got Security Awareness."
+         },
          {
-            "name": "Matt Virus",
-            "speaker_id": "MattVirus",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Matt Virus (real name) is an IoT engineer @ Cisco (15+ years), an above-average husband and father of 2, a farmer, a fan of loud angry rock music, and a hardware junkie with tons of experience with build/hack projects. No fear of burned fingers, desks set on fire, or escape of the magic smoke here.  Former DoD forensic and malware analyst, firm believer of local control and auditability of software/firmware. Lover of all things containerized and API-enabled, blackbelt in google-fu, passionate about facilitation, enablement, and helping people reach beyond their technical comfort zone. Founder of hackspace.io, Fueled by monster energy...\n"
-         }
-      ],
-      "talk_id": "CloudlessSmarthomeSmartfarmCheapDIYandAwesomeYoucandothistoo",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "4",
-      "abstract": "Cloud-based smarthome/automation solutions suck.  Expensive, proprietary solutions suck too.  Here\u2019s how I connected and enabled my home and farm to be as smart and automated as possible.  From lighting to HVAC and multi-room/multi-building audio to livestock water tanks \u2013 nothing is spared from disassembly, soldering, and hackery."
-   },
-   {
-      "title": "How to Raise a Hacker",
-      "speaker": [
+            "title": "Cloudless Smarthome/Smartfarm: Cheap, DIY, and Awesome. You can do this too.",
+            "authors": [
+               {
+                  "name": "Matt Virus",
+                  "speakerId": "MattVirus",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Matt Virus (real name) is an IoT engineer @ Cisco (15+ years), an above-average husband and father of 2, a farmer, a fan of loud angry rock music, and a hardware junkie with tons of experience with build/hack projects. No fear of burned fingers, desks set on fire, or escape of the magic smoke here.  Former DoD forensic and malware analyst, firm believer of local control and auditability of software/firmware. Lover of all things containerized and API-enabled, blackbelt in google-fu, passionate about facilitation, enablement, and helping people reach beyond their technical comfort zone. Founder of hackspace.io, Fueled by monster energy...\n"
+               }
+            ],
+            "talk_id": "CloudlessSmarthomeSmartfarmCheapDIYandAwesomeYoucandothistoo",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "4",
+            "abstract": "Cloud-based smarthome/automation solutions suck.  Expensive, proprietary solutions suck too.  Here\u2019s how I connected and enabled my home and farm to be as smart and automated as possible.  From lighting to HVAC and multi-room/multi-building audio to livestock water tanks \u2013 nothing is spared from disassembly, soldering, and hackery."
+         },
          {
-            "name": "Jared Bernard, Anthony Bernard (age 16), Rebekah (Beka) Bernard (age 10)",
-            "speaker_id": "JaredBernard,AnthonyBernard(age16),Rebekah(Beka)Bernard(age10)",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Jared Bernard teaches Cybersecuriy, Networking and System Administration courses at Metropolitan Community College. He has 5 children between the ages of 6 throught 16.\n\nAnthony Bernard is 16 years old and a Junior in High School. He runs his own PC Repair business and enjoys playing chess, practicing his lock-picking skills, finding new ways to use the Hak5 Bash Bunny, experiementing with John the ripper and modifying games. \n\nRebekah (Beka) Bernard is 10 years old and in the 4th grade. She enjoys art and music as well as doing fun things in a bash shell and modifying games. \n"
-         }
-      ],
-      "talk_id": "HowtoRaiseaHacker",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "1",
-      "abstract": "Hear from a father and two of his children (ages 10 and 16) as they share their experiences embracing a hacking culture within their home. It is imperative that we equip the next generation with the skills to tackle security challenges. This is done by emphasizing problem-solving skills while   they are young and challenging them as they grow older and find ways to integrate those skills throughout a child's life. This presentation will be interactive with an extended Q&A as each presenter shares their personal experiences that helped them become the hacker they are today and in the future."
-   },
-   {
-      "title": "Understanding Vulnerability Data ",
-      "speaker": [
+            "title": "How to Raise a Hacker",
+            "authors": [
+               {
+                  "name": "Jared Bernard, Anthony Bernard (age 16), Rebekah (Beka) Bernard (age 10)",
+                  "speakerId": "JaredBernard,AnthonyBernard(age16),Rebekah(Beka)Bernard(age10)",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Jared Bernard teaches Cybersecuriy, Networking and System Administration courses at Metropolitan Community College. He has 5 children between the ages of 6 throught 16.\n\nAnthony Bernard is 16 years old and a Junior in High School. He runs his own PC Repair business and enjoys playing chess, practicing his lock-picking skills, finding new ways to use the Hak5 Bash Bunny, experiementing with John the ripper and modifying games. \n\nRebekah (Beka) Bernard is 10 years old and in the 4th grade. She enjoys art and music as well as doing fun things in a bash shell and modifying games. \n"
+               }
+            ],
+            "talk_id": "HowtoRaiseaHacker",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "1",
+            "abstract": "Hear from a father and two of his children (ages 10 and 16) as they share their experiences embracing a hacking culture within their home. It is imperative that we equip the next generation with the skills to tackle security challenges. This is done by emphasizing problem-solving skills while   they are young and challenging them as they grow older and find ways to integrate those skills throughout a child's life. This presentation will be interactive with an extended Q&A as each presenter shares their personal experiences that helped them become the hacker they are today and in the future."
+         },
          {
-            "name": "Jerry Gamblin ",
-            "speaker_id": "JerryGamblin",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Jerry Gamblin is a security researcher and analyst focusing on network and application security with over 20 years of experience. His research has been presented on numerous blogs, podcasts, and security conferences. When not at work, his personal research focuses on IoT & embedded automotive systems.\n\n"
-         }
-      ],
-      "talk_id": "UnderstandingVulnerabilityData",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "1.7",
-      "abstract": "Vulnerability data is some of the most critical yet confusing data in the security industry. This talk will demystify where this data comes from, who produces it, and its usage. We will follow a \r\nvulnerability from discovery to reporting to being published as a CVE while explaining who is involved in each step and their role."
-   },
-   {
-      "title": "Quantum Mania: What you need to know to prepare for the quantum revolution",
-      "speaker": [
+            "title": "Understanding Vulnerability Data ",
+            "authors": [
+               {
+                  "name": "Jerry Gamblin ",
+                  "speakerId": "JerryGamblin",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Jerry Gamblin is a security researcher and analyst focusing on network and application security with over 20 years of experience. His research has been presented on numerous blogs, podcasts, and security conferences. When not at work, his personal research focuses on IoT & embedded automotive systems.\n\n"
+               }
+            ],
+            "talk_id": "UnderstandingVulnerabilityData",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "1.7",
+            "abstract": "Vulnerability data is some of the most critical yet confusing data in the security industry. This talk will demystify where this data comes from, who produces it, and its usage. We will follow a \r\nvulnerability from discovery to reporting to being published as a CVE while explaining who is involved in each step and their role."
+         },
          {
-            "name": "Henry McNeil",
-            "speaker_id": "HenryMcNeil",
-            "company": "",
-            "twitter": "@Vidmaster on Twitter, @Vidmaster@infosec.exchange on Mastodon",
-            "github": "",
-            "linkedin": "",
-            "image": "image2.jpeg",
-            "bio": "Henry is a software engineer, cybersecurity professional, dog dad, avid boardgamer, and long time Omaha resident. He'd love to show you pictures of his corgi Jiggles, nerd out about application security, and tell you all the awesome spots to eat and drink in Omaha.\n"
-         }
-      ],
-      "talk_id": "QuantumManiaWhatyouneedtoknowtoprepareforthequantumrevolution",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "3",
-      "abstract": "You may have seen phrases like \"Y2Q\" and \"the quantum tipping point\" used to try to scare you into buying \"quantum-safe\" cryptography solutions, but what's true and what's just marketing hype? Can someone even approach quantum computing without getting a PhD or reliving the trauma of college calculus? In this talk you'll learn what quantum computing is, how it radically differs from classical computing, key algorithms and their applications, and all the ways quantum computers may change (or not!) the face of cybersecurity. You'll walk away with knowledge of how to protect your organization from quantum threats over the coming years, start experimenting with quantum computing today, and avoid spending money on quantum snake oil, all without a single differential equation!"
-   },
-   {
-      "title": "Oops I ran it again, unearthing vulnerabilities in trusted tools",
-      "speaker": [
+            "title": "Quantum Mania: What you need to know to prepare for the quantum revolution",
+            "authors": [
+               {
+                  "name": "Henry McNeil",
+                  "speakerId": "HenryMcNeil",
+                  "company": "",
+                  "twitter": "@Vidmaster",
+                  "mastodon": "@Vidmaster@infosec.exchange",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "image2.jpeg",
+                  "bio": "Henry is a software engineer, cybersecurity professional, dog dad, avid boardgamer, and long time Omaha resident. He'd love to show you pictures of his corgi Jiggles, nerd out about application security, and tell you all the awesome spots to eat and drink in Omaha.\n"
+               }
+            ],
+            "talk_id": "QuantumManiaWhatyouneedtoknowtoprepareforthequantumrevolution",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "3",
+            "abstract": "You may have seen phrases like \"Y2Q\" and \"the quantum tipping point\" used to try to scare you into buying \"quantum-safe\" cryptography solutions, but what's true and what's just marketing hype? Can someone even approach quantum computing without getting a PhD or reliving the trauma of college calculus? In this talk you'll learn what quantum computing is, how it radically differs from classical computing, key algorithms and their applications, and all the ways quantum computers may change (or not!) the face of cybersecurity. You'll walk away with knowledge of how to protect your organization from quantum threats over the coming years, start experimenting with quantum computing today, and avoid spending money on quantum snake oil, all without a single differential equation!"
+         },
          {
-            "name": "Matt Austin, Michael Kunz",
-            "speaker_id": "MattAustin,MichaelKunz",
-            "company": "",
-            "twitter": "@mattaustin, @mkunzsec",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Matt is a husband, a dad, and a hacker with 13 years in security research and moonlighting BugBounty.  Also fan of the video game Stray.\nMike is a UNO alumni, former speaker at Kernelcon, former winner of the Kernelcon CTF, and holds an Eternal Kernel badge.\n"
-         }
-      ],
-      "talk_id": "OopsIranitagainunearthingvulnerabilitiesintrustedtools",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "5",
-      "abstract": "We rely on a variety of security tools to do our jobs, but is it safe to run these tools on code or applications we do not trust or is it \u201cToxic\u201d (In the Zone, 2003)? Over the last few years we have uncovered a variety of exploits in popular security tools including Code QL, Burp, Zap, and even humble SCA / SBOM tools like OWASP Dependency Check. \r\n\r\nDealing with unsafe and untrusted code is not easy, you got to \"Work B****\" (Britney Jean, 2013). We hope to make you \u201cStronger\u201d (Oops!... I Did It Again, 2000) by taking a closer look at how these tools work, and provide steps to minimize the risk posed by these exploits."
-   },
-   {
-      "title": "Immunology 101: The Kubernetes Admission Controller",
-      "speaker": [
+            "title": "Oops I ran it again, unearthing vulnerabilities in trusted tools",
+            "authors": [
+               {
+                  "name": "Matt Austin, Michael Kunz",
+                  "speakerId": "MattAustin,MichaelKunz",
+                  "company": "",
+                  "twitter": "@mattaustin, @mkunzsec",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Matt is a husband, a dad, and a hacker with 13 years in security research and moonlighting BugBounty.  Also fan of the video game Stray.\nMike is a UNO alumni, former speaker at Kernelcon, former winner of the Kernelcon CTF, and holds an Eternal Kernel badge.\n"
+               }
+            ],
+            "talk_id": "OopsIranitagainunearthingvulnerabilitiesintrustedtools",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "5",
+            "abstract": "We rely on a variety of security tools to do our jobs, but is it safe to run these tools on code or applications we do not trust or is it \u201cToxic\u201d (In the Zone, 2003)? Over the last few years we have uncovered a variety of exploits in popular security tools including Code QL, Burp, Zap, and even humble SCA / SBOM tools like OWASP Dependency Check. \r\n\r\nDealing with unsafe and untrusted code is not easy, you got to \"Work B****\" (Britney Jean, 2013). We hope to make you \u201cStronger\u201d (Oops!... I Did It Again, 2000) by taking a closer look at how these tools work, and provide steps to minimize the risk posed by these exploits."
+         },
          {
-            "name": "Nate Brown",
-            "speaker_id": "NateBrown",
-            "company": "",
-            "twitter": "@NateBrownNE",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Nate Brown is a Kubernetes enthusiast. He loves all things Kubernetes and has a special passion for securing clusters. Outside of Kubernetes he is an avid musician and is involved heavily in the local marching band activity as an instructor.\n"
-         }
-      ],
-      "talk_id": "Immunology101TheKubernetesAdmissionController",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "2",
-      "abstract": "Learn more about your immune system and the Kubernetes immune system! You\u2019ll learn how your dendritic cells and Kubernetes admission controllers help keep you and your clusters safe. This talk will examine the inner workings of the Kubernetes admission control process, offer insight into the kinds of admission controllers, and explain how the API server communicates with them. You\u2019ll also learn about some admission controllers you can deploy into your cluster and what you can do with those admission controllers."
-   },
-   {
-      "title": "My Life...As Seen by Google",
-      "speaker": [
+            "title": "Immunology 101: The Kubernetes Admission Controller",
+            "authors": [
+               {
+                  "name": "Nate Brown",
+                  "speakerId": "NateBrown",
+                  "company": "",
+                  "twitter": "@NateBrownNE",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Nate Brown is a Kubernetes enthusiast. He loves all things Kubernetes and has a special passion for securing clusters. Outside of Kubernetes he is an avid musician and is involved heavily in the local marching band activity as an instructor.\n"
+               }
+            ],
+            "talk_id": "Immunology101TheKubernetesAdmissionController",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "2",
+            "abstract": "Learn more about your immune system and the Kubernetes immune system! You\u2019ll learn how your dendritic cells and Kubernetes admission controllers help keep you and your clusters safe. This talk will examine the inner workings of the Kubernetes admission control process, offer insight into the kinds of admission controllers, and explain how the API server communicates with them. You\u2019ll also learn about some admission controllers you can deploy into your cluster and what you can do with those admission controllers."
+         },
          {
-            "name": "Henry Karpf",
-            "speaker_id": "HenryKarpf",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "",
-            "bio": "Henry Karpf has been doing cyber before cyber was cyber. He spent nearly a decade being a threat actor and the last decade catching/tracking/defending against cyber threats. In his free time he continues to further his things of all thing cyber and is also an avid LEGO fan.\n"
-         }
-      ],
-      "talk_id": "MyLifeAsSeenbyGoogle",
-      "pdf": "",
-      "video": "",
-      "length": "either",
-      "technical": "3",
-      "abstract": "Every time you open an app, every wifi point you see, every command given to Google Assistant, Google logs every, single, interaction. What does Google really know about an Android and Chrome user? Years ago folks were worried about the government tracking you, what do they know about you, etc. Nowadays we freely give up this sort of information to people like Facebook, Google, Apple, etc in exchange for services like email, music, navigation, ads. In this talk I'll look at the technical aspects of what specifically Google Tracks about a user, myself. We'll explore the volumes of data Google collects, and visualize using Elasticsearch and Kibana and pull out interesting tid-bits."
-   },
-   {
-      "title": "Infrastructure as Remote Code Execution: How to abuse Terraform to elevate access",
-      "speaker": [
+            "title": "My Life...As Seen by Google",
+            "authors": [
+               {
+                  "name": "Henry Karpf",
+                  "speakerId": "HenryKarpf",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Henry Karpf has been doing cyber before cyber was cyber. He spent nearly a decade being a threat actor and the last decade catching/tracking/defending against cyber threats. In his free time he continues to further his things of all thing cyber and is also an avid LEGO fan.\n"
+               }
+            ],
+            "talk_id": "MyLifeAsSeenbyGoogle",
+            "pdf": "",
+            "video": "",
+            "length": "either",
+            "technical": "3",
+            "abstract": "Every time you open an app, every wifi point you see, every command given to Google Assistant, Google logs every, single, interaction. What does Google really know about an Android and Chrome user? Years ago folks were worried about the government tracking you, what do they know about you, etc. Nowadays we freely give up this sort of information to people like Facebook, Google, Apple, etc in exchange for services like email, music, navigation, ads. In this talk I'll look at the technical aspects of what specifically Google Tracks about a user, myself. We'll explore the volumes of data Google collects, and visualize using Elasticsearch and Kibana and pull out interesting tid-bits."
+         },
          {
-            "name": "Michael McCabe",
-            "speaker_id": "MichaelMcCabe",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "headshot.jpeg",
-            "bio": "Michael McCabe is the president of Cloud Security Partners. Michael helps clients migrate their workloads to the cloud in a secure and managed way. He's worked with large financials during their cloud migrations and transformations. He focuses on creating secure, sane, and organized solutions for his clients.\n"
-         }
-      ],
-      "talk_id": "InfrastructureasRemoteCodeExecutionHowtoabuseTerraformtoelevateaccess",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "4",
-      "abstract": "This talk will focus on ways to abuse the use of Terraform to elevate privileges, expose data, and gain further footholds in environments from a developer's perspective. We'll cover the common uses of Terraform and how a malicious actor could abuse Terraform and even bypass security controls to execute unapproved code. This talk will include multiple demos of ways to exploit Terraform cloud."
-   },
-   {
-      "title": "Building Windows to Break Them: Building, Hacking, and Protecting an AD Lab",
-      "speaker": [
+            "title": "Infrastructure as Remote Code Execution: How to abuse Terraform to elevate access",
+            "authors": [
+               {
+                  "name": "Michael McCabe",
+                  "speakerId": "MichaelMcCabe",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "headshot.jpeg",
+                  "bio": "Michael McCabe is the president of Cloud Security Partners. Michael helps clients migrate their workloads to the cloud in a secure and managed way. He's worked with large financials during their cloud migrations and transformations. He focuses on creating secure, sane, and organized solutions for his clients.\n"
+               }
+            ],
+            "talk_id": "InfrastructureasRemoteCodeExecutionHowtoabuseTerraformtoelevateaccess",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "4",
+            "abstract": "This talk will focus on ways to abuse the use of Terraform to elevate privileges, expose data, and gain further footholds in environments from a developer's perspective. We'll cover the common uses of Terraform and how a malicious actor could abuse Terraform and even bypass security controls to execute unapproved code. This talk will include multiple demos of ways to exploit Terraform cloud."
+         },
          {
-            "name": "Veronica Weiss",
-            "speaker_id": "VeronicaWeiss",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "linkedin": "",
-            "image": "veronica.png",
-            "bio": "Veronica Weiss is a Red Team Engineer on a Product Security team at a very large software company. In a previous life in FinTech, they led a Research and Development program and worked on multiple key engineering projects and initiatives that leveraged an offensive security-based mindset. Due to the nature of their work, Veronica\u2019s hobbies include having a Celsius addiction and trying not to think about cloud computing platforms.\n"
-         }
-      ],
-      "talk_id": "BuildingWindowstoBreakThemBuildingHackingandProtectinganADLab",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "5",
-      "abstract": "Time zones might be fake, but time always goes by too quickly. However, thanks to infrastructure-as-code, we can reduce the time it takes to deploy resources to the cloud and build labs. And as hackers, if we build something \u2014 we have to break it.\r\n\r\nThis talk will first discuss how to leverage infrastructure-as-code to set up your own Active Directory lab and how to go from a standard user to Domain Admin. Multiple adversarial simulation patterns will be discussed, for example: password spraying, pass-the-hash attacks, Kerberoasting, and NTLM relay attacks, etc.\r\n\r\nThe initial stage of this talk will begin with a brief journey behind the process of using Terraform to set up an Active Directory environment. Afterwards, we will replicate each attack path with a demo that utilizes various active directory misconfigurations. This talk will conclude with the best practices to mitigate these threats."
-   },
-   {
-      "title": "The ART of Runtime-Based Obfuscation in Android",
-      "speaker": [
+            "title": "Building Windows to Break Them: Building, Hacking, and Protecting an AD Lab",
+            "authors": [
+               {
+                  "name": "Veronica Weiss",
+                  "speakerId": "VeronicaWeiss",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "linkedIn": "",
+                  "image": "veronica.png",
+                  "bio": "Veronica Weiss is a Red Team Engineer on a Product Security team at a very large software company. In a previous life in FinTech, they led a Research and Development program and worked on multiple key engineering projects and initiatives that leveraged an offensive security-based mindset. Due to the nature of their work, Veronica\u2019s hobbies include having a Celsius addiction and trying not to think about cloud computing platforms.\n"
+               }
+            ],
+            "talk_id": "BuildingWindowstoBreakThemBuildingHackingandProtectinganADLab",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "5",
+            "abstract": "Time zones might be fake, but time always goes by too quickly. However, thanks to infrastructure-as-code, we can reduce the time it takes to deploy resources to the cloud and build labs. And as hackers, if we build something \u2014 we have to break it.\r\n\r\nThis talk will first discuss how to leverage infrastructure-as-code to set up your own Active Directory lab and how to go from a standard user to Domain Admin. Multiple adversarial simulation patterns will be discussed, for example: password spraying, pass-the-hash attacks, Kerberoasting, and NTLM relay attacks, etc.\r\n\r\nThe initial stage of this talk will begin with a brief journey behind the process of using Terraform to set up an Active Directory environment. Afterwards, we will replicate each attack path with a demo that utilizes various active directory misconfigurations. This talk will conclude with the best practices to mitigate these threats."
+         },
          {
-            "name": "Laurie Kirk",
-            "speaker_id": "LaurieKirk",
-            "company": "",
-            "twitter": "",
-            "github": "",
-            "youtube": "https://www.youtube.com/@lauriewired",
-            "linkedin": "",
-            "image": "LaurieKirkBioPic.jpg",
-            "bio": "I currently work as a Security Researcher at Microsoft in incident response. I specialize in cross-platform malware analysis with a focus on mobile threats. I also run a YouTube channel (@LaurieWired) that covers all sorts of in-depth Malware Analysis, Reverse-Engineering, Exploitation and security topics.\n"
+            "title": "The ART of Runtime-Based Obfuscation in Android",
+            "authors": [
+               {
+                  "name": "Laurie Kirk",
+                  "speakerId": "LaurieKirk",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "youtube": "https://www.youtube.com/@lauriewired",
+                  "linkedIn": "",
+                  "image": "LaurieKirkBioPic.jpg",
+                  "bio": "I currently work as a Security Researcher at Microsoft in incident response. I specialize in cross-platform malware analysis with a focus on mobile threats. I also run a YouTube channel (@LaurieWired) that covers all sorts of in-depth Malware Analysis, Reverse-Engineering, Exploitation and security topics.\n"
+               }
+            ],
+            "talk_id": "TheARTofRuntimeBasedObfuscationinAndroid",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "4",
+            "abstract": "Are you ready to dive into the diverse world of Android obfuscation? This talk will explore the ins and outs of runtime-based obfuscation, a technique used to hide malicious code from Reverse Engineers by subverting the Android Runtime. I\u2019ll cover the offensive and defensive aspects of obfuscation, including the two primary techniques of runtime-based obfuscation: subverting DEX class loading and ART object manipulation. You'll learn about analyzing the Android kernel source code and how to alter runtime objects to replace or modify instructions. But the fun doesn't stop there! We'll take a look at real-world examples of runtime-based obfuscation and the challenges that accompany it. By the end of this talk, you'll have a deep understanding of the background of Android obfuscation and the primary techniques of runtime-based obfuscation. Join me for an entertaining and informative journey into the world of Android security."
          }
-      ],
-      "talk_id": "TheARTofRuntimeBasedObfuscationinAndroid",
-      "pdf": "",
-      "video": "",
-      "length": "",
-      "technical": "4",
-      "abstract": "Are you ready to dive into the diverse world of Android obfuscation? This talk will explore the ins and outs of runtime-based obfuscation, a technique used to hide malicious code from Reverse Engineers by subverting the Android Runtime. I\u2019ll cover the offensive and defensive aspects of obfuscation, including the two primary techniques of runtime-based obfuscation: subverting DEX class loading and ART object manipulation. You'll learn about analyzing the Android kernel source code and how to alter runtime objects to replace or modify instructions. But the fun doesn't stop there! We'll take a look at real-world examples of runtime-based obfuscation and the challenges that accompany it. By the end of this talk, you'll have a deep understanding of the background of Android obfuscation and the primary techniques of runtime-based obfuscation. Join me for an entertaining and informative journey into the world of Android security."
+      ]
    }
 ]
