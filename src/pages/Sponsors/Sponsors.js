@@ -30,6 +30,8 @@ import SecurePointSolutions from "../../static/images/sponsors/secure-point-solu
 import CloudSecurityPartnersLight from "../../static/images/sponsors/cloud-security-partners-light-mode.png"
 import CloudSecurityPartnersDark from "../../static/images/sponsors/cloud-security-partners-dark-mode.png"
 import CarrierAccessIT from "../../static/images/sponsors/cait.png"
+import PaloAltoLight from "../../static/images/sponsors/palo-alto-light-mode.png"
+import PaloAltoDark from "../../static/images/sponsors/palo-alto-dark-mode.png"
 
 import "./Sponsors.scss";
 
@@ -192,6 +194,22 @@ export default class Sponsors extends Component {
                       <img src={CarrierAccessIT}
                         className='spons-img other-spons'
                         alt="Carrier Access IT"/>
+                    </a>
+                    <a href="http://www.paloaltonetworks.com/"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={PaloAltoLight}
+                        className='spons-img other-spons'
+                        alt="Palo Alto Networks"/>
+                    </a>
+                    <a href="http://www.paloaltonetworks.com/"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={PaloAltoDark}
+                        className='spons-img other-spons'
+                        alt="Palo Alto Networks"/>
                     </a>
                   </div>
 
