@@ -32,6 +32,7 @@ import CloudSecurityPartnersDark from "../../static/images/sponsors/cloud-securi
 import CarrierAccessIT from "../../static/images/sponsors/cait.png"
 import PaloAltoLight from "../../static/images/sponsors/palo-alto-light-mode.png"
 import PaloAltoDark from "../../static/images/sponsors/palo-alto-dark-mode.png"
+import TekSystems from "../../static/images/logos/teksystems.png"
 
 import "./Sponsors.scss";
 
@@ -444,6 +445,13 @@ export default class Sponsors extends Component {
                       <img src={MentalHealthHackersLight}
                         className='spons-img other-spons'
                         alt="Mental Health Hackers"/>
+                    </a>
+                    <a href="https://www.teksystems.com/en/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={TekSystems}
+                        className='spons-img other-spons'
+                        alt="TEKsystems"/>
                     </a>
                     <br />
                   </div>
