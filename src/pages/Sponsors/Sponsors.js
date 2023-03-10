@@ -448,16 +448,16 @@ export default class Sponsors extends Component {
                           className='dark-mode-logo'
                           rel='noopener noreferrer'>
                           <img src={CloudSecurityPartnersDark}
-                            className='spons-img other-spons'
-                            alt="Mental Health Hackers"/>
+                            className='spons-img fdbev-spons'
+                            alt="Cloud Security Partners"/>
                         </a>
                         <a href="https://cloudsecuritypartners.com/"
                           target="_blank"
                           className='light-mode-logo'
                           rel='noopener noreferrer'>
                           <img src={CloudSecurityPartnersLight}
-                            className='spons-img other-spons'
-                            alt="Mental Health Hackers"/>
+                            className='spons-img fdbev-spons'
+                            alt="Cloud Security Partners"/>
                         </a>
                       </div>
 
