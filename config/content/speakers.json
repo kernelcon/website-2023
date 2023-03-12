@@ -2,27 +2,6 @@
    {
       "talks": [
          {
-            "title": "xIoT Hacking Demonstrations & Strategies to Disappoint Bad Actors",
-            "authors": [
-               {
-                  "name": "Brian Contos",
-                  "speakerId": "BrianContos",
-                  "company": "",
-                  "twitter": "BrianContos",
-                  "github": "",
-                  "linkedIn": "https://www.linkedin.com/in/briancontos/",
-                  "image": "145.png",
-                  "bio": "With two IPOs & eight acquisitions Brian has helped build some of the most successful security companies in the world. He has over 25 years in the security industry as security company entrepreneur, board advisor, investor, and author. After getting his start with the Defense Information Systems Agency (DISA) and later Bell Labs, Brian began the process of building security startups and taking multiple companies through successful IPOs and acquisitions including: Riptech, ArcSight, Imperva, McAfee, Solera Networks, Cylance, JASK, Verodin, and Mandiant.\n\nBrian has worked in over 50 countries across six continents. He authored the book Enemy at the Water Cooler, and he co-authored Physical & Logical Security Convergence with former NSA Deputy Director William Crowell.  He was featured in the cyberwar documentary 5 Eyes alongside General Michael Hayden, former NSA, and CIA Director. Brian has written for and been interviewed by security and business press and regularly presents at conferences worldwide like Black Hat, RSA, GITEX Global & BSides.\n"
-               }
-            ],
-            "talk_id": "xIoTHackingDemonstrationsStrategiestoDisappointBadActors",
-            "pdf": "",
-            "video": "",
-            "length": "a/withdraw",
-            "technical": "4",
-            "abstract": "We\u2019ve unleashed our dark allies from the nightmare dimension on an unholy crusade to demonstrate cyberattacks for your enlightenment. If you love seeing devices compromised as much as we do, join us for some hacking demonstrations, detailed security research findings, and threat mitigation techniques that will disappoint bad actors. Share your new knowledge around the water cooler, apply these preventative security strategies within your own organization, and become the cool person at the office party everyone wants to hang out with regardless of that cat sweater you insist on wearing.\r\nWe\u2019ll demonstrate several hacks against xIoT, or Extended Internet of Things, devices. For those who would say, \u201cBut they\u2019re just security cameras monitoring the parking garage, wireless access points in the cafeteria, or PLCs controlling robotic welding arms; what harm can they cause?\u201d - this will illuminate that harm.\r\nWe\u2019ll share stories from the trenches involving cybercriminals, nation-state actors, and defenders. Our presentation will detail findings from over six years of xIoT threat research spanning millions of production devices in enterprises and government agencies around the world. We\u2019ll identify various steps organizations can take to mitigate risk while embracing a Things-connected world.\r\nxIoT encompasses three disparate but interrelated device groups that operate with purpose-built\r\nhardware and firmware, are typically network-connected, and disallow the installation of traditional\r\nendpoint security controls. The first group contains enterprise IoT devices such as VoIP phones,\r\nsecurity cameras, and printers. The second group includes operational technology such as PLCs,\r\nbuilding automation systems, and industrial control systems. The third group consists of network gear such as switches, load balancers, and wireless access points.\r\nThere are over 50 billion xIoT devices in operation worldwide. Most of these devices run well-known operating systems like Linux, Android, BSD, and various real-time operating systems like VxWorks. Additionally, many xIoT devices have open ports, protocols, storage, memory, and processing capabilities similar to your laptop. But there is a major difference. Even though most enterprises and government agencies have tens to hundreds of thousands of these devices in production, they go largely unmanaged and unmonitored.\r\nThese xIoT devices typically operate with weak credentials, old, vulnerable firmware, extraneous\r\nservices, and problematic certificates. This massive, vulnerable xIoT attack surface is being successfully  exploited by bad actors engaging in cyber espionage, data exfiltration, sabotage, and extortion, impacting xIoT, IT, and cloud assets.\r\nNation-states and cybercriminals have shifted their focus to xIoT attacks. Why? Because they work. Military-grade xIoT hacking tools are in use, cybercrime for hire that\u2019s predicated on compromised xIoT devices has been monetized, and organizations worldwide are already compromised without even knowing it.\r\nBad actors are counting on you being passive by not mitigating xIoT security risks. They want you to fail so they can continue to evade detection and maintain persistence on your xIoT devices. Disappoint them! Take your xIoT devices back by understanding how to hack them, recognizing where they\u2019re most vulnerable, and employing strategies to successfully protect them at scale."
-         },
-         {
             "title": "Old Services, New Tricks: Cloud Metadata Abuse by Threat Actors",
             "authors": [
                {
@@ -63,27 +42,6 @@
             "length": "",
             "technical": "1",
             "abstract": "An overview of why the enterprises split into operations, development, and security. Why it made sense to split technology up this way, how we were wrong to do it, and what we should do now.\u00a0\r\n\r\nThe listener will learn about some semantic issues that development, operations, and security have and how we get out of this mess. The talk is not technical, but we will cover the impact of semantics on the division of technical stacks. Next, we will look at real-world misses and why the abdication of security creates issues and see how these misses cause deeper long-term problems. Finally, the listener will learn how we get back to a place where security operations and development work together in big companies. The listener will learn to recover from this split through some tools and practices, how tools should be used across roles and silos, and why communication with a new set of semantics would be a good idea."
-         },
-         {
-            "title": "What Bad Actors Don\u2019t Want You to Know About ICS Attacks: Preventative Threat Mitigation That Actually Works",
-            "authors": [
-               {
-                  "name": "Robert Esposito",
-                  "speakerId": "RobertEsposito",
-                  "company": "",
-                  "twitter": "@robertespo787",
-                  "github": "",
-                  "linkedIn": "https://www.linkedin.com/in/esposito/",
-                  "image": "148-Robert Esposito.jpg",
-                  "bio": "As Director of Security Strategy at Phosphorus, Robert helps organizations address xIoT attack surface management and preventative risk mitigation, enabling organizations to safely embrace an increasingly Thing-based world. He has been a cybersecurity professional in Silicon Valley for 20+ years, with his early career focused on environmental ICS for major semiconductor manufacturers. Since then, he has been part of several successful cybersecurity companies and system integrators in roles such as field engineer, systems engineer, &amp; solutions architect. His career highlights include a Boeing patent for botnet beacon detection, 787 Dreamliner pen testing, and work with the DoD, DHS, and DoE.\n"
-               }
-            ],
-            "talk_id": "WhatBadActorsDontWantYoutoKnowAboutICSAttacksPreventativeThreatMitigationThatActuallyWorks",
-            "pdf": "",
-            "video": "",
-            "length": "A/withdraw",
-            "technical": "3",
-            "abstract": "Critical infrastructure entities (oil & gas, power & energy, manufacturing, etc.) are increasingly under assault by opportunistic attackers, cybercriminals, and nation-states. From ransomware for disruption (DARKSIDE) to botnets for DDoS attacks (RSOCKS), and pivot attacks to target other devices (PIPEDREAM & QUIETEXIT), industrial control systems are in the sights of a growing number of nefarious actors.\r\n \r\nHackers have identified ICS systems as a primary, under-defended, attack target. Historically, these systems were thought isolated and air-gapped from external access, which is now not the case. Hackers quietly exploit these systems, establish long-term persistence, and survive remediation efforts, posing new security challenges for critical infrastructure, enterprises, and government agencies.\r\n \r\nThere was a time when little could be done about ICS security, but that is no longer true. Organizations can\u2013and should\u2013expect better outcomes. This presentation will cover ICS threats, real-life use cases, & unique research. It will explore approaches to maintaining asset availability while safely taking control of your ICS security and removing attackers' current advantage.\r\n \r\nBy attending this presentation, you will:\r\n* Explore how ICS assets are being hacked and leveraged for persistence and evasion\r\n* Learn how you can now find, fix, and monitor your ICS assets"
          },
          {
             "title": "Developing Highly Effective Payloads",
