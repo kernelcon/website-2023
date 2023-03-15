@@ -19,7 +19,8 @@ import BairdHolm from "../../static/images/sponsors/bairdholm.png";
 import GuidepointDark from "../../static/images/sponsors/guidepoint_black.png";
 import Tanium from "../../static/images/sponsors/Tanium.png";
 import Axonius from "../../static/images/sponsors/Axonius.png";
-import Wiz from "../../static/images/sponsors/wiz.png";
+import WizLightMode from "../../static/images/sponsors/wiz-light-mode.png";
+import WizDarkMode from "../../static/images/sponsors/wiz-dark-mode.png";
 import Code42 from "../../static/images/sponsors/code42.png";
 import FarmCreditDark from "../../static/images/sponsors/farm-credit-dark-mode.png";
 import FarmCreditLight from "../../static/images/sponsors/farm-credit-light-mode.png";
@@ -212,6 +213,22 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Palo Alto Networks"/>
                     </a>
+                    <a href="https://www.wiz.io/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='dark-mode-logo'>
+                      <img src={WizDarkMode}
+                        className='spons-img sub-party-spons'
+                        alt="Wiz"/>
+                    </a>
+                    <a href="https://www.wiz.io/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='light-mode-logo'>
+                      <img src={WizLightMode}
+                        className='spons-img sub-party-spons'
+                        alt="Wiz"/>
+                    </a>
                   </div>
 
                   <div className='spons-block'>
@@ -356,22 +373,7 @@ export default class Sponsors extends Component {
                         alt="Tanium"/>
                     </a>
 
-                    <a href="https://www.wiz.io/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='all-bright dark-mode-logo'>
-                      <img src={Wiz}
-                        className='spons-img sub-party-spons'
-                        alt="Wiz"/>
-                    </a>
-                    <a href="https://www.wiz.io/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='light-mode-logo'>
-                      <img src={Wiz}
-                        className='spons-img sub-party-spons'
-                        alt="Wiz"/>
-                    </a>
+
     </span>
                     </div>
                   </div> */}
