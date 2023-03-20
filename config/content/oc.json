@@ -1,5 +1,6 @@
 [{
   "heading": "Organizing Committee",
+  "subHeading": "",
   "people": [
     {
       "id": 2,
@@ -8,7 +9,8 @@
       "image": "tyler.png",
       "twitter": "zonksec",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 3,
@@ -17,7 +19,8 @@
       "image": "popcorn.png",
       "twitter": "popcornhax",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 5,
@@ -26,7 +29,8 @@
       "image": "henry.png",
       "twitter": "hk6045",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 6,
@@ -35,7 +39,8 @@
       "image": "adam.png",
       "twitter": "clevernyyyy",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 7,
@@ -44,7 +49,8 @@
       "image": "jason.png",
       "twitter": "__JCL__",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 8,
@@ -53,7 +59,8 @@
       "image": "tim.png",
       "twitter": "tvidas",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 9,
@@ -62,7 +69,8 @@
       "image": "aaron.png",
       "twitter": "scotchsec",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 10,
@@ -71,7 +79,8 @@
       "image": "trent.png",
       "twitter": "trentgw",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 11,
@@ -80,7 +89,8 @@
       "image": "kate.png",
       "twitter": "vulnKat",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 12,
@@ -89,7 +99,8 @@
       "image": "nate.png",
       "twitter": "woodnsec",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 13,
@@ -98,7 +109,8 @@
       "image": "jeris.png",
       "twitter": "elaboraterues",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 14,
@@ -107,7 +119,8 @@
       "image": "ryen.png",
       "twitter": "Ryen_Mac",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": true
     },
     {
       "id": 15,
@@ -115,8 +128,14 @@
       "title": "Party Rocking Chair",
       "image": "dylan.png",
       "mastodon": "closingtags@mastodon.social",
-      "mastodon_url": "https://mastodon.social/@closingtags"
-    },
+      "mastodon_url": "https://mastodon.social/@closingtags",
+      "oc": true
+    }
+  ]
+},{
+  "heading": "Kernelcon Crew",
+  "subHeading": "These uber volunteers help make Kernelcon happen by taking on a big con component!",
+  "people": [
     {
       "id": 16,
       "name": "Mickey Hefley",
@@ -124,7 +143,8 @@
       "image": "mickey.png",
       "twitter": "boujeebit",
       "mastodon": "",
-      "mastodon_url": ""
+      "mastodon_url": "",
+      "oc": false
     },
     {
       "id": 17,
@@ -133,7 +153,8 @@
       "image": "kevin.png",
       "twitter": "",
       "mastodon": "bl4cksmith@infosec.exchange",
-      "mastodon_url": "https://infosec.exchange/@bl4cksmith"
-    }
-  ]
-}]
+      "mastodon_url": "https://infosec.exchange/@bl4cksmith",
+      "oc": false
+    }]
+  }
+]

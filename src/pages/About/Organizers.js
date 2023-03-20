@@ -24,7 +24,7 @@ class Organizers extends Component {
 
   render() {
 
-    const oc = ocConfig.map((ele, idx) => {
+    const display = ocConfig.map((ele, idx) => {
       const people = ele.people.sort((a, b) => {
         return a.name.localeCompare(b.name)
       });
@@ -54,6 +54,11 @@ class Organizers extends Component {
           <div className='tab-title'>
             {ele.heading}
           </div>
+          {ele.subHeading && <div className='tab-subtitle'>
+            {ele.subHeading}
+            <br />
+            <br />
+          </div>}         
           <div className='oc-list'>
             {display}
           </div>
@@ -64,7 +69,7 @@ class Organizers extends Component {
 
     return (
       <div className='organizers'>
-        {oc}
+        {display}
       </div>
     );
   }
