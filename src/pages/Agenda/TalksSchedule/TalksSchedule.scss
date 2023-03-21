@@ -28,6 +28,7 @@ body.dark-mode {
     }
     .tabs [id^="tab"]:checked+label {
       background: $dm-theme-highlight;
+      color: #fff;
     }
     .box {
       border-left: solid 8px $dm-theme-highlight;
