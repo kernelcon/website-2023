@@ -392,24 +392,24 @@
     "time": "1620",
     "minutes": "20",
     "roomIndex": [0],
-    "talkTitle": "",
-    "talkDescription": "",
+    "talkTitle": "Using Kubernetes for Reverse Engineering and Vulnerability Analysis",
+    "talkDescription": "Have you ever needed to install a tool to perform a two second job and spend eight hours figuring out dependencies? Have you ever been traveling and needing to install a software package to do a quick action, but find out that your laptop's 128GB drive won't be enough? By using Kubernetes to host these tools we can reduce the time it takes to perform essential reverse engineering and vulnerability analysis tasks. We can also reduce the setup time to teach others about reverse engineering and vulnerability analysis by having easy to deploy containers that won't have dependency issues to battle. This presentation will cover the journey that includes many successes and failures experienced while implementing a Kubernetes cluster designed for Android package reverse engineering and vulnerability analysis work. This will include selecting hardware, network setups, software used, building containers, and an adhoc usability study to inform the potential benefits and downfalls of using this system.",
     "talkMinDesc": "",
-    "talkTechLevel": "",
-    "talkId": "",
+    "talkTechLevel": "2",
+    "talkId": "UsingKubernetesForReverseEngineeringAndVulnerabilityAnalysis",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "",
-      "speakerId": "",
+      "name": "Owen Parkins",
+      "speakerId": "OwenParkins",
       "company": "",
       "twitter": "",
       "github": "",
       "linkedIn": "",
       "image": "",
-      "bio": "\n",
+      "bio": "Owen is a lover of new technologies and conveniently forgets the pain of being an early adopter of technologies. His current focus is learning Kubernetes and how to integrate the SOLID project into various software development and vulnerability analysis workflows.\n",
       "hidden": false
     }]
   }, {
