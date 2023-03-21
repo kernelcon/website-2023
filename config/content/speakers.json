@@ -498,10 +498,10 @@
                   "youtube": "",
                   "linkedIn": "",
                   "image": "",
-                  "bio": "Owen is a lover of new technologies and conveniently forgets the pain of being an early adopter of technologies. His current focus is learning Kubernetes and how to integrate the SOLID project into various software development and vulnerability analysis workflows."
+                  "bio": "Owen is a lover of new technologies and conveniently forgets the pain of being an early adopter of technologies. His current focus is learning Kubernetes and how to integrate the SOLID project into various software development and vulnerability analysis workflows.\n"
                }
             ],
-            "talk_id": "Using Kubernetes for Reverse Engineering and Vulnerability Analysis",
+            "talk_id": "UsingKubernetesForReverseEngineeringAndVulnerabilityAnalysis",
             "pdf": "",
             "video": "",
             "length": "",
