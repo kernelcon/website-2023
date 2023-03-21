@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Individuals from './Individuals';
 import './Speakers.scss';
 
-// import config from 'agendaConfig';
-import config from 'speakerConfig';
+import config from 'agendaConfig';
+// import config from 'speakerConfig';
 
 export default class Speakers extends Component {
   static displayName = 'Speakers';
@@ -60,7 +60,7 @@ export default class Speakers extends Component {
           bio={ele.bio}
         />
       )
-    });
+    }, {talksOuter: talks});
 
     return speakerGroup;
   }
