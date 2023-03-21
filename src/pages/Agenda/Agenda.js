@@ -26,12 +26,12 @@ export default class Agenda extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      defaultTab: 'keynotes'
+      defaultTab: 'schedule'
     }
   }
 
   componentWillMount() {
-    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'keynotes';
+    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'schedule';
     this.setState({
       defaultTab: defaultTab
     });
@@ -59,7 +59,7 @@ export default class Agenda extends Component {
         onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
         <TabList>
-          {/* <Tab tabFor="schedule">Schedule</Tab> */}
+          <Tab tabFor="schedule">Schedule</Tab>
           <Tab tabFor="keynotes">Keynotes</Tab>
           <Tab tabFor="speakers">Speakers</Tab>
           <Tab tabFor="villages">Villages</Tab>
