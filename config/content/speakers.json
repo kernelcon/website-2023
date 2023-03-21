@@ -485,6 +485,28 @@
             "length": "",
             "technical": "4",
             "abstract": "Are you ready to dive into the diverse world of Android obfuscation? This talk will explore the ins and outs of runtime-based obfuscation, a technique used to hide malicious code from Reverse Engineers by subverting the Android Runtime. I\u2019ll cover the offensive and defensive aspects of obfuscation, including the two primary techniques of runtime-based obfuscation: subverting DEX class loading and ART object manipulation. You'll learn about analyzing the Android kernel source code and how to alter runtime objects to replace or modify instructions. But the fun doesn't stop there! We'll take a look at real-world examples of runtime-based obfuscation and the challenges that accompany it. By the end of this talk, you'll have a deep understanding of the background of Android obfuscation and the primary techniques of runtime-based obfuscation. Join me for an entertaining and informative journey into the world of Android security."
+         },
+         {
+            "title": "Using Kubernetes for Reverse Engineering and Vulnerability Analysis",
+            "authors": [
+               {
+                  "name": "Owen Parkins",
+                  "speakerId": "OwenParkins",
+                  "company": "",
+                  "twitter": "",
+                  "github": "",
+                  "youtube": "",
+                  "linkedIn": "",
+                  "image": "",
+                  "bio": "Owen is a lover of new technologies and conveniently forgets the pain of being an early adopter of technologies. His current focus is learning Kubernetes and how to integrate the SOLID project into various software development and vulnerability analysis workflows."
+               }
+            ],
+            "talk_id": "Using Kubernetes for Reverse Engineering and Vulnerability Analysis",
+            "pdf": "",
+            "video": "",
+            "length": "",
+            "technical": "2",
+            "abstract": "Have you ever needed to install a tool to perform a two second job and spend eight hours figuring out dependencies? Have you ever been traveling and needing to install a software package to do a quick action, but find out that your laptop's 128GB drive won't be enough? By using Kubernetes to host these tools we can reduce the time it takes to perform essential reverse engineering and vulnerability analysis tasks. We can also reduce the setup time to teach others about reverse engineering and vulnerability analysis by having easy to deploy containers that won't have dependency issues to battle. This presentation will cover the journey that includes many successes and failures experienced while implementing a Kubernetes cluster designed for Android package reverse engineering and vulnerability analysis work. This will include selecting hardware, network setups, software used, building containers, and an adhoc usability study to inform the potential benefits and downfalls of using this system."
          }
       ]
    }
