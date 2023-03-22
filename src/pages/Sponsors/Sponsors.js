@@ -34,6 +34,11 @@ import CarrierAccessIT from "../../static/images/sponsors/cait.png"
 import PaloAltoLight from "../../static/images/sponsors/palo-alto-light-mode.png"
 import PaloAltoDark from "../../static/images/sponsors/palo-alto-dark-mode.png"
 import TekSystems from "../../static/images/logos/teksystems.png"
+import FastlyLight from "../../static/images/sponsors/fastly-light-mode.png"
+import FastlyDark from "../../static/images/sponsors/fastly-dark-mode.png"
+import SecureworksLight from "../../static/images/sponsors/secureworks-light-mode.png"
+import SecureworksDark from "../../static/images/sponsors/secureworks-dark-mode.png"
+
 
 import "./Sponsors.scss";
 
@@ -218,7 +223,7 @@ export default class Sponsors extends Component {
                       rel='noopener noreferrer'
                       className='dark-mode-logo'>
                       <img src={WizDarkMode}
-                        className='spons-img sub-party-spons'
+                        className='spons-img other-spons'
                         alt="Wiz"/>
                     </a>
                     <a href="https://www.wiz.io/"
@@ -226,9 +231,68 @@ export default class Sponsors extends Component {
                       rel='noopener noreferrer'
                       className='light-mode-logo'>
                       <img src={WizLightMode}
-                        className='spons-img sub-party-spons'
+                        className='spons-img other-spons'
                         alt="Wiz"/>
                     </a>
+
+                    <div className='gp-logo'>
+                      <a href="https://www.guidepointsecurity.com/"
+                        target="_blank"
+                        rel='noopener noreferrer'
+                        className='all-bright dark-mode-logo'>
+                        <img src={GuidepointDark}
+                          className='spons-img other-spons'
+                          alt="Guidepoint Security"/>
+                      </a>
+                      <a href="https://www.guidepointsecurity.com/"
+                        target="_blank"
+                        rel='noopener noreferrer'
+                        className='light-mode-logo'>
+                        <img src={GuidepointDark}
+                          className='spons-img other-spons'
+                          alt="Guidepoint Security"/>
+                      </a>
+                    </div>
+                    <div className='sub-party-logos'>
+                      <span className='sub-party-logos'>
+                        <a href="https://www.fastly.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='dark-mode-logo'>
+                          <img src={FastlyDark}
+                            className='spons-img sub-party-spons'
+                            alt="Fastly"/>
+                        </a>
+                        <a href="https://www.fastly.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={FastlyLight}
+                            className='spons-img sub-party-spons'
+                            alt="Fastly"/>
+                        </a>
+
+                        <a href="https://www.secureworks.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='dark-mode-logo'>
+                          <img src={SecureworksDark}
+                            className='spons-img sub-party-spons'
+                            alt="Secureworks"/>
+                        </a>
+                        <a href="https://www.secureworks.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={SecureworksLight}
+                            className='spons-img sub-party-spons'
+                            alt="Secureworks"/>
+                        </a>
+                      </span>
+                    </div>
+
+
+
                   </div>
 
                   <div className='spons-block'>
@@ -301,81 +365,8 @@ export default class Sponsors extends Component {
                 
                   {/* <div className='spons-block'>
                     <h4 className='ctf-spons spons-title'>Party Sponsors</h4>
-                    <div className='gp-logo'>
-                    <a href="https://www.guidepointsecurity.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='all-bright dark-mode-logo'>
-                      <img src={GuidepointDark}
-                        className='spons-img other-spons'
-                        alt="Guidepoint Security"/>
-                    </a>
-                    <a href="https://www.guidepointsecurity.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='light-mode-logo'>
-                      <img src={GuidepointDark}
-                        className='spons-img other-spons'
-                        alt="Guidepoint Security"/>
-                    </a>
-                    </div>
-                    <div className='sub-party-logos'>
-                    <span className='sub-party-logos'>
-                    <a href="https://www.axonius.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='all-bright dark-mode-logo'>
-                      <img src={Axonius}
-                        className='spons-img sub-party-spons'
-                        alt="Axonius"/>
-                    </a>
-                    <a href="https://www.axonius.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='light-mode-logo'>
-                      <img src={Axonius}
-                        className='spons-img sub-party-spons'
-                        alt="Axonius"/>
-                    </a>
 
-                    <a href="https://www.code42.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='all-bright dark-mode-logo'>
-                      <img src={Code42}
-                        className='spons-img sub-party-spons'
-                        alt="Code42"/>
-                    </a>
-                    <a href="https://www.code42.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='light-mode-logo'>
-                      <img src={Code42}
-                        className='spons-img sub-party-spons'
-                        alt="Code42"/>
-                    </a>
-    </span>
-    <span className='sub-party-logos'>
-                    <a href="https://www.tanium.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='all-bright dark-mode-logo'>
-                      <img src={Tanium}
-                        className='spons-img sub-party-spons'
-                        alt="Tanium"/>
-                    </a>
-                    <a href="https://www.tanium.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'
-                      className='light-mode-logo'>
-                      <img src={Tanium}
-                        className='spons-img sub-party-spons'
-                        alt="Tanium"/>
-                    </a>
-
-
-    </span>
-                    </div>
+                    
                   </div> */}
 
 
