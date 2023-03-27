@@ -416,7 +416,7 @@
     "time": "1620",
     "minutes": "20",
     "roomIndex": [1],
-    "talkTitle": "My Life...As Seen by Google",
+    "talkTitle": "Google Takeout - Yummy",
     "talkDescription": "Every time you open an app, every wifi point you see, every command given to Google Assistant, Google logs every, single, interaction. What does Google really know about an Android and Chrome user? Years ago folks were worried about the government tracking you, what do they know about you, etc. Nowadays we freely give up this sort of information to people like Facebook, Google, Apple, etc in exchange for services like email, music, navigation, ads. In this talk I'll look at the technical aspects of what specifically Google Tracks about a user, myself. We'll explore the volumes of data Google collects, and visualize using Elasticsearch and Kibana and pull out interesting tid-bits.",
     "talkMinDesc": "",
     "talkTechLevel": "3",

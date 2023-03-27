@@ -402,7 +402,7 @@
             "abstract": "Learn more about your immune system and the Kubernetes immune system! You\u2019ll learn how your dendritic cells and Kubernetes admission controllers help keep you and your clusters safe. This talk will examine the inner workings of the Kubernetes admission control process, offer insight into the kinds of admission controllers, and explain how the API server communicates with them. You\u2019ll also learn about some admission controllers you can deploy into your cluster and what you can do with those admission controllers."
          },
          {
-            "title": "My Life...As Seen by Google",
+            "title": "Google Takeout - Yummy",
             "authors": [
                {
                   "name": "Henry Karpf",
