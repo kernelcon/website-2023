@@ -84,7 +84,7 @@
   },
   {
     "id": "offensive_security",
-    "hide": false,
+    "hide": true,
     "instructors": [{
       "name": "Gregory Hatcher",
       "title": "",
