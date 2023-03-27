@@ -115,7 +115,7 @@
     "authors": [{
       "name": "Allyn Stott",
       "speakerId": "AllynStott",
-      "company": "",
+      "company": "Airbnb",
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -139,7 +139,7 @@
     "authors": [{
       "name": "Nader Zaveri",
       "speakerId": "NaderZaveri",
-      "company": "",
+      "company": "Mandiant, Google",
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -163,7 +163,7 @@
     "authors": [{
       "name": "Benji Vesterby",
       "speakerId": "BenjiVesterby",
-      "company": "",
+      "company": "SynSaber",
       "twitter": "@benjivesterby",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/benjaminvesterby/",
@@ -235,7 +235,7 @@
     "authors": [{
       "name": "Mike Saunders",
       "speakerId": "MikeSaunders",
-      "company": "",
+      "company": "Red Siege",
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -259,7 +259,7 @@
     "authors": [{
       "name": "Jared Bernard, Anthony Bernard, Rebekah (Beka) Bernard",
       "speakerId": "JaredBernard,AnthonyBernard(age16),Rebekah(Beka)Bernard(age10)",
-      "company": "",
+      "company": "MCC",
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -283,7 +283,7 @@
     "authors": [{
       "name": "David Lindner",
       "speakerId": "DavidLindner",
-      "company": "",
+      "company": "Contrast Security",
       "twitter": "@golfhackerdave",
       "github": "",
       "linkedIn": "",
@@ -307,7 +307,7 @@
     "authors": [{
       "name": "Laurie Kirk",
       "speakerId": "LaurieKirk",
-      "company": "",
+      "company": "Microsoft",
       "twitter": "",
       "github": "",
       "youtube": "https://www.youtube.com/@lauriewired",
@@ -452,7 +452,7 @@
     "authors": [{
       "name": "Nathan Case",
       "speakerId": "NathanCase",
-      "company": "",
+      "company": "Datadog",
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -476,7 +476,7 @@
     "authors": [{
       "name": "Matt Virus",
       "speakerId": "MattVirus",
-      "company": "",
+      "company": "Cisco",
       "twitter": "@themattvirus",
       "github": "",
       "linkedIn": "",
@@ -674,7 +674,7 @@
     "authors": [{
       "name": "Michael McCabe",
       "speakerId": "MichaelMcCabe",
-      "company": "",
+      "company": "MCM Consultants",
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -698,7 +698,7 @@
     "authors": [{
       "name": "Megan Benoit",
       "speakerId": "MeganBenoit",
-      "company": "",
+      "company": "NFM",
       "twitter": "@cybertricoteuse",
       "github": "",
       "linkedIn": "",
@@ -722,7 +722,7 @@
     "authors": [{
       "name": "Gerard Johansen",
       "speakerId": "GerardJohansen",
-      "company": "",
+      "company": "Red Canary",
       "twitter": "",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/gerardjohansen/",
@@ -793,7 +793,7 @@
     "authors": [{
       "name": "Zack Fink",
       "speakerId": "ZackFink",
-      "company": "",
+      "company": "Red Canary",
       "twitter": "",
       "github": "",
       "linkedIn": "",
@@ -841,7 +841,7 @@
     "authors": [{
       "name": "Gabe Schuyler",
       "speakerId": "GabeSchuyler",
-      "company": "",
+      "company": "Wiz",
       "twitter": "@gabe_sky",
       "mastodon": "@gabe_sky@infosec.exchange",
       "github": "",
