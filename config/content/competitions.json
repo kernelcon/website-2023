@@ -18,4 +18,24 @@
     }
   ],
   "description": "Our Annual Kernelcon Capture the Flag event is back and better than ever, with all new challenges, prizes and a new, fun theme!  The competition this year is sure to be fierce with the winning team receiving our coveted <a class='text-highlight' href='/about#reciprocity'>Eternal Kernel badges</a>. CTF challenges to include web hacking, reversing, pwning, cryptography, and a whole lot more.  Do you have the team to beat this year?  If so, we will see you at Kernelcon CTF!"
+},{
+  "title": "Backdoors & Breaches",
+  "author": "Black Hills Information Security",
+  "id": "bnb",
+  "hidden": false,
+  "logo": {
+    "dark_mode_support": false,
+    "image_name": "backdoors-and-breaches.png",
+    "image_class": "",
+    "dark_mode_image_name": "",
+    "dark_mode_image_class": ""
+  },
+  "dates": [{
+      "day": "Friday, April 14th"
+    },
+    {
+      "day": "Saturday, April 15th"
+    }
+  ],
+  "description": "Like card games? You do? What about learning about incident response while playing card games? Great! Join us for competitive Backdoors and Breaches where you can learn to play Backdoors & Breaches originally created at Black Hills Information Security. To play you get 10 turns to discover four pieces of the attack chain used by an attacker before it's too late! We will teach you how to play so you can try our competitive version where you will face off against another attendee as you try to discover the attack path being used at “your organization” before they do. It's learning, it's fun, it's meeting folks. So join us and learn how to play and win prizes!"
 }]
