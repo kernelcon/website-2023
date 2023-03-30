@@ -71,10 +71,10 @@
       "image_class": "logo-reverse"
     },
     "dates": [{
-        "day": "Friday, April 1st"
+        "day": "Friday, April 14th"
       },
       {
-        "day": "Saturday, April 2nd"
+        "day": "Saturday, April 15th"
       }
     ],
     "description": "Visit the Kernelcon Radio Hacking Village to learn more about software defined radio applications.  There will be various radio & wifi hardware if anyone wants to get hands on experience and/or see real-time examples of wireless hacking. Wifi adapters, expoitable routers, RTL-SDRs, signal decoding and cloning."
@@ -89,12 +89,30 @@
       "image_class": "logo-brighten"
     },
     "dates": [{
-        "day": "Friday, April 1st"
+        "day": "Friday, April 14th"
       },
       {
-        "day": "Saturday, April 2nd"
+        "day": "Saturday, April 15th"
       }
     ],
     "description": "Stop by the TEKsystems Resume & Career Review village to discuss your technical skills and career goals with IT job market experts. Weather you’re looking for advice on the next step in your career or would benefit getting an extra pair of eyes on your resume the TEKsystems team will be happy to discuss the national market landscape with you."
+  },
+  {
+    "title": "Wild West Hackin' Fest Labs",
+    "author": "Black Hills Information Security",
+    "id": "wildwesthackingfest",
+    "hidden": false,
+    "logo": {
+      "image_name": "wwhf.svg",
+      "image_class": ""
+    },
+    "dates": [{
+        "day": "Friday, April 14th"
+      },
+      {
+        "day": "Saturday, April 15th"
+      }
+    ],
+    "description": "Howdy partners! Kernelcon is just plumb excited to have the good ol’ folks from Wild West Hackin’ Fest visit our little husking bee to share some labs from their ho down. Gallop on over and find out what makes Wild West Hackin’ Fest one of the best in the west!"
   }
 ]
