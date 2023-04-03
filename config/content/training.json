@@ -1,6 +1,6 @@
 [{
     "id": "ghidra",
-    "hide": false,
+    "hide": true,
     "instructors": [{
       "name": "Chris Eagle",
       "title": "",
