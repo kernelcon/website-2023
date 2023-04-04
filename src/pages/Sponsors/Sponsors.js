@@ -31,6 +31,7 @@ import SecurePointSolutions from "../../static/images/sponsors/secure-point-solu
 import CloudSecurityPartnersLight from "../../static/images/sponsors/cloud-security-partners-light-mode.png"
 import CloudSecurityPartnersDark from "../../static/images/sponsors/cloud-security-partners-dark-mode.png"
 import CarrierAccessIT from "../../static/images/sponsors/cait.png"
+import Crowdstrike from "../../static/images/sponsors/crowdstrike.png"
 import PaloAltoLight from "../../static/images/sponsors/palo-alto-light-mode.png"
 import PaloAltoDark from "../../static/images/sponsors/palo-alto-dark-mode.png"
 import TekSystems from "../../static/images/logos/teksystems.png"
@@ -195,13 +196,27 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Amazon Web Services"/>
                     </a>
-                    <a href="http://www.carrieraccessit.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'>
-                      <img src={CarrierAccessIT}
-                        className='spons-img other-spons'
-                        alt="Carrier Access IT"/>
-                    </a>
+                    
+                    <div className='sub-party-logos'>
+                      <span className='sub-party-logos'>
+                        <a href="http://www.carrieraccessit.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'>
+                          <img src={CarrierAccessIT}
+                            className='spons-img sub-party-spons'
+                            alt="Carrier Access IT"/>
+                        </a>
+
+                        <a href="https://www.crowdstrike.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'>
+                          <img src={Crowdstrike}
+                            className='spons-img sub-party-spons'
+                            alt="Crowdstrike"/>
+                        </a>
+                      </span>
+                    </div>
+
                     <a href="http://www.paloaltonetworks.com/"
                       target="_blank"
                       className='light-mode-logo'
