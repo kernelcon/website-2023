@@ -1,5 +1,9 @@
 [
   {
+    "question": "How are attendees identified by security?",
+    "answer": "Attendees must visibly wear the badge received at on-site check in at all times while in the conference area."
+  },
+  {
     "question": "I'm not a security professional, should I attend Kernelcon?",
     "answer": "Yes you should.  Kernelcon is not just for hackers and IT professionals, it is for anyone who has an interest in computer security, hacking, malware research, or electronics.  If those or other similar things interest you, you will likely enjoy Kernelcon."
   },
