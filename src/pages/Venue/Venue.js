@@ -162,11 +162,11 @@ export default class Venue extends Component {
 				</TabPanel>
 				<TabPanel tabId="parking">
 					<div className="tab-title">Where to Park</div>
-					<p className="about-sub-text">For hotel guests:</p>
+				/*	<p className="about-sub-text">For hotel guests:</p>
 					<p className="about-sub-text">
 						Parking is included with your hotel room!
 					</p>
-					<p className="about-sub-text">For commuters:</p>
+					<p className="about-sub-text">For commuters:</p> */
 					<p className="about-sub-text">
 						We're happy to say that the conference parking is
 						readily available. There is metered parking all along 10th street
