@@ -1,6 +1,6 @@
 [{
   "dayOfWeek": "Friday",
-  "date": "1",
+  "date": "14",
   "roomsInfo": [{
     "roomName": "Bat of Doom"
   }, {
@@ -534,7 +534,7 @@
   }]
 }, {
   "dayOfWeek": "Saturday",
-  "date": "2",
+  "date": "15",
   "roomsInfo": [{
     "roomName": "Bat of Doom"
   }, {
