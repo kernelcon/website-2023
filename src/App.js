@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import "./App.scss";
 
 // Import Components
@@ -60,6 +60,10 @@ function App() {
 					<Route exact path="/about" component={About} />
 					<Route exact path="/admin" component={Admin} />
           <Route exact path="/bio" component={Bio} />
+		  <Route exact path='/survey' component={() => {
+		    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdl1OHNiLx5QdwCDXZMrcatGD5vK80XFdKrPCsN1TTpa624dw/viewform?usp=sf_link';
+			return null;
+		  }}/>
 					<Route exact path="/conference" component={Conference} />
 					<Route exact path="/dates" component={Dates} />
 					<Route exact path="/open-calls" component={OpenCalls} />
