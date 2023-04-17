@@ -8,6 +8,7 @@ export default class ScienceFair extends Component {
 		return (
             <div className='venue-section'>
                 <div className='science-fair'>
+                    <h3 className='closed-text'>Science Fair submissions for 2023 have closed.</h3>
                     <p><b>Kernelcon is excited to welcome its first ever Science Fair!</b></p>
                     <p>Given our theme this year, join us at Kernelcon for our inaugural Science Fair, where we celebrate the creativity and innovation of our hacker community.</p>
                     <br />
@@ -16,7 +17,7 @@ export default class ScienceFair extends Component {
                     <p>Registration ahead of the conference is not required, but registering ahead of the con helps us plan and reserves you a Lab Coat.</p>
                     <br />
 
-                    <div className='order-button'>
+                    {/* <div className='order-button'>
                         <a
                         className="cybr-btn btn-bottom"
                         target="_blank"
@@ -27,7 +28,7 @@ export default class ScienceFair extends Component {
                             Register Now
                         </span>
                         </a>
-                    </div>
+                    </div> */}
                     <br />
                     <p><b>How It Works</b></p>
                     <p>First, bring a demo of your project to Kernelcon, poster board not required (but could be a fun touch). We will have you setup in a hotel secured room. During the conference we will have two Science Fair sessions (Fri and Sat) where the rest of the public will be able to walk through and ask you about your project. In Saturday’s session, the judges will come by as well as the other con attendees (they’ll be the ones holding very official looking clipboards).</p>
